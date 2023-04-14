@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 02</title>
+    <link href="../../../../assets/stylesheets/normalize.css" rel="stylesheet">
+    <link href="../../../../assets/fonts/css/all.min.css" rel="stylesheet">
+</head>
+<style>
+    section{
+        width: 100vw;
+        height: 100vh;
+        background-color: dodgerblue;
+    }
+    section>div:first-child{
+
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin:auto;
+        border: 10px solid white;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+
+    }
+    section>div:last-child:hover{
+
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin:auto;
+        border-top: 10px solid red;
+        border-right: 10px solid white;
+        border-left: 10px solid white;
+        border-bottom: 10px solid white;
+        width: 200px;
+        height: 200px;
+        background-color: grey;
+        border-radius: 100%;
+        transition-property: all;
+        transition-duration: 2s;
+        transform: rotate(360deg);
+    }
+    section>div:last-child{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin:auto;
+        border-top: 10px solid red;
+        border-right: 10px solid white;
+        border-left: 10px solid white;
+        border-bottom: 10px solid white;
+        width: 200px;
+        height: 200px;
+        background-color: grey;
+        border-radius: 100%;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    section>div>h1{
+        z-index: 2;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin:auto;
+        width: 98px;
+        height: 30px;
+        color: white;
+
+    }
+</style>
+<body>
+<section>
+    <div>
+        <h1>RWAD</h1>
+    </div>
+    <div></div>
+
+</section>
+</body>
+</html>
