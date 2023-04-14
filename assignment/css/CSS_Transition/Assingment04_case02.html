@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        section{
+            width: 200px;
+            aspect-ratio: 1/1;
+
+        }
+        section>div{
+            width: 190px;
+            height: 190px;
+            background-color: grey;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            /* border: 10px solid white;
+             border-top-color:red ;*/
+            border-radius: 100%;
+
+        }
+        section>div:hover{
+            transform: rotate(360deg);
+            transition-duration: 5s;
+        }
+        section>h3{
+            color: white;
+            height: max-content;
+            width: max-content;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+        div::before{
+            content: "";
+            border: 10px solid white;
+            border-top-color: #ff253a;
+            border-radius: 100%;
+
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        section:hover::before{
+            transform: rotate(360deg);
+            transition-duration: 5s;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <div>
+
+    </div>
+    <h3>
+        RWAD
+    </h3>
+</section>
+
+
+</body>
+</html>

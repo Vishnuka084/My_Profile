@@ -1,0 +1,200 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        main{
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            left: 0;
+
+            overflow-x:hidden ;
+            overflow-y: hidden;
+        }
+        main>section:nth-child(1){
+            background-image: url("asset/image/vehicle/sky.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 75vh;
+
+        }
+        main>section:nth-child(2){
+            width: 400vw;
+            height: 300px;
+            display: flex;
+            position: absolute;
+            top: calc(75vh - 250px);
+            left: 0;
+
+            animation-name: vehicle-animation;
+            animation-duration:10s;
+            animation-play-state: running;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+
+        }
+        main>section:nth-child(2)>div{
+            width: 100vw;
+            height: 250px;
+
+        }
+        main>section:nth-child(2)>div:nth-child(1){
+            background-image: url("asset/image/vehicle/city.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        main>section:nth-child(2)>div:nth-child(2){
+            background-image: url("asset/image/vehicle/city.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        main>section:nth-child(2)>div:nth-child(3){
+            background-image: url("asset/image/vehicle/city.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        main>section:nth-child(2)>div:nth-child(4){
+            background-image: url("asset/image/vehicle/city.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        main>section:nth-child(3){
+
+            width: 400vw;
+            height: 25vh;
+            display: flex;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+
+            animation-name: vehicle-animation;
+            animation-duration:10s;
+            animation-play-state: running;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+
+        }
+        main>section:nth-child(3)>div{
+            width: 100vw;
+            height: 25vh;
+        }
+        main>section:nth-child(3)>div:nth-child(1){
+            background-image: url("asset/image/vehicle/road.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        main>section:nth-child(3)>div:nth-child(2){
+            background-image: url("asset/image/vehicle/road.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        main>section:nth-child(3)>div:nth-child(3){
+            background-image: url("asset/image/vehicle/road.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        main>section:nth-child(3)>div:nth-child(4){
+            background-image: url("asset/image/vehicle/road.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        main>section:nth-child(4)>div:nth-child(1){
+            width: 250px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top:calc(75vh - 50px);
+            margin: auto;
+
+        }
+        main>section:nth-child(4)>div:nth-child(2){
+            width: 45px;
+            position: relative;
+            left: 72px;
+            top: 4px;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+
+            animation-name: my-animation;
+            animation-duration:5s;
+            animation-play-state: running;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        main>section:nth-child(4)>div:nth-child(3){
+            width: 45px;
+            position: relative;
+            bottom: 41px;
+            right: 80px;
+            margin: auto;
+
+            animation-name: my-animation;
+            animation-duration:5s;
+            animation-play-state: running;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes my-animation {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+
+            }
+        }
+        @keyframes vehicle-animation {
+            from{
+                margin-left: -0%;
+
+            }
+            to{
+                margin-left: -299%;
+
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+<main>
+    <section></section>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <section>
+        <div>
+            <img src="asset/image/vehicle/car.png" alt="car.png" width="250">
+        </div>
+
+        <div>
+            <img src="asset/image/vehicle/wheel.png" alt="wheel.png" width="45">
+        </div>
+        <div>
+            <img src="asset/image/vehicle/wheel.png" alt="wheel.png" width="45">
+        </div>
+    </section>
+
+</main>
+</body>
+</html>

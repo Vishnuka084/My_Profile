@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        section>div{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            border: 5px solid blue;
+
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+
+            animation-name: my-animation;
+            animation-duration:2s;
+            animation-play-state: running;
+            animation-iteration-count: infinite;
+        }
+        @keyframes my-animation {
+            from{
+                width: 10px;
+                height: 10px;
+            }
+            to{
+                width: 100px;
+                height: 100px;
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div></div>
+</section>
+</body>
+</html>
