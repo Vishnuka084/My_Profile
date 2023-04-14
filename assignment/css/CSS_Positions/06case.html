@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Layout</title>
+    <link href="../../../../assets/stylesheets/normalize.css" rel="stylesheet">
+    <style>
+        section {
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            gap: 3px;
+            grid-template-rows: repeat(3,1fr); /* How many rows for the grid*/
+            grid-template-columns: repeat(4,1fr); /* How many columns for a row */
+
+        }
+        section>div{
+            box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);
+
+        }
+
+        section>div:nth-child(1){
+            background: url("../../../../assets/images/case images/img1.jpg");
+            background-size:cover;
+            background-position:center;
+
+            grid-column: 1/3 ;
+            grid-row: 1/2;
+
+        }
+        section>div:nth-child(2){
+            background: url("../../../../assets/images/case images/img2.jpg");
+            background-size:cover;
+            background-position:center;
+
+        }
+        section>div:nth-child(3){
+            background: url("../../../../assets/images/case images/img10.jpg");
+            background-size:cover;
+            background-position:center;
+            grid-column: 4/5;
+            grid-row: 1/4;
+        }
+        section>div:nth-child(4){
+            background: url("../../../../assets/images/case images/img4.jpg");
+            background-size:cover;
+            background-position:center;
+
+        }
+        section>div:nth-child(5){
+            background: url("../../../../assets/images/case images/img5.jpg");
+            background-size:cover;
+            background-position:center;
+
+        }
+        section>div:nth-child(6){
+            background: url("../../../../assets/images/case images/img9.jpg");
+            background-size:cover;
+            background-position:center;
+
+        }
+        section>div:nth-child(7){
+            background: url("../../../../assets/images/case images/img7.jpg");
+            background-size:cover;
+            background-position:center;
+
+        }
+        section>div:nth-child(8){
+            background: url("../../../../assets/images/case images/img12.jpg");
+            background-size:cover;
+            background-position:center;
+            grid-column: 2/4;
+            grid-row: 3/4;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+
+</section>
+</body>
+</html>
