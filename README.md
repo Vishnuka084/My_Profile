@@ -1,6 +1,6 @@
 <div align="center"> 
   
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=poppins&size=25&duration=4000&color=00FF00&background=EB00FF00&center=true&vCenter=true&width=600&lines=-- My_Portfolio--;--My_Portfolio--;--My_Portfolio--;--My_Portfolio--;--My_Portfolio--;--My_Portfolio--)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=poppins&size=25&duration=4000&color=F5F5F5&background=EB00FF00&center=true&vCenter=true&width=600&lines=--Portfolio--;--Portfolio--;--Portfolio--;--Portfolio--;--Portfolio--;--Portfolio--)](https://git.io/typing-svg)
 </div>
 
 - ⚜ Moke-Up --->: [Click Here](https://www.figma.com/file/ffQ5q5YVc6XALaeVmwrlFW/Awesome-slide?node-id=0%3A1&t=F83BfRCDOESkPq8O-0)
