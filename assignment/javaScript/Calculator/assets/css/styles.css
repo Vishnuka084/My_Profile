@@ -100,3 +100,12 @@ button#equal{
 
 }
 
+/*... Light .theme....*/
+.calculator{
+    background-color: #fff3cd;
+}
+
+
+.calculator #display{
+    color: #0a1e23;
+}
