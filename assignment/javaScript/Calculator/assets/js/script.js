@@ -1,5 +1,5 @@
-const display = document.querySelector('#display');
-const button = document.querySelectorAll('button');
+const display = document.querySelector("#display");
+const buttons = document.querySelectorAll("button");
 
 buttons.forEach((item) => {
     item.onclick = () => {
@@ -18,7 +18,6 @@ buttons.forEach((item) => {
         }
     };
 });
-
 
 const themeToggleBtn = document.querySelector(".theme-toggler");
 const calculator = document.querySelector(".calculator");
