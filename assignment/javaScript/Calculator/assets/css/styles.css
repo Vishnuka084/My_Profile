@@ -34,7 +34,6 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 30px #000;
 }
-/*
 
 .theme-toggler{
     position: absolute;
@@ -101,7 +100,7 @@ button#equal{
 
 }
 
-!*... Light .theme....*!
+/*... Light .theme....*/
 .calculator{
     background-color: #fff3cd;
 }
@@ -127,7 +126,6 @@ button#equal{
     color: #000000;
 }
 
-*/
 
 
 /*.. Dark Theme ..*/
