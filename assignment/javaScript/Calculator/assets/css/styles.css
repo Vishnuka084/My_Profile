@@ -133,3 +133,10 @@ button#equal {
 
 /* ----------------  Dark mood --------------------*/
 
+.calculator.dark{
+    background-color: #071115;
+}
+
+.calculator.dark #display{
+    color: #f8fafb;
+}
