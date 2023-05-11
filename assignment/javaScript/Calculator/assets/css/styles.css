@@ -34,3 +34,11 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 30px #000;
 }
+
+.theme-toggler{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #fff3cd;
+    cursor: pointer;
+}
