@@ -155,3 +155,8 @@ button#equal {
     background-color: #2e1f39;
     color: #aa00a4;
 }
+
+.calculator.dark button.btn-equal {
+    background-color: #223323;
+    color: #ffffff;
+}
