@@ -51,3 +51,13 @@ body{
 .theme-toggler-active::before{
     background-color: #fff3cd;
 }
+.theme-toggler::before{
+    content: '';
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #333333;
+}
