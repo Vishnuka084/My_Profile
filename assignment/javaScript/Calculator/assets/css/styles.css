@@ -140,3 +140,8 @@ button#equal {
 .calculator.dark #display{
     color: #f8fafb;
 }
+
+.calculator.dark button#clear {
+    background-color: #2d191e;
+    color: #bd3740;
+}
