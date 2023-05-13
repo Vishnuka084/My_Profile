@@ -106,11 +106,11 @@ nav{
 
 
 #footer1 > aside>div:last-child > img {
-    position: absolute;
+    position: relative;
     display: inline-block;
     margin: 0;
-    top: 100px;
-    left: 650px;
+    top: 40px;
+    left: 600px;
 
 }
 
@@ -122,7 +122,7 @@ nav{
     color: #afa4a4;
     margin: 0;
     top: 100px;
-    left: 650px;
+    left: 600px;
 }
 
 /*-----Footer 02 ---*/
