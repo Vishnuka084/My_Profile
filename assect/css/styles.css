@@ -64,9 +64,8 @@ nav{
 .social-icons{
     display: flex;
     align-items: center;
-
     padding-top: 45px;
-    padding-left: 100px;
+    padding-left: 10%;
 
 
 }
