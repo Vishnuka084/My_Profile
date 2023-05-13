@@ -114,3 +114,12 @@ footer > aside > section:first-child > h2 {
     top: 15px;
     left: 150px;
 }
+footer > aside > section:first-child > h3 {
+    position: absolute;
+    display: inline-block;
+    font-size: 1em;
+    color: white;
+    left: 150px;
+    bottom: 15px;
+    margin: 0;
+}
