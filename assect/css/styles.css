@@ -114,7 +114,6 @@ nav{
 
 }
 
-
 #footer1 > aside >div:last-child >h4{
     position: absolute;
     display: inline-block;
@@ -124,7 +123,6 @@ nav{
     top: 100px;
     left: 600px;
 }
-
 /*-----Footer 02 ---*/
 #footer2{
     height: 300px;
@@ -178,8 +176,11 @@ nav{
     position: absolute;
     display: inline-block;
     font-size: 1em;
-    left: 950px;
+    left: 1300px;
     margin-right: 25px;
+    top: 30px;
+    width: 200px;
+    height: 200px;
 }
 
 #footer2 > aside:last-child {
