@@ -109,7 +109,7 @@ footer > aside > section:first-child > h2 {
     position: absolute;
     display: inline-block;
     font-size: 1.5em;
-    color: white;
+    color: #11C10E;
     margin: 0;
     top: 15px;
     left: 150px;
@@ -118,7 +118,7 @@ footer > aside > section:first-child > h3 {
     position: absolute;
     display: inline-block;
     font-size: 1em;
-    color: white;
+    color: #DCFF71;
     left: 150px;
     bottom: 15px;
     margin: 0;
