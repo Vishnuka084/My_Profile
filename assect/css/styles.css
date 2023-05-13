@@ -82,4 +82,9 @@ nav{
 footer{
     height: 300px;
     background-color: #07030c;
+    position: relative;
+}
+
+footer>aside:first-child{
+    position: relative;
 }
