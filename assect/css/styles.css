@@ -97,3 +97,20 @@ footer>aside>section:first-child{
     left: 175px;
     top: 40px;
 }
+
+footer > aside > section:first-child > img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+footer > aside > section:first-child > h2 {
+    position: absolute;
+    display: inline-block;
+    font-size: 1.5em;
+    color: white;
+    margin: 0;
+    top: 15px;
+    left: 150px;
+}
