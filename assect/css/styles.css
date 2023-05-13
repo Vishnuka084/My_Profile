@@ -72,16 +72,22 @@ nav{
     padding-top: 45px;
     padding-left: 10%;
 }
+
+/*----- Logo set up ------*/
+
 .logo:first-child>span{
-    font-size: 1rem;
-    font-weight: bold;
-    color: #8d4b02;
+    font-size: 30px;
+    color: #472804;
 }
 
-.logo>span{
-    font-size: 1rem;
-    font-weight: bold;
+.logo>span:last-child{
+    font-size: 30px;
     color: #F28505;
+}
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 
