@@ -88,3 +88,12 @@ footer{
 footer>aside:first-child{
     position: relative;
 }
+
+footer>aside>section:first-child{
+    position: relative;
+    display: inline-block;
+    width: 420px;
+    height: 100px;
+    left: 175px;
+    top: 40px;
+}
