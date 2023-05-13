@@ -134,3 +134,7 @@ footer > aside > img {
     right: 88px;
 }
 
+footer > aside:last-child {
+    position: absolute;
+    display: ;
+}
