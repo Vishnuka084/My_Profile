@@ -147,3 +147,9 @@ footer > aside:last-child > p,footer > aside:last-child > p > i {
     font-size: 0.6em;
     color: #c28534;
 }
+
+.social-icons-white{
+    position: absolute;
+    top: 160px;
+    left: 325px;
+}
