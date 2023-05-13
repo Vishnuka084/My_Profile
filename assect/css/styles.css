@@ -1,3 +1,4 @@
+/*
 @keyframes spinner {
     100% {
         transform: rotate(3600deg);
@@ -38,4 +39,10 @@
     font-size: 1.5rem;
     font-family: "Comic Sans MS", cursive, sans-serif;
     margin-left: 0.5em;
+}*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
