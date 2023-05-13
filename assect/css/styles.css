@@ -90,6 +90,17 @@ nav{
     font-size: 30px;
 }
 
+/*---social media icon --*/
+.social-icons{
+    position: absolute;
+    top: 160px;
+    left: 325px;
+}
+
+
+.social-icons> img {
+    margin-right: 25px;
+}
 
 
 
