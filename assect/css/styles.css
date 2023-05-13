@@ -74,7 +74,6 @@ nav{
 }
 
 /*----- Logo set up ------*/
-
 .logo:first-child>span{
     font-size: 30px;
     color: #472804;
@@ -88,18 +87,19 @@ nav{
     color: white;
     font-weight: bold;
     font-size: 30px;
+    right: 510px;
 }
 
 /*---social media icon --*/
 .social-icons{
     position: absolute;
-    top: 160px;
-    left: 325px;
+    top: 5px;
+    right: 50px;
 }
 
 
 .social-icons> img {
-    margin-right: 25px;
+    margin-right: 35px;
 }
 
 
