@@ -105,15 +105,18 @@ footer > aside > section:first-child > img {
     border-radius: 100%;
 }
 
+        /*Vishnuka yahan*/
 footer > aside > section:first-child > h2 {
     position: absolute;
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.9em;
     color: #11C10E;
     margin: 0;
     top: 15px;
     left: 150px;
 }
+
+    /*Fullstack Developer*/
 footer > aside > section:first-child > h3 {
     position: absolute;
     display: inline-block;
@@ -123,3 +126,11 @@ footer > aside > section:first-child > h3 {
     bottom: 15px;
     margin: 0;
 }
+
+footer > aside > img {
+    position: absolute;
+    display: inline-block;
+    font-size: 1em;
+    right: 88px;
+}
+
