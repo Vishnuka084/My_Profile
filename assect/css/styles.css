@@ -153,3 +153,7 @@ footer > aside:last-child > p,footer > aside:last-child > p > i {
     top: 160px;
     left: 325px;
 }
+
+.social-icons-white > img {
+    margin-right: 25px;
+}
