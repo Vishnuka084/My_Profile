@@ -53,3 +53,9 @@
     background-size: cover;
     background-position: center;
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+}
