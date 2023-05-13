@@ -108,6 +108,7 @@ nav{
 #menubar{
     width:100%;
     height:100vh;
+    margin: 0;
     background-size: cover;
 }
 nav{
@@ -126,7 +127,7 @@ nav ul li{
     transition: 0.7s all;
 }
 nav ul li:hover{
-    background-color:#088;
+    background-color: rgba(238, 87, 5, 0.97);
 }
 nav ul li a{
     text-decoration: none;
