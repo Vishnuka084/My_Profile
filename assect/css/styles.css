@@ -136,5 +136,14 @@ footer > aside > img {
 
 footer > aside:last-child {
     position: absolute;
-    display: ;
+    display: flex;
+    width: 99.5vw;
+    align-content: center;
+    justify-content: center;
+    bottom: 5px;
+}
+
+footer > aside:last-child > p,footer > aside:last-child > p > i {
+    font-size: 0.6em;
+    color: white;
 }
