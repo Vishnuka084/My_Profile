@@ -53,11 +53,11 @@
 }
 
 
-.line{
-    border-left: 4px solid orange;
-    height: 500px;
+.line1{
+    border-left: 3px solid #97570B;
+    height: 200px;
     position: absolute;
-    right: 93%;
+    right: 90%;
     margin-left: -3px;
     top: 150px;
 }
