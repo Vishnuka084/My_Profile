@@ -64,13 +64,25 @@
     top: 170px;
 }
 
+#circle {
+    width: 10px;
+    height: 10px;
+    right: 90%;
+    top: 10px;
+    margin-left: 185px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #f37f07;
+}
+
 /* ---- scroll bar ----   */
 @import url(https://fonts.googleapis.com/css?family=Cabin);
 p {
-    margin-top: 25px;
+    margin-top: 290px;
     font-family: "Cabin", sans-serif;
     letter-spacing: 10px;
-    text-indent: 8px;
+    text-indent: 10px;
     color: #ffffff;
     -webkit-animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;
     animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;
@@ -80,7 +92,6 @@ p {
     background: #4e5559 linear-gradient(transparent 0%, transparent 50%, #ffffff 50%, #ffffff 100%);
     width: 52px;
     height: 88px;
-    top: 320px;
     border-radius: 100px;
     background-size: 100% 200%;
     -webkit-animation: colorSlide 5s linear infinite, nudgeMouse 5s ease-out infinite;
@@ -90,22 +101,24 @@ p {
     content: "";
     position: absolute;
     top: 320px;
-    right: 50px;
-    bottom: 10px;
+    right: 10px;
+    bottom: 100px;
     left: 165px;
     margin: auto;
 }
 .mouse:before {
+    content: "";
     width: 46px;
     height: 82px;
-    background-color: #222a30;
+    background-color: #f37f07;
     border-radius: 100px;
 }
 .mouse:after {
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     width: 10px;
     height: 10px;
-    top: 300px;
+   /* top: 310px;
+    right: 10px;*/
     border-radius: 100%;
     -webkit-animation: trackBallSlide 5s linear infinite;
     animation: trackBallSlide 5s linear infinite;
