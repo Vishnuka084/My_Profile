@@ -89,9 +89,29 @@
     margin-right: 10px;
 
 }
+/*Scroll bar test 02*/
+.timeline{
+    background-color: #f88708;
+    height: 300%;
+    left: -10px;
+    position: absolute;
+    top: 13px;
+    width: 1px;
+    z-index: 9;
+}
+*{
+    backface-visibility: hidden;
+}
 
 
-/* ---- scroll bar ----   */
+
+
+
+
+/*
+
+
+!* ---- scroll bar ----   *!
 @import url(https://fonts.googleapis.com/css?family=Cabin);
 p {
     margin-top: 290px;
@@ -132,8 +152,8 @@ p {
     background-color: #f8f8f8;
     width: 10px;
     height: 10px;
- /*   top: 310px;
-    right: 10px;*/
+ !*   top: 310px;
+    right: 10px;*!
     border-radius: 100%;
     -webkit-animation: trackBallSlide 5s linear infinite;
     animation: trackBallSlide 5s linear infinite;
@@ -481,6 +501,7 @@ p {
         color: #ffffff;
     }
 }
+*/
 
 
 .line2{
