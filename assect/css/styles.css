@@ -140,6 +140,11 @@
     position: relative;
     width: 100%;
 }
+
+*{
+    backface-visibility: hidden;
+}
+
 /*-----------Footer 01--------------*/
 
 #footer1{
