@@ -54,16 +54,6 @@
 }
 
 
-
-.line1{
-    border-left: 3px solid #97570B;
-    height: 185px;
-    position: absolute;
-    right: 90%;
-    margin-left: -3px;
-    top: 170px;
-}
-
 #circle {
     width: 10px;
     height: 10px;
@@ -75,6 +65,21 @@
     border-radius: 25px;
     background: #f37f07;
 }
+
+.line1{
+    border-left: 3px solid #97570B;
+    height: 185px;
+    position: absolute;
+    right: 90%;
+    margin-left: -3px;
+    top: 170px;
+}
+
+.top-bar > div >  aside >  h5 {
+    color: #fff3cd;
+
+}
+
 
 /* ---- scroll bar ----   */
 @import url(https://fonts.googleapis.com/css?family=Cabin);
