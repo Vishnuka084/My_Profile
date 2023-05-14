@@ -572,6 +572,25 @@ p {
 }
 
 
+
+/*----s_t_a_apllication------*/
+#s_t_a_apllication{
+    position: relative;
+}
+#s_t_a_apllication:before{
+    color: #221d35;
+    content: "STAND ALONE APPLICATION";
+    font-family: Roboto Mono,Courier New,Courier,monospace!important;
+    font-weight: 700;
+    position: absolute;
+
+}
+
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+
+
 /*--------Footer ---------------*/
 
 /*-----------Footer 01--------------*/
