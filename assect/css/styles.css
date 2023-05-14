@@ -94,15 +94,13 @@ nav{
 
 /*---social media icon --*/
 .social-icons{
-    position: absolute;
-    top: 5px;
-    right: 50px;
+
 }
 
 
-.social-icons> img {
-    margin-right: 500px;
-}
+
+
+/*-------------*/
 
 
 
