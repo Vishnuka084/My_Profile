@@ -84,10 +84,12 @@ nav{
     color: #F28505;
 }
 .logo {
+    padding-left: 30px;
+    padding-top: 45px;
     color: white;
     font-weight: bold;
     font-size: 30px;
-    right: 510px;
+    right: 100px;
 }
 
 /*---social media icon --*/
@@ -99,7 +101,7 @@ nav{
 
 
 .social-icons> img {
-    margin-right: 35px;
+    margin-right: 500px;
 }
 
 
@@ -262,5 +264,5 @@ nav ul li a{
 }
 
 .social-icons-white > img {
-    margin-right: 25px;
+    margin-right: 500px;
 }
