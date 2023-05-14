@@ -153,6 +153,36 @@ path[Attributes_Style] {
     fill: rgb(152, 142, 159);
     d: path("M 9 30 c -5 0 -9 -4.2 -9 -9.4 V 9.4 C 0 4.2 4 0 9 0 s 9 4.2 9 9.4 v 11.3 C 18 25.8 14 30 9 30 Z M 16.2 9.4 c 0 -4.2 -3.2 -7.5 -7.2 -7.5 S 1.8 5.3 1.8 9.4 v 11.3 c 0 4.1 3.2 7.5 7.2 7.5 s 7.2 -3.4 7.2 -7.5 V 9.4 Z M 9.2 12.8 c -0.5 0 -0.9 -0.4 -0.9 -0.9 V 7.1 c 0 -0.5 0.4 -0.9 0.9 -0.9 c 0.5 0 0.9 0.4 0.9 0.9 v 4.7 C 10.1 12.3 9.7 12.8 9.2 12.8 Z");
 }
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+a {
+    background-color: transparent;
+    color: #007bff;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+body {
+    background-color: #1a1527;
+    color: #f9f9f9;
+    font-display: auto;
+    font-family: Roboto Condensed,Lato,Arial,sans-serif!important;
+    font-size: 24px;
+    font-weight: 400;
+    height: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 0;
+    position: relative;
+}
+
+/*--------Footer ---------------*/
 
 /*-----------Footer 01--------------*/
 
