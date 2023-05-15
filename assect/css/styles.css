@@ -164,6 +164,24 @@
     overflow-y: auto;
 }
 
+.justify-content-center {
+    justify-content: center!important;
+}
+.flex-column {
+    flex-direction: column!important;
+}
+.d-flex {
+    display: flex!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.nav-menu {
+    padding: 0;
+    display: block;
+}
+
 
 /*--main page   ------*/
 
