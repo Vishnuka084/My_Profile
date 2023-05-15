@@ -107,12 +107,6 @@
     background-size: cover;
     background-position: center;
 }
-.social-icons{
-    display: flex;
-    align-items: center;
-    padding-top: 100px;
-    padding-left: 10%;
-}
 
 /*----- Logo set up ------*/
 .logo:first-child>span{
