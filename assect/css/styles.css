@@ -328,6 +328,7 @@
 
 
 /*  ----Footer  last social media icon ------*/
+
 .social-icons-white {
     top: 100px;
     left: 90px;
@@ -336,8 +337,8 @@
 .social-icons-white{
     display: flex;
     align-items: center;
-    padding-top: 55px;
-    padding-right: 100px;
+    padding-top: 45px;
+    padding-left: 345px;
 }
 #first {
     width: 20px;
@@ -352,3 +353,6 @@
     width: 20px;
     margin-right: 30px;
 }
+
+
+
