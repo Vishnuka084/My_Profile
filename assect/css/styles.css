@@ -43,7 +43,7 @@
 }
 */
 
-/*-----------First page--- Top bar -------- */
+/*-----------Mouse and line -------- */
 
 
 *{
@@ -54,7 +54,7 @@
 }
 
 
-#circle {
+/*#circle {
     width: 10px;
     height: 10px;
     right: 90%;
@@ -80,8 +80,8 @@
     right: 90%;
     margin-left: -3px;
     top: 10px;
-}
-
+}*/
+/*
 .top-bar > div >  aside >  h5 {
     color: #fff3cd;
     font-family: 'Poppins', sans-serif;
@@ -98,7 +98,7 @@
     right: 90%;
     margin-left: -3px;
     top: 453px;
-}
+}*/
 
 .top-bar{
     height: 100vh;
@@ -120,13 +120,12 @@
 }
 .logo {
     padding-left: 30px;
-    padding-top: 45px;
+    padding-top: 40px;
     color: white;
     font-weight: bold;
     font-size: 30px;
     right: 100px;
 }
-
 /*--- first pages social media icon --*/
 .social-icons {
     top: 100px;
@@ -136,50 +135,22 @@
 .social-icons{
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    padding-left: 350px;
+    padding-top: 0.05px;
+    padding-left: 1700px;
 }
 #icon1 {
     width: 20px;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 #icon2 {
     width: 20px;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 #icon3{
     width: 20px;
-    margin-right: 30px;
+    margin-right: 10px;
 }
-
-
-/*-------------
-
-.social-icons {
-    top: 50px;
-    left: 90px;
-}
-
-.social-icons {
-    padding-top: 0;
-    padding-left: 1650px;
-}
-#icon1 {
-    width: 20px;
-    margin-left: 10px;
-}
-
-#icon2 {
-    width: 20px;
-    margin-right: 30px;
-}
-#icon3{
-    width: 20px;
-    margin-right: 30px;
-}
-
--------------*/
 
 /*--main page   ------*/
 
@@ -199,8 +170,11 @@
     margin-right: -15px;
 }
 
-/*--------Footer ---------------*/
 
+
+
+
+/*----------------------------Footer -----------------------------------------*/
 /*-----------Footer 01--------------*/
 
 #footer1{
