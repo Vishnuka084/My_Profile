@@ -152,6 +152,19 @@
     margin-right: 10px;
 }
 
+/* ------------------header 2 -----------[Nav bar ]-------------------*/
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+
 /*--main page   ------*/
 
 
