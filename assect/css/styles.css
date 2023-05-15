@@ -110,20 +110,20 @@
 
 /*----- Logo set up ------*/
 .logo:first-child>span{
-    font-size: 30px;
+    font-size: 40px;
     color: #472804;
 }
 
 .logo>span:last-child{
-    font-size: 30px;
+    font-size: 40px;
     color: #F28505;
 }
 .logo {
-    padding-left: 30px;
+    padding-left: 150px;
     padding-top: 40px;
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     right: 100px;
 }
 /*--- first pages social media icon --*/
@@ -262,7 +262,7 @@
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
     color: #fff;
-    background: #0563bb;
+    background: #F28505;
 }
 
 .nav-menu a:hover span,
