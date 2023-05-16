@@ -52,54 +52,6 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
-
-
-/*#circle {
-    width: 10px;
-    height: 10px;
-    right: 90%;
-
-    margin-left: 185px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    background: #f37f07;
-}
-
-.line1{
-    border-left: 3px solid #97570B;
-    height: 185px;
-    position: absolute;
-    right: 90%;
-    margin-left: -3px;
-    top: 170px;
-}
-.top-bar >div > aside {
-    position: relative;
-    left: 200px;
-    right: 90%;
-    margin-left: -3px;
-    top: 10px;
-}*/
-/*
-.top-bar > div >  aside >  h5 {
-    color: #fff3cd;
-    font-family: 'Poppins', sans-serif;
-    font-size: small;
-    margin-right: 10px;
-
-}
-
-
-.line2{
-    border-left: 3px solid #97570B;
-    height: 500px;
-    position: absolute;
-    right: 90%;
-    margin-left: -3px;
-    top: 453px;
-}*/
-
 .top-bar{
     height: 100vh;
     width: 100%;
@@ -322,8 +274,8 @@
 
 /*----------Scroll bar Line ------*/
 .circle {
-    height: 12px;
-    width: 12px;
+    height: 15px;
+    width: 15px;
     background-color: #F28505;
     border-radius: 80%;
 
@@ -344,6 +296,25 @@
     width: 3px;
     height: 820px;
     background-color: #F28505;
+}
+
+
+.main-line > h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.main-line > h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+}
+
+.main-line > strong {
+    color: #F28505;
+    font-family: sans-serif normal;
+
 }
 
 
