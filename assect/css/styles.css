@@ -467,57 +467,53 @@
     width: 100%;
 }
 
+/*---------Education--------------*/
+
+.education{
+    background-color: #2bf62b;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+
+/*---------Skills--------------*/
+.skills{
+    background-color: #01151c;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+/*---------Services--------------*/
+.services{
+    background-color: #9910c0;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+/*---------Contact--------------*/
+
+
+.contact{
+    background-color: #f802a9;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
 
 /*----------------------------Footer -----------------------------------------*/
-/*-----------Footer 01--------------*/
-/*
-#footer1{
-    height: 200px;
-    background-color: #07030c;
-    !*background-color: #ffffff;*!
-    position: relative;
-}
-
-#footer1 > aside >div >h3{
-    position: absolute;
-    display: inline-block;
-    font-size: 1.9em;
-    color: #2bf62b;
-    margin: 0;
-    top: 20px;
-    left: 150px;
-}
-
-#footer1 > aside > div > img {
-    position: absolute;
-    display: inline-block;
-    margin: 0;
-    top: 80px;
-    left: 250px;
-}
-
-
-#footer1 > aside>div:last-child > img {
-    position: relative;
-    display: inline-block;
-    margin: 0;
-    top: 40px;
-    left: 600px;
-
-}
-
-#footer1 > aside >div:last-child >h4{
-    position: absolute;
-    display: inline-block;
-    font-size: 0.9em;
-    color: #afa4a4;
-    margin: 0;
-    top: 100px;
-    left: 600px;
-}*/
-/*-----Footer 02 ---*/
 .footer{
-    height: 300px;
+    height: 250px;
     background-color: #07030c;
     position: relative;
 }
