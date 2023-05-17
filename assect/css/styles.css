@@ -574,8 +574,10 @@
     text-align: center;
     padding: 70px 20px 80px 20px;
     transition: all ease-in-out 0.3s;
-    background: #fff;
-    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+    background: #ffffff;
+    width: 80px;
+    height: 80px;
+   /* box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);*/
 }
 
 .services .icon-box .icon {
@@ -603,13 +605,13 @@
 
 .services .icon-box .icon svg path {
     transition: 0.5s;
-    fill: #f5f5f5;
+    fill: #f37f07;
 }
 
 .services .icon-box h4 {
     font-weight: 600;
     margin: 10px 0 15px 0;
-    font-size: 22px;
+    font-size: 15px;
 }
 
 .services .icon-box h4 a {
@@ -704,7 +706,7 @@
 
 
 .contact{
-    background-color: #f802a9;
+    background-color: #ffffff;
     position: relative;
     height: 100vh;
     width: 100%;
