@@ -344,7 +344,7 @@
 .animated-text span::after{
     content: " ";
     position: absolute;
-    width: calc(100% + 8px);
+    width: 0;
     height: 100%;
     border-left: 2px solid #f23005;
     right: -8px;
