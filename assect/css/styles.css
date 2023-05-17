@@ -514,7 +514,7 @@
 
 /*---------Services--------------*/
 .services{
-    background-color: #9910c0;
+    background-color: #07030c;
     position: relative;
     height: 100vh;
     width: 100%;
@@ -524,11 +524,11 @@
     display: inline-block;
     position: absolute;
     border-left: 1px solid #c28534;
-    height: 400px;
-    width: 5px;
+    height: 500px;
+    width: 10px;
     left: 0;
     right: 1425px;
-    top: 180px;
+    top: 10px;
     margin: auto;
     animation-name: line-animate;
     animation-duration: 2s;
@@ -536,10 +536,29 @@
     animation-direction: alternate-reverse;
 }
 
+.resume-item {
+    padding-left: 250px;
+    padding-top: 10px;
+}
+.resume-item > h5 {
+    color: white;
+}
+.resume-item > span {
+    color:  #7C6F6F;
+    font-size: 25px;
+}
 
+.resume-item > h4{
+    font-size: 20px;
+    right: 50px;
+    color: white;
+}
 
-
-
+.line-servi {
+    width: 5px;
+    height: 300px;
+    background-color: #c28534;
+}
 
 /*---------Contact--------------*/
 
