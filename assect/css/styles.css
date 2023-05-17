@@ -476,12 +476,12 @@
 
 /*---------Education--------------*/
 
-/*.education{
+.education{
     background-color: #2bf62b;
     position: relative;
     height: 100vh;
     width: 100%;
-}*/
+}
 
 .line {
     display: inline-block;
@@ -499,102 +499,6 @@
     animation-direction: alternate-reverse;
 }
 
-.edu-details {
-    position: absolute;
-    display: inline-block;
-    width: 304px;
-    height: 200px;
-}
-
-.edu section > div:nth-child(2) {
-    left: 0;
-    top: 0;
-}
-
-.edu section > div:nth-child(3) {
-    right: 0;
-    top: 166px;
-}
-
-.edu section > div:nth-child(4) {
-    left: 0;
-    top: 332px;
-}
-
-.edu section > div:nth-child(5) {
-    right: 0;
-    top: 498px;
-}
-
-.edu-details > p:first-child {
-    color: #282828;
-    font-size: 1em;
-    margin-top: 0;
-}
-
-.edu-details a {
-    text-decoration: none;
-    color: #313131;
-    font-size: 16px;
-}
-
-.edu-details > p:nth-child(3) {
-    color: #BBBBBB;
-    font-size: 16px;
-}
-
-.edu-details > p:nth-child(4) {
-    color: #3A86FF;
-    font-size: 16px;
-}
-
-.edu section > div:nth-child(6) {
-    position: absolute;
-    background-color: #3A86FF;
-    height: 12px;
-    width: 12px;
-    border-radius: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    margin: auto;
-}
-
-.edu section > div:nth-child(7) {
-    position: absolute;
-    background-color: #3A86FF;
-    height: 12px;
-    width: 12px;
-    border-radius: 100%;
-    left: 0;
-    right: 0;
-    top: 166px;
-    margin: auto;
-}
-
-.edu section > div:nth-child(8) {
-    position: absolute;
-    background-color: #3A86FF;
-    height: 12px;
-    width: 12px;
-    border-radius: 100%;
-    left: 0;
-    right: 0;
-    top: 332px;
-    margin: auto;
-}
-
-.edu section > div:nth-child(9) {
-    position: absolute;
-    background-color: #3A86FF;
-    height: 12px;
-    width: 12px;
-    border-radius: 100%;
-    left: 0;
-    right: 0;
-    top: 498px;
-    margin: auto;
-}
 
 
 
@@ -615,6 +519,24 @@
     height: 100vh;
     width: 100%;
 }
+
+.line-servi {
+    display: inline-block;
+    position: absolute;
+    border-left: 1px solid #c28534;
+    height: 400px;
+    width: 5px;
+    left: 0;
+    right: 1425px;
+    top: 180px;
+    margin: auto;
+    animation-name: line-animate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
 
 
 
