@@ -325,12 +325,30 @@
 
 }
 
-.main-line > p {
-    color: white;
-    padding-left: 30px;
-    font-size: 45px;
+.animated-text {
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
 }
 
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "Fullstack Developer";
+    color: #ff6608;
+}
+
+.animated-text span::after{
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    border-left: 2px solid #f23005;
+    right: -8px;
+    animation: cursor .8s infinite;
+}
 /*----------------------------Footer -----------------------------------------*/
 /*-----------Footer 01--------------*/
 
