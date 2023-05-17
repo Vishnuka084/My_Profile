@@ -76,7 +76,7 @@
     color: white;
     font-weight: bold;
     font-size: 40px;
-    right: 100px;
+    right: 50px;
 }
 /*--- first pages social media icon --*/
 .social-icons {
@@ -272,62 +272,90 @@
 }
 
 
-/*----------Scroll bar Line ------*/
-.circle {
-    height: 15px;
-    width: 15px;
-    background-color: #F28505;
-    border-radius: 80%;
-
+/*----------scroll line 01 ------*/
+.decaretion-line{
+    padding-left: 235px;
+    padding-top: 30px;
 }
+
+.circle {
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 25px;
+    background: #c28534;
+}
+
+.line {
+    width: 5px;
+    height: 50px;
+    background-color: #c28534;
+}
+
+#mouse {
+    background-color: white;
+}
+
+/*----------scroll line 01 ------*/
+.decaretion-line1{
+    padding-left: 235px;
+    padding-top: 30px;
+}
+
+.line1 {
+    width: 5px;
+    height: 150px;
+    background-color: #c28534;
+}
+
+/*----------------------------*/
 
 .main-line {
     padding-left: 250px;
+    padding-top: 10px;
 }
 
-.main-line >h5 {
-    font-family: 'Poppins', sans-serif;
+.off-line > h5 {
+    font-family: 'Apple', sans-serif;
     font-size: 12px;
     color: #B7B0B0;
-    padding-left: 15px;
 }
 
-.line{
-    width: 3px;
-    height: 820px;
-    background-color: #F28505;
-}
-
-
-.main-line > h1 {
+.off-line > h1 {
     color: white;
-    font-family: "Bell MT";
-    font-size: 30px;
-    padding-left: 30px;
+    font-family: 'Apple';
+    font-size: 25px;
 }
 
-.main-line > h2 {
+.off-line >  h2 {
     color: white;
-    font-family: Roboto;
-    font-size: 45px;
-    padding-left: 160px;
+    font-family: 'Apple',sans-serif;
+    font-size: 25px;
+    padding-left: 120px;
 }
 
-.main-line > h2 > strong {
-    color: #F28505;
+.off-line > h2 > strong {
+    color: #e36826;
+    font-size: 28px;
 }
-
 #semicolan {
     color: #ffffff;
     font-family: "Bell MT";
     font-size: 30px;
-    padding-left: 160px;
+    padding-left: 110px;
 
 }
 
+.off-line > h4 {
+    color: rgba(232, 212, 212, 0.59);
+    font-family: 'Apple',sans-serif;
+    font-size: 15px;
+}
+
+
 .animated-text{
-    font-size: 34px;
-    font-weight: 600;
+    color: white;
+    font-size: 80px;
+    font-weight: 550;
     min-width: 280px;
 }
 
@@ -336,8 +364,8 @@
 }
 
 .animated-text span::before{
-    content: "Youtuber";
-    color: #f16d0c;
+    content: "Fullstack Developer";
+    color: #F28505;
     animation: words 20s infinite;
 }
 
@@ -360,19 +388,19 @@
 
 @keyframes words {
     0%,20%{
-        content: "Youtuber";
+        content: "Frontend Developer";
     }
     21%,40%{
-        content: "Blogger";
+        content: "Backened Developer";
     }
     41%,60%{
-        content: "Developer";
+        content: "Ui / Ux Designer";
     }
     61%,80%{
         content: "Designer";
     }
     81%,100%{
-        content: "Gamer";
+        content: "Fullstack Developer";
     }
 }
 
@@ -385,12 +413,34 @@
     }
 }
 
+.top-bar button {
+    background-color: #ce741f;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #030000;
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+
+.top-bar button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #3A86FF;
+    border: 1px solid #3A86FF;
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+
+
 /*----------------------------Footer -----------------------------------------*/
 /*-----------Footer 01--------------*/
 
 #footer1{
     height: 300px;
-    background-color: #07030c;
+   /* background-color: #07030c;*/
+    background-color: #ffffff;
     position: relative;
 }
 
