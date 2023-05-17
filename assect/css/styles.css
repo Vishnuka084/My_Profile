@@ -338,17 +338,52 @@
 .animated-text span::before{
     content: "Fullstack Developer";
     color: #ff6608;
+    animation: words 20s infinite;
 }
 
 .animated-text span::after{
     content: " ";
     position: absolute;
-    width: 0;
+    width: calc(100% + 8px);
     height: 100%;
     border-left: 2px solid #f23005;
     right: -8px;
-    animation: cursor .8s infinite;
+    animation: cursor .8s infinite, typing 20s steps(14)infinite;
 }
+
+
+@keyframes  cursor {
+    to{
+        border-left: 2px solid #04071a;
+
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Frontend developer ";
+    }
+    21%,40%{
+        content: " Backend Developer";
+    }
+    41%,60%{
+        content: "Ui/UX Designer ";
+    }
+    61%,80%{
+        content: " Designer";
+    }
+    81%,100%{
+        content: "Fullstack Developer ";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+}
+
+
 /*----------------------------Footer -----------------------------------------*/
 /*-----------Footer 01--------------*/
 
