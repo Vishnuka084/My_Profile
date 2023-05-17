@@ -47,6 +47,7 @@
 
 
 *{
+ /*   background-color: #07030c;*/
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -440,14 +441,31 @@
 }
 /*-------------main page ---------------------*/
 
+
 /*------My Project -----------*/
+.projects {
+    background-color: #3f0977;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+}
+.line2 {
+    width: 5px;
+    height: 80px;
+    background-color: #c28534;
+    padding-left: 10px;
+}
 
 
 
-
-
-
-
+/*--------------About------------------*/
+.about{
+    background-color: #1225bd;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
 
 
 /*----------------------------Footer -----------------------------------------*/
