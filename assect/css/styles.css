@@ -480,7 +480,11 @@
 }
 
 .sub-title > h2 {
-    font-family: 'Script MT Bold' ;
+    font-family: Arial ;
+    font-size: 90px;
+    color: #756666;
+    padding-top: 100px;
+    padding-left: 1520px;
 }
 
 
