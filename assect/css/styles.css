@@ -454,13 +454,34 @@
 
 }
 /*------My Project -----------*/
-.projects{
-    background-color: #ffdf0f;
+.projects {
+    /* background-color: #07030c;*/
     position: relative;
     height: 100vh;
     width: 100%;
 }
 
+.sub-title > h6 {
+    font-family: 'Apple',  sans-serif;
+    font-size: 15px;
+    color: #2E2525;
+}
+
+.sub-title >h6 > span {
+    font-family: 'Apple',  sans-serif;
+    font-size: 25px;
+    color: #7C6F6F;
+}
+
+.sub-title > h4 {
+    font-family: 'Apple',sans-serif;
+    font-size: 30px;
+    color: #82b616;
+}
+
+.sub-title > h2 {
+    font-family: 'Script MT Bold' ;
+}
 
 
 /*--------------About------------------*/
@@ -470,6 +491,10 @@
     height: 100vh;
     width: 100%;
 }
+
+
+
+
 
 /*---------Education--------------*/
 
