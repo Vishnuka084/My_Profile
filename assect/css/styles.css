@@ -470,11 +470,11 @@
 
 /*----------------------------Footer -----------------------------------------*/
 /*-----------Footer 01--------------*/
-
+/*
 #footer1{
-    height: 300px;
+    height: 200px;
     background-color: #07030c;
-    /*background-color: #ffffff;*/
+    !*background-color: #ffffff;*!
     position: relative;
 }
 
@@ -514,19 +514,19 @@
     margin: 0;
     top: 100px;
     left: 600px;
-}
+}*/
 /*-----Footer 02 ---*/
-#footer2{
+.footer{
     height: 300px;
     background-color: #07030c;
     position: relative;
 }
 
-#footer2>aside:first-child{
+.footer>aside:first-child{
     position: relative;
 }
 
-#footer2>aside>section:first-child{
+.footer>aside>section:first-child{
     position: relative;
     display: inline-block;
     width: 420px;
@@ -535,7 +535,7 @@
     top: 40px;
 }
 
-#footer2 > aside > section:first-child > img {
+.footer > aside > section:first-child > img {
     position: absolute;
     width: 130px;
     height: 130px;
@@ -543,7 +543,7 @@
 }
 
         /*Vishnuka yahan*/
-#footer2> aside > section:first-child > h2 {
+.footer> aside > section:first-child > h2 {
     position: absolute;
     display: inline-block;
     font-size: 1.9em;
@@ -554,7 +554,7 @@
 }
 
     /*Fullstack Developer*/
-#footer2 > aside > section:first-child > h3 {
+.footer > aside > section:first-child > h3 {
     position: absolute;
     display: inline-block;
     font-size: 1em;
@@ -564,7 +564,7 @@
     margin: 0;
 }
 
-#footer2 > aside > img {
+.footer > aside > img {
     position: absolute;
     display: inline-block;
     font-size: 1em;
@@ -575,7 +575,7 @@
     height: 200px;
 }
 
-#footer2 > aside:last-child {
+.footer > aside:last-child {
     position: absolute;
     display: flex;
     width: 99.5vw;
@@ -584,14 +584,43 @@
     bottom: 5px;
 }
 
-#footer2 > aside:last-child > p,footer > aside:last-child > p > i {
+.footer > aside:last-child > p,footer > aside:last-child > p > i {
     font-size: 0.6em;
     color: #c28534;
 }
 
+/*----------Location-------*/
+.element > h3 {
+    position: absolute;
+    display: inline-block;
+    font-size: 1.2em;
+    color: #2bf62b;
+    margin: 0;
+    top: 55px;
+    left: 1000px;
+}
+
+.element >  img {
+    position: absolute;
+    display: inline-block;
+    margin: 0;
+    top: 55px;
+    left: 1150px;
+}
+
+
+
+.Addres > h4 {
+    position: absolute;
+    display: inline-block;
+    font-size: 0.9em;
+    color: #afa4a4;
+    margin: 0;
+    top: 100px;
+    left: 1500px;
+}
 
 /*  ----Footer  last social media icon ------*/
-
 .social-icons-white {
     top: 100px;
     left: 90px;
