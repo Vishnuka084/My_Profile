@@ -310,13 +310,26 @@
     color: white;
     font-family: Roboto;
     font-size: 45px;
-    padding-left: 30px;
+    padding-left: 160px;
 }
 
 .main-line > h2 > strong {
     color: #F28505;
 }
 
+#semicolan {
+    color: #ffffff;
+    font-family: "Bell MT";
+    font-size: 30px;
+    padding-left: 160px;
+
+}
+
+.main-line > p {
+    color: white;
+    padding-left: 30px;
+    font-size: 45px;
+}
 
 /*----------------------------Footer -----------------------------------------*/
 /*-----------Footer 01--------------*/
