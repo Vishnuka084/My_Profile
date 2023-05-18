@@ -508,6 +508,7 @@
     padding-left: 1300px;
     padding-top: 1px;
     color: #756666;
+    pointer-events: none;
 }
 
                 /*---3D Card---*/
@@ -542,7 +543,13 @@
 .content {
     padding: 20px;
     text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
     transition: 0.5s;
+}
+.container .card:hover .content{
+    transform: translateY(0px);
+    opacity: 1;
 }
 .content > img {
     width: 250px;
@@ -555,8 +562,18 @@
     right: 30px;
     font-size: 15px;
     color: white;
+    z-index: 1;
 }
 
+.content > p {
+    color: rgba(173, 168, 168, 0.69);
+}
+
+.content > a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 10px;
+}
 
 /*--------------About------------------*/
 .about{
