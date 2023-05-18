@@ -459,6 +459,14 @@
     width: 100%;
 }
 
+.resume-item > h5 > span {
+    font-size: 30px;
+}
+.resume-item > h2 {
+    color: #7EAF17;
+    font-size: 40px;
+    font-family: Arial;
+}
 
 /*--------------About------------------*/
 .about{
@@ -709,7 +717,7 @@
 
 
 .contact{
-    background-color: #ffffff;
+    background-color: #07030c;
     position: relative;
     height: 100vh;
     width: 100%;
