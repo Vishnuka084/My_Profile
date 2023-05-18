@@ -453,7 +453,7 @@
 }
 /*------My Project -----------*/
 .projects {
-  /*  background-color: #07030c;*/
+    background-color: #07030c;
     height: 100vh;
     width: 100%;
 }
@@ -469,7 +469,7 @@
 
 .flex-project-container{
     display: flex;
-    background-color: #ffffff;
+    background-color: #07030c;
 }
 
 /*
@@ -505,9 +505,9 @@
 .flex-project-container :first-child > h1 {
     font-family: 'Arial';
     font-size: 50px;
-    color: rgba(161, 150, 150, 0.71);
     padding-left: 1300px;
     padding-top: 1px;
+    color: #756666;
 }
 
                 /*---3D Card---*/
@@ -519,6 +519,7 @@
     max-width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
+    padding-left: 100px;
 }
 
 .container .card{
@@ -526,7 +527,37 @@
     width: 280px;
     height: 400px;
     margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
 }
+
+.content {
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.content > img {
+    width: 250px;
+    height: 250px;
+}
+
+.content > h2 {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+
 /*--------------About------------------*/
 .about{
     background-color: #07030c;
