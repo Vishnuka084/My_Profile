@@ -454,19 +454,35 @@
 /*------My Project -----------*/
 .projects {
     background-color: #07030c;
-    position: relative;
     height: 100vh;
     width: 100%;
 }
 
-.resume-item > h5 > span {
+/*.resume-item > h5 > span {
     font-size: 30px;
 }
 .resume-item > h2 {
     color: #7EAF17;
     font-size: 40px;
     font-family: Arial;
+}*/
+
+.flex-project-container{
+    display: flex;
 }
+
+.flex-project-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.flex-project-container > h5 span {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+
 
 /*--------------About------------------*/
 .about{
