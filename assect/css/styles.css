@@ -42,9 +42,7 @@
     margin-left: 0.5em;
 }
 */
-
 /*-----------Mouse and line -------- */
-
 
 *{
  /*   background-color: #07030c;*/
@@ -464,15 +462,20 @@
 
 /*--------------About------------------*/
 .about{
-    background-color: #1225bd;
+    background-color: #07030c;
     position: relative;
     height: 100vh;
     width: 100%;
 }
 
+/*------------Gallery--------------*/
 
-
-
+.Gallery{
+    background-color: #07030c;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
 
 /*---------Education--------------*/
 
