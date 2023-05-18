@@ -458,27 +458,10 @@
     width: 100%;
 }
 
-/*.resume-item > h5 > span {
-    font-size: 30px;
-}
-.resume-item > h2 {
-    color: #7EAF17;
-    font-size: 40px;
-    font-family: Arial;
-}*/
-
 .flex-project-container{
     display: flex;
     background-color: #07030c;
 }
-
-/*
-.flex-project-container > div {
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-}
-*/
 
 .flex-project-container:first-child >div {
    padding-left: 250px;
@@ -505,7 +488,7 @@
 .flex-project-container :first-child > h1 {
     font-family: 'Arial';
     font-size: 50px;
-    padding-left: 1300px;
+    padding-left: 10px;
     padding-top: 1px;
     color: #756666;
     pointer-events: none;
@@ -515,7 +498,7 @@
 .container{
     position: relative;
     display: flex;
-    justify-content: center;
+
     align-items: center;
     max-width: 1200px;
     flex-wrap: wrap;
@@ -543,14 +526,14 @@
 .content {
     padding: 20px;
     text-align: center;
-    transform: translateY(100px);
-    opacity: 0;
+   /* transform: translateY(100px);
+    opacity: 0;*/
     transition: 0.5s;
 }
-.container .card:hover .content{
+/*.container .card:hover .content{
     transform: translateY(0px);
     opacity: 1;
-}
+}*/
 .content > img {
     width: 250px;
     height: 250px;
