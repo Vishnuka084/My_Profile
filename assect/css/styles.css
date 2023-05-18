@@ -516,9 +516,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
 }
 
+.container .card{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+}
 /*--------------About------------------*/
 .about{
     background-color: #07030c;
