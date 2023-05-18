@@ -453,7 +453,7 @@
 }
 /*------My Project -----------*/
 .projects {
-    background-color: #07030c;
+  /*  background-color: #07030c;*/
     height: 100vh;
     width: 100%;
 }
@@ -469,20 +469,55 @@
 
 .flex-project-container{
     display: flex;
+    background-color: #ffffff;
 }
 
+/*
 .flex-project-container > div {
-    background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
 }
-.flex-project-container > h5 span {
-    font-size: 30px;
-    padding-right: 10px;
+*/
+
+.flex-project-container:first-child >div {
+   padding-left: 250px;
 }
 
+.flex-project-container:first-child >div >h5{
+    font-family: "Bell MT";
+    color: #2E2525;
+    font-size: 20px;
+}
 
+.flex-project-container:first-child >div >h5 >span{
+    color: #7C6F6F;
+    font-size: 25px;
+    font-family: "Bell MT";
+}
+
+.flex-project-container:first-child >div >h2 {
+    font-family: 'Apple',sans-serif;
+    font-size: 35px;
+    color: #7EAF17;
+}
+
+.flex-project-container :first-child > h1 {
+    font-family: 'Arial';
+    font-size: 50px;
+    color: rgba(161, 150, 150, 0.71);
+    padding-left: 1300px;
+    padding-top: 1px;
+}
+
+                /*---3D Card---*/
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 /*--------------About------------------*/
 .about{
