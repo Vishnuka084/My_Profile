@@ -104,6 +104,7 @@
     margin-right: 10px;
 }
 
+
 /* ------------------header 2 -----------[Nav bar ]-------------------*/
 #header {
     position: fixed;
@@ -182,6 +183,7 @@
     width: 100%;
     overflow: hidden;
     transition: 0.3s;
+
 }
 
 .nav-menu a i,
