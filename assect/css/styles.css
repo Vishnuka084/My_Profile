@@ -45,7 +45,6 @@
 /*-----------Mouse and line -------- */
 
 *{
- /*   background-color: #07030c;*/
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -62,20 +61,22 @@
 /*----- Logo set up ------*/
 .logo:first-child>span{
     font-size: 40px;
-    color: #472804;
+    color: #5e3503;
 }
 
 .logo>span:last-child{
     font-size: 40px;
-    color: #F28505;
+    color: #ff900e;
 }
 .logo {
-    padding-left: 150px;
+    padding-left: 10px;
     padding-top: 40px;
     color: white;
     font-weight: bold;
     font-size: 40px;
-    right: 50px;
+    font-family: 'Teko', sans-serif;
+    position: fixed;
+
 }
 /*--- first pages social media icon --*/
 .social-icons {
