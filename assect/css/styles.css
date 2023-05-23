@@ -79,33 +79,41 @@
 
 }
 /*--- first pages social media icon --*/
-.social-icons {
-    top: 100px;
-    left: 90px;
-}
-
 .social-icons{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
     display: flex;
+    justify-content: space-between;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
-    padding-top: 60px;
-    padding-left: 1700px;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #F28505;
+    text-decoration: none;
+
 }
-#icon1 {
-    width: 20px;
-    margin-right: 40px;
+.main-line > img {
+    color: #ff253a;
+
+}
+.off-line {
+
+    top: 100px;
 }
 
-#icon2 {
-    width: 20px;
-    margin-right: 40px;
+.profile {
+    height: 10px;
+    width: 30px;
 }
-#icon3{
-    width: 20px;
-    margin-right: 10px;
-}
-
 
 /* ------------------header 2 -----------[Nav bar ]-------------------*/
 #header {
