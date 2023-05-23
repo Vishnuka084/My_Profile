@@ -27,10 +27,15 @@
     justify-content: space-between;
 }
 
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
 .col{
     flex-basis: 25%;
     padding: 10px;
 }
+
 
 .Logo {
     width: 50%;
@@ -105,4 +110,21 @@ form button .bx{
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
+    font-size: 20px;
+    color: #ccc;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copyrite{
+    text-align: center;
+
 }
