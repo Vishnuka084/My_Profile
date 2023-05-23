@@ -137,9 +137,10 @@ hr{
     top: 25px;
     position: absolute;
     left: 0;
+    overflow: hidden;
 }
 
-.underline span{
+.underline span {
     width: 15px;
     height: 100%;
     background: #fff;
@@ -147,4 +148,14 @@ hr{
     position: absolute;
     top: 0;
     left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
 }
