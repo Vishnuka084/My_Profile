@@ -99,11 +99,15 @@
     border: 2px solid #ffffff;
     border-radius: 50%;
     font-size: 20px;
-    color: #f37f07;
+    color: #fffdfc;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
+    transition: .5s;
+}
 
+.social-icons a:hover {
+    color: #000000;
 }
 .social-icons a::before{
     content: '';
@@ -112,7 +116,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #ff253a;
+    background-color: #ff7200;
     z-index: -1;
 
 }
