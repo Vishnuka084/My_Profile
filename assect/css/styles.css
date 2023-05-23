@@ -181,9 +181,9 @@
 }
 
 .line {
-    width: 5px;
+    width: 0;
     height: 80px;
-    background-color: #c28534;
+    background-color: #c77407;
 }
 
 #mouse {
@@ -212,7 +212,7 @@
 
 .main-line {
     padding-left: 250px;
-    padding-top: 10px;
+    padding-top: 100px;
 }
 
 .off-line > h5 {

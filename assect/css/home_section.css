@@ -88,7 +88,13 @@
     top: 100px;
 }
 
-.profile {
-    height: 10px;
-    width: 30px;
+.feature-img{
+    width: 400px;
+    position: absolute;
+    right: 10%;
+    top: 18%;
+    z-index: 2;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius:  200px;
+
 }
