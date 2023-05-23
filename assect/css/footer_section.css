@@ -69,3 +69,18 @@ form{
     border-bottom: 1px solid #ccc;
     margin-bottom: 50px;
 }
+
+form .bx{
+    font-size: 18px;
+    margin-right: 10px;
+
+}
+
+form input {
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+
+}
