@@ -4,3 +4,91 @@
     font-family: 'Poppins' , sans-serif;
     box-sizing: border-box;
 }
+
+.top-bar{
+    height: 100vh;
+    width: 100%;
+    background-color: #07030c;
+    background-size: cover;
+    background-position: center;
+}
+
+/*----- Logo set up ------*/
+.logo:first-child>span{
+    font-size: 40px;
+    color: #5e3503;
+}
+
+.logo>span:last-child{
+    font-size: 40px;
+    color: #ff900e;
+}
+.logo {
+    padding-left: 10px;
+    padding-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    position: fixed;
+
+}
+/*--- first pages social media icon --*/
+.social-icons{
+    position: absolute;
+    bottom: 875px;
+    width: 170px;
+    display: flex;
+    right: 20px;
+    justify-content: space-between;
+}
+
+.social-icons a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fffdfc;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.social-icons a:hover {
+    color: #000000;
+}
+.social-icons a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ff7200;
+    z-index: -1;
+
+}
+
+.social-icons a:hover::before {
+    width: 100%;
+}
+.main-line > img {
+    color: #ff253a;
+
+}
+.off-line {
+
+    top: 100px;
+}
+
+.profile {
+    height: 10px;
+    width: 30px;
+}
