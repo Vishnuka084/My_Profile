@@ -100,7 +100,7 @@ form button {
 
 form button .bx{
     font-size: 16px;
-    color: #ccc;
+    color: #d7d7d7;
 
 }
 
@@ -111,7 +111,7 @@ form button .bx{
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    color: #ccc;
+    color: #000000;
     background: #fff;
     margin-right: 15px;
     cursor: pointer;
