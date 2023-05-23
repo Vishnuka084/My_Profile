@@ -87,8 +87,10 @@
 .social-icons{
     display: flex;
     align-items: center;
-    padding-top: 0.05px;
+    padding-top: 60px;
     padding-left: 1700px;
+    width: 100px;
+    height: 100px;
 }
 #icon1 {
     width: 20px;
