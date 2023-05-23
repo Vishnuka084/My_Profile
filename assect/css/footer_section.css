@@ -36,3 +36,10 @@
     width: 50%;
     margin-bottom: 10px;
 }
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+
+}
