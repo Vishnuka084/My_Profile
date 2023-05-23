@@ -159,3 +159,18 @@ hr{
         left: 100%;
     }
 }
+
+
+@media (max-width: 700px) {
+    footer{
+       background-color: unset;
+    }
+    .col:nth-child(2), .col:nth-child(3){
+        flex-basis: 15%;
+    }
+
+    .col{
+        flex-basis: 100%;
+
+    }
+}
