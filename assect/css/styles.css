@@ -81,9 +81,10 @@
 /*--- first pages social media icon --*/
 .social-icons{
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
     width: 170px;
     display: flex;
+    left: 100px;
     justify-content: space-between;
 }
 
@@ -100,16 +101,24 @@
     font-size: 20px;
     color: #f37f07;
     text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
 
 }
 .social-icons a::before{
-    content: " ";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 0;
     height: 100%;
+    background-color: #ff253a;
+    z-index: -1;
 
+}
+
+.social-icons a:hover::before {
+    width: 100%;
 }
 .main-line > img {
     color: #ff253a;
