@@ -52,5 +52,11 @@
 
 ul li {
     list-style: none;
-    margin-bottom: 12pxg;
+    margin-bottom: 12px;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: #fff3cd;
 }
