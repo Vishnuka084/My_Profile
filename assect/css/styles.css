@@ -365,19 +365,13 @@
     width: 100%;
 }
 
-/*---------Education--------------*/
 
-.education{
-    background-color: #07030c;
-    position: relative;
-    height: 100vh;
-    width: 100%;
-}
+
 
 .line {
     display: inline-block;
     position: absolute;
-    border-left: 1px solid #c28534;
+    border-left: 1px solid #f88708;
     height: 400px;
     width: 5px;
     left: 0;
