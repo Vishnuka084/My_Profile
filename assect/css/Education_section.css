@@ -6,5 +6,22 @@
 }
 
 .resume-item >h4{
+    color: #fff3cd;
+    font-family: Apple ,sans-serif;
+    font-size: 20px;
+}
+#zero{
+    color: #7C6F6F;
+}
 
+#one{
+    color: #DCFF03;
+}
+
+#two{
+    color: #BA0AF8;
+}
+
+#three , #four ,#five{
+    color: #0DFF16;
 }
