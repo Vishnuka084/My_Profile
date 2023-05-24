@@ -38,6 +38,12 @@
 
 }
 
+.olevel > h4 {
+    position: absolute;
+    color: #877373;
+    left: 150px;
+}
+
 #space-line {
     position: relative;
     width: 5px;
@@ -46,8 +52,35 @@
     left: 200px;
 }
 
-.olevel > h4 {
+.it > h3 {
+    color: #FD0606;
+    font-size: 20px;
+
+}
+
+.it > h4 {
     position: absolute;
     color: #877373;
     left: 150px;
 }
+
+#space-line2 {
+    position: relative;
+    width: 5px;
+    height: 30px;
+    background-color: #c28534;
+    left: 200px;
+}
+
+.se > h3 {
+    color: #FD0606;
+    font-size: 20px;
+
+}
+
+.se > h4 {
+    position: absolute;
+    color: #877373;
+    left: 150px;
+}
+
