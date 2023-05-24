@@ -70,6 +70,12 @@
     height: 30px;
     background-color: #c28534;
     left: 200px;
+    top: 80px;
+}
+
+.se {
+    position: absolute;
+    top: 300px;
 }
 
 .se > h3 {
