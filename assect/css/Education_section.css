@@ -25,3 +25,29 @@
 #three , #four ,#five{
     color: #0DFF16;
 }
+
+
+.Educate-art{
+    position: absolute;
+    left: 650px;
+}
+
+.olevel > h3 {
+    color: #FD0606;
+    font-size: 20px;
+
+}
+
+#space-line {
+    position: relative;
+    width: 5px;
+    height: 30px;
+    background-color: #c28534;
+    left: 200px;
+}
+
+.olevel > h4 {
+    position: absolute;
+    color: #877373;
+    left: 150px;
+}
