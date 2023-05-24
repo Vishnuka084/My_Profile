@@ -2,3 +2,28 @@
     margin: 0;
     padding: 0;
 }
+
+.skills {
+    height: 100%;
+    touch-action: none;
+
+}
+
+.skills {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #071115;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+
+#drag-container,
+#spin-container {
+
+}
