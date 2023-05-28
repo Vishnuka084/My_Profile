@@ -33,6 +33,16 @@ body {
     }
 }
 
+
+.logo {
+    position: fixed;
+    color: #fff3cd;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+}
+.logo > span {
+    color: #ff8800;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -222,3 +232,4 @@ section {
 .section-title p {
     margin-bottom: 0;
 }
+
