@@ -34,26 +34,19 @@ body {
 #check{
     display: none;
 }
-/*
-@media (max-width: 952px) {
-    .logo{
-        font-size: 10px;
-        left: 5px;
-    }
 
-}
 
-@media (max-width: 992px) {
+@media (max-width: 988px) {
     #header {
-        !*width: 200px;
+        width: 200px;
         background: #ffffff;
         border-right: 1px solid #ffffff;
-        left: -300px;*!
+        left: -300px;
 
     }
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
     #main {
         margin-left: 100px;
     }
@@ -154,6 +147,7 @@ body {
 /**
 * Mobile Navigation
 */
+/*
 .mobile-nav-toggle {
     position: fixed;
     right: 10px;
@@ -186,247 +180,5 @@ body {
     color: #ff8600;
     background-color: gray;
 }
-/*--------------------------------------------------------------
-# Home Section
---------------------------------------------------------------*/
-#home {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    position: absolute;
-    background-color: #071115;
-}
 
-.logo {
-    top: 5px;
-    position: absolute;
-    color: #fff3cd;
-    font-family: "Open Sans", sans-serif;
-    font-size: 30px;
-    left: 50px;
-}
-.logo > span {
-    color: #ff8800;
-}
-
-
-.social-links{
-    position: absolute;
-/*    width: 100px;*/
-    right: 100px;
-    top: 50px;
-
-}
-
-.social-links .bx{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    color: #000000;
-    background: #fff;
-    margin-right: 15px;
-    cursor: pointer;
-}
-
-
-.circle{
-    position: relative;
-    background-color: #ff8800;
-    width: 10px;
-    height: 10px;
-    border-radius: 25px;
-    margin-top: 50px;
-    color: #fff3cd;
-    left: 200px;
-}
-.line{
-    position: relative;
-    width: 3px;
-    height: 810px;
-    background-color: #ff8800;
-    left: 200px;
-}
-
-.line::after {
-    content: "";
-    position: absolute;
-
-}
-
-.content {
-    top: 50px;
-    width: 1000px;
-    height: 10px;
-    position: absolute;
-    left: 50px;
-}
-
-.content >h1 {
-    color: #fff3cd;
-    font-family: "Open Sans", sans-serif;
-    font-size: 35px;
-}
-
-.content > h3 {
-    color: #fff3cd;
-    font-family: "Open Sans", sans-serif;
-    font-size: 22px;
-    padding-left: 125px;
-
-}
-.content > h3 > span{
-    color: #ff8600;
-    font-family:  sans-serif;
-    font-size: 40px;
-
-}
-
-
-.animated-text{
-    font-size: 80px;
-    font-weight: 600;
-    min-width: 280px;
-    color: #fff3cd;
-}
-
-.animated-text span{
-    position: relative;
-}
-
-.animated-text span::before{
-    content: "Youtuber";
-    color: #ff8600;
-    animation: words 20s infinite;
-}
-
-.animated-text span::after{
-    content: "";
-    position: absolute;
-    width: calc(100% + 8px);
-    height: 100%;
-    background-color: #071115;
-    border-left: 2px solid #ff8600;
-    right: -8px;
-    animation: cursor .8s infinite, typing 20s steps(14) infinite;
-}
-
-@keyframes cursor {
-    to{
-        border-left: 2px solid #ff7f5000;
-    }
-}
-
-@keyframes words {
-    0%,20%{
-        content: "Frontend Developer";
-    }
-    21%,40%{
-        content: "Designer";
-    }
-    41%,60%{
-        content: "Ui / UX Designer";
-    }
-    61%,80%{
-        content: "Thinker";
-    }
-    81%,100%{
-        content: "Backend Developer";
-    }
-}
-
-@keyframes typing {
-    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
-        width: 0;
-    }
-    5%,20%,25%,40%,45%,60%,65%,80%,85%{
-        width: calc(100% + 8px);
-    }
-}
-
-
-
-.content > h4{
-    font-size: 20px;
-    color: #fff3cd;
-}
-
-.line::before
-@media (min-width: 992px) {
-    #home {
-        padding-left: 160px;
-    }
-}
-
-.content > .btn{
-    top: 50px;
-    position: relative;
-    padding: 10px 30px;
-    margin: 0 15px;
-    background: #be6009;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 20px;
-    transition: 0.5s;
-}
-
-.content > .btnTalk{
-    top: 50px;
-    position: relative;
-    padding: 10px 30px;
-    margin: 0 15px;
-    background: #be6009;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 20px;
-    transition: 0.5s;
-}
-
-.btn:hover{
-    background: #f3a556;
-    color: #fff3cd;
-    box-shadow: 0 0 50px #3c00ff;
-    transition-delay: 0.5s;
-}
-.content > .btnTalk{
-    position: relative;
-    padding: 10px 30px;
-    margin: 0 15px;
-    background: #be6009;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 20px;
-    transition: 0.5s;
-}
-
-.btnTalk:hover{
-    background: #f3a556;
-    color: #fff3cd;
-    box-shadow: 0 0 50px #3c00ff;
-    transition-delay: 0.5s;
-}
-
-.social-links :hover{
-    box-shadow: 0 0 50px rgba(191, 191, 222, 0.76);
-    transition-delay: 0.5s;
-}
-
-
-/*---------------------------------------------------------------
-            Animation backGround
-                        ------------------------------------- */
-
-#particles-js{
-    position: absolute;
-    height: 100%;
-    background: #071115;
-}
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
-section {
-    padding: 60px 0;
-    overflow: hidden;
-}
+*/
