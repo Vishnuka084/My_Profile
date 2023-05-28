@@ -34,7 +34,7 @@ body {
 #check{
     display: none;
 }
-
+/*
 @media (max-width: 952px) {
     .logo{
         font-size: 10px;
@@ -45,10 +45,10 @@ body {
 
 @media (max-width: 992px) {
     #header {
-        /*width: 200px;
+        !*width: 200px;
         background: #ffffff;
         border-right: 1px solid #ffffff;
-        left: -300px;*/
+        left: -300px;*!
 
     }
 }
@@ -57,10 +57,7 @@ body {
     #main {
         margin-left: 100px;
     }
-}
-
-
-
+}*/
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -248,7 +245,7 @@ body {
 .line{
     position: relative;
     width: 3px;
-    height: 600px;
+    height: 810px;
     background-color: #ff8800;
     left: 200px;
 }
