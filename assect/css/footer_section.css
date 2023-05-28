@@ -7,7 +7,7 @@
 
 .footer {
 
-    position: relative;
+    position: absolute;
     bottom: 0;
     background: linear-gradient(to right, #030436, #210a00);
     color: #ffffff;

@@ -1,4 +1,5 @@
-/*------My Project -----------*/
+/*
+!*------My Project -----------*!
 .projects {
     background-color: #07030c;
     height: 200vh;
@@ -41,7 +42,7 @@
     pointer-events: none;
 }
 
-/*---3D Card---*/
+!*---3D Card---*!
 .container{
     position: relative;
     display: flex;
@@ -73,14 +74,14 @@
 .content {
     padding: 20px;
     text-align: center;
-    /* transform: translateY(100px);
-     opacity: 0;*/
+    !* transform: translateY(100px);
+     opacity: 0;*!
     transition: 0.5s;
 }
-/*.container .card:hover .content{
+!*.container .card:hover .content{
     transform: translateY(0px);
     opacity: 1;
-}*/
+}*!
 .content > img {
     width: 250px;
     height: 250px;
@@ -104,3 +105,4 @@
     display: inline-block;
     padding: 8px 10px;
 }
+*/

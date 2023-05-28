@@ -1,6 +1,6 @@
-/* ------------------header 2 -----------[Nav bar ]-------------------*/
+/*
+!* ------------------header 2 -----------[Nav bar ]-------------------*!
 #header {
-    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -35,12 +35,12 @@
     }
 }
 
-/*--------------------------------------------------------------
+!*--------------------------------------------------------------
 # Navigation Menu
---------------------------------------------------------------*/
-/**
+--------------------------------------------------------------*!
+!**
 * Desktop Navigation
-*/
+*!
 .nav-menu {
     bottom: 10px;
     padding: 10px;
@@ -130,9 +130,9 @@
     display: block;
 }
 
-/**
+!**
 * Mobile Navigation
-*/
+*!
 .mobile-nav-toggle {
     position: fixed;
     right: 10px;
@@ -167,7 +167,7 @@
 }
 
 
-/*----------scroll line 01 ------*/
+!*----------scroll line 01 ------*!
 .decaretion-line{
     padding-left: 235px;
     padding-top: 30px;
@@ -196,7 +196,7 @@
     transition-duration: 1.5s;
 }
 
-/*----------scroll line 01 ------*/
+!*----------scroll line 01 ------*!
 .decaretion-line1{
     padding-left: 235px;
     padding-top: 30px;
@@ -208,7 +208,7 @@
     background-color: #c28534;
 }
 
-/*----------------------------*/
+!*----------------------------*!
 
 .main-line {
     padding-left: 250px;
@@ -333,8 +333,8 @@
     transition-property: all;
     transition-duration: 1.5s;
 }
-/*-------------main page ---------------------*/
-/*--------Common line Decaration--------------*/
+!*-------------main page ---------------------*!
+!*--------Common line Decaration--------------*!
 
 .decaretion-line2 {
     padding-left: 235px;
@@ -348,7 +348,7 @@
 
 }
 
-/*--------------About------------------*/
+!*--------------About------------------*!
 .about{
     background-color: #07030c;
     position: relative;
@@ -357,7 +357,7 @@
 }
 
 
-/*---------Education--------------*/
+!*---------Education--------------*!
 
 .education{
     background-color: #07030c;
@@ -382,7 +382,7 @@
     animation-direction: alternate-reverse;
 }
 
-/*---------Services--------------*/
+!*---------Services--------------*!
 .services{
     background-color: #07030c;
     position: relative;
@@ -575,3 +575,4 @@
 
 
 
+*/
