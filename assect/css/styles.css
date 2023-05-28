@@ -243,6 +243,7 @@ body {
     font-size: 80px;
     font-weight: 600;
     min-width: 280px;
+    color: #fff3cd;
 }
 
 .animated-text span{
@@ -280,7 +281,7 @@ body {
         content: "Designer";
     }
     41%,60%{
-        content: "Ui/UX Designer";
+        content: "Ui / UX Designer";
     }
     61%,80%{
         content: "Thinker";
@@ -299,6 +300,13 @@ body {
     }
 }
 
+
+
+.content > h4{
+    font-size: 20px;
+    color: #fff3cd;
+}
+
 .line::before
 @media (min-width: 992px) {
     #home {
@@ -306,8 +314,15 @@ body {
     }
 }
 
+/*---------------------------------------------------------------
+            Animation back Ground
+                        ------------------------------------- */
 
-
+#particles-js{
+    position: absolute;
+    height: 100%;
+    background: #071115;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
