@@ -208,8 +208,6 @@ body {
     content: "";
     position: absolute;
 
-
-
 }
 
 .content {
@@ -229,9 +227,17 @@ body {
 .content > h3 {
     color: #fff3cd;
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    padding-left: 125px;
 
 }
+.content > h3 > span{
+    color: #ff8600;
+    font-family:  sans-serif;
+    font-size: 40px;
+
+}
+
 
 
 .line::before
