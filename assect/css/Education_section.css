@@ -256,6 +256,62 @@
         font-size: 6px;
     }
 
+    .edu2:before{
+        content: "01";
+        position: absolute;
+        right: 325px;
+
+    }
+
+
+    .edu3:before{
+        content: "02";
+        position: absolute;
+        right: 325px;
+
+    }
+
+
+    .edu4:before{
+        content: "03";
+        position: absolute;
+        right: 325px;
+
+    }
+
+    .edu5:before{
+        content: "04";
+        position: absolute;
+        right: 325px;
+
+    }
+
+
+    .edu6:before{
+        content: "05";
+        position: absolute;
+        right: 325px;
+
+    }
+
+
+    .edu7:before{
+        content: "06";
+        position: absolute;
+        right: 325px;
+
+    }
+
+
+    .edu8:before{
+        content: "07";
+        position: absolute;
+        right: 325px;
+
+    }
+
+
+
 
 
 
