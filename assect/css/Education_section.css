@@ -1,14 +1,17 @@
 
-/*
 .education{
     background-color: #07030c;
     position: relative;
     height: 100vh;
     width: 100%;
 }
-!*.resume-item{*!
-!*    position: relative;*!
-!*}*!
+
+.resume-item{
+    position: absolute;
+    top: 5px;
+    left: 200px;
+}
+
 
 .resume-item >h4{
     color: #fff3cd;
@@ -120,7 +123,7 @@
 .edu2:before{
     content: "01";
     position: absolute;
-    left: 200px;
+    right: 1000px;
 
 }
 
@@ -128,7 +131,7 @@
 .edu3:before{
     content: "02";
     position: absolute;
-    left: 200px;
+    right: 1000px;
 
 }
 
@@ -136,14 +139,14 @@
 .edu4:before{
     content: "03";
     position: absolute;
-    left: 200px;
+    right: 1000px;
 
 }
 
 .edu5:before{
     content: "04";
     position: absolute;
-    left: 200px;
+    right: 1000px;
 
 }
 
@@ -151,7 +154,7 @@
 .edu6:before{
     content: "05";
     position: absolute;
-    left: 200px;
+    right: 1000px;
 
 }
 
@@ -159,7 +162,7 @@
 .edu7:before{
     content: "06";
     position: absolute;
-    left: 200px;
+    right: 1000px;
 
 }
 
@@ -167,14 +170,7 @@
 .edu8:before{
     content: "07";
     position: absolute;
-    left: 200px;
+    right: 1000px;
 
 }
 
-
-.line-servi {
-    width: 5px;
-    height: 350px;
-    background-color: #c28534;
-}
-*/
