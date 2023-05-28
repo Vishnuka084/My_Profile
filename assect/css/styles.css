@@ -186,6 +186,20 @@ body {
     color: #ff8800;
 }
 
+
+.social-links{
+    position: absolute;
+    width: 100px;
+    right: 100px;
+    top: 50px;
+
+}
+
+.social-links > a {
+    width: 100px;
+    height: 100px;
+}
+
 .circle{
     position: relative;
     background-color: #ff8800;
