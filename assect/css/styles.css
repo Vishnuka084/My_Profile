@@ -360,8 +360,45 @@ body {
     }
 }
 
+.content > .btn{
+    position: relative;
+    padding: 10px 30px;
+    margin: 0 15px;
+    background: #be6009;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: #f3a556;
+    color: #fff3cd;
+    box-shadow: 0 0 50px #3c00ff;
+    transition-delay: 0.5s;
+}
+.content > .btnTalk{
+    position: relative;
+    padding: 10px 30px;
+    margin: 0 15px;
+    background: #be6009;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.btnTalk:hover{
+    background: #f3a556;
+    color: #fff3cd;
+    box-shadow: 0 0 50px #3c00ff;
+    transition-delay: 0.5s;
+}
+
+
+
 /*---------------------------------------------------------------
-            Animation back Ground
+            Animation backGround
                         ------------------------------------- */
 
 #particles-js{
