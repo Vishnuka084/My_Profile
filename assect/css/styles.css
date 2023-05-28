@@ -257,7 +257,7 @@ body {
 }
 
 .content {
-    top: 20px;
+    top: 50px;
     width: 1000px;
     height: 10px;
     position: absolute;
@@ -395,6 +395,10 @@ body {
     transition-delay: 0.5s;
 }
 
+.social-links :hover{
+    box-shadow: 0 0 50px rgba(191, 191, 222, 0.76);
+    transition-delay: 0.5s;
+}
 
 
 /*---------------------------------------------------------------
