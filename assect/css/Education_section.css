@@ -13,13 +13,19 @@
 }
 
 
+.resume-item > h5{
+    color: rgba(93, 88, 88, 0.49);
+}
+
+
 .resume-item >h4{
     color: #fff3cd;
     font-family: Apple ,sans-serif;
     font-size: 20px;
 }
 #zero{
-    color: #7C6F6F;
+    color: #d7d1d1;
+    font-size: 20px;
 }
 
 #one{
@@ -49,7 +55,8 @@
 .olevel > h4 {
     position: absolute;
     color: #877373;
-    left: 150px;
+    left: 130px;
+    top: 30px;
 }
 
 #space-line {
@@ -64,12 +71,14 @@
     color: #FD0606;
     font-size: 20px;
     padding-left: 10px;
+
 }
 
 .it > h4 {
     position: absolute;
     color: #877373;
     left: 150px;
+    top: 165px;
 }
 
 #space-line1 {
@@ -89,7 +98,6 @@
 .se > h3 {
     color: #FD0606;
     font-size: 20px;
-    padding-left: 10px;
 
 }
 
@@ -97,6 +105,7 @@
     position: absolute;
     color: #877373;
     left: 150px;
+    top: 50px;
 }
 
 #space-line2 {
@@ -171,6 +180,84 @@
     content: "07";
     position: absolute;
     right: 1000px;
+
+}
+
+.line-edu{
+    position: relative;
+    width: 3px;
+    height: 370px;
+    background-color: #ff8800;
+    left: 200px;
+    top: 30px;
+}
+
+.line-cros{
+    position: absolute;
+    width: 700px;
+    height: 3px;
+    top: 400px;
+    background-color: #ff8b00;
+    left: 200px;
+}
+
+
+/*------------media queries-----------*/
+
+
+@media all and (max-width: 700px) {
+    .line-edu{
+        position: relative;
+        width: 3px;
+        height: 180px;
+        background-color: #ff8800;
+        left: 20px;
+        top: 50px;
+    }
+
+
+    .resume-item{
+        position: absolute;
+        top: 5px;
+        left: 30px;
+    }
+
+
+    .resume-item >h4{
+        color: #fff3cd;
+        font-family: Apple ,sans-serif;
+        font-size: 10px;
+    }
+    .resume-item > h5{
+        color: #423839;
+        font-size: 8px;
+    }
+
+    .line-cros{
+        position: absolute;
+        width: 250px;
+        height: 3px;
+        top: 230px;
+        background-color: #ff8b00;
+        left: 20px;
+    }
+
+    #zero{
+        color: #595656;
+        font-size: 12px;
+    }
+
+    #one{
+        color: #DCFF03;
+    }
+
+    #three , #four ,#five{
+        color: #0DFF16;
+        font-size: 6px;
+    }
+
+
+
 
 }
 
