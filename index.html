@@ -99,6 +99,19 @@
                 <button class="btn" type="button">Download Resume /> </button>
                 <button  class="btnTalk"  type="button"> <a href="#contact"></a>Lets's Talk /> </button>
             </div>
+
+            <div class="bg">
+                <div class="mask_01">
+                    <div class="mask_02">
+                        <img src="assect/image/canvas01.jpg" alt="">
+                    </div>
+                </div>
+                <div class="mask_03">
+                    <div class="mask_04">
+                        <img src="assect/image/canvas02.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
 
 
@@ -175,7 +188,15 @@
 <script type="text/javascript" src="assect/vendor/vanilla-tilt.js"></script>
 <script type="text/javascript" src="assect/vendor/particles.js"></script>
 <script type="text/javascript" src="assect/vendor/app.js"></script>
-
+<script type="text/javascript">
+    window.addEventListener('load',() =>{
+       const canvas
+       const canvas01 =document.querySelector('.mask_04'
+       );
+       canvas01.classList.add('active');
+       canvas02.classList.add('active');
+    });
+</script>
 
 </body>
 </html>

@@ -361,6 +361,19 @@ body {
 }
 
 .content > .btn{
+    top: 50px;
+    position: relative;
+    padding: 10px 30px;
+    margin: 0 15px;
+    background: #be6009;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.content > .btnTalk{
+    top: 50px;
     position: relative;
     padding: 10px 30px;
     margin: 0 15px;
