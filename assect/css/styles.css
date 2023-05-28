@@ -199,10 +199,40 @@ body {
 .line{
     position: relative;
     width: 3px;
-    height: 500px;
+    height: 600px;
     background-color: #ff8800;
     left: 200px;
 }
+
+.line::after {
+    content: "";
+    position: absolute;
+
+
+
+}
+
+.content {
+    top: 20px;
+    width: 1000px;
+    height: 10px;
+    position: absolute;
+    left: 50px;
+}
+
+.content >h1 {
+    color: #fff3cd;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+}
+
+.content > h3 {
+    color: #fff3cd;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+
+}
+
 
 .line::before
 @media (min-width: 992px) {
