@@ -34,30 +34,6 @@ body {
 }
 
 
-.logo {
-    top: 5px;
-    position: absolute;
-    color: #fff3cd;
-    font-family: "Open Sans", sans-serif;
-    font-size: 30px;
-}
-.logo > span {
-    color: #ff8800;
-}
-
-.circle{
-    background-color: #ff8800;
-    width: 10px;
-    height: 10px;
-    border-radius: 25px;
-    margin-top: 50px;
-    color: #fff3cd;
-}
-.line{
-    width: 3px;
-    height: 500px;
-    background-color: #ff8800;
-}
 
 
 /*--------------------------------------------------------------
@@ -198,10 +174,37 @@ body {
     background-color: #071115;
 }
 
-#home .first-desc {
-    background-color: #ff253a;
+.logo {
+    top: 5px;
+    position: absolute;
+    color: #fff3cd;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    left: 50px;
+}
+.logo > span {
+    color: #ff8800;
 }
 
+.circle{
+    position: relative;
+    background-color: #ff8800;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    margin-top: 50px;
+    color: #fff3cd;
+    left: 200px;
+}
+.line{
+    position: relative;
+    width: 3px;
+    height: 500px;
+    background-color: #ff8800;
+    left: 200px;
+}
+
+.line::before
 @media (min-width: 992px) {
     #home {
         padding-left: 160px;
