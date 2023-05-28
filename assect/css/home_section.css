@@ -197,16 +197,7 @@
     box-shadow: 0 0 50px #3c00ff;
     transition-delay: 0.5s;
 }
-.content > .btnTalk{
-    position: relative;
-    padding: 10px 30px;
-    margin: 0 15px;
-    background: #be6009;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 20px;
-    transition: 0.5s;
-}
+
 
 .btnTalk:hover{
     background: #f3a556;
@@ -278,7 +269,7 @@
     .line{
         position: relative;
         width: 3px;
-        height: 690px;
+        height: 680px;
         background-color: #ff8800;
         left: 20px;
         top: 30px;
@@ -327,11 +318,12 @@
 
     }
 
-    .content > .btnTalk{
-        top: 20px;
+    .content > .btn{
+        top: 10px;
+        left: 50px;
         position: relative;
-        padding: 10px 30px;
-        margin: 0 15px;
+        padding: 5px 15px;
+        margin: 0 10px;
         background: #be6009;
         text-decoration: none;
         letter-spacing: 2px;
@@ -339,17 +331,16 @@
         transition: 0.5s;
     }
 
-
-
     .content > .btnTalk{
         top: 20px;
+        left: 80px;
         position: relative;
-        padding: 10px 30px;
+        padding: 5px 10px;
         margin: 0 15px;
         background: #be6009;
         text-decoration: none;
         letter-spacing: 2px;
-        font-size: 20px;
+        font-size: 10px;
         transition: 0.5s;
     }
 
