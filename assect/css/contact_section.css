@@ -1,30 +1,8 @@
 .contact{
-    background-color: #071115;
-    position: relative;
-    height: 100vh;
     width: 100%;
-
-
+    height: 100vh;
+    background-color: #d4dbde;
 }
-
-.contat-main{
-    position: absolute;
-    left: 204px;
-    top: 5px;
-
-}
-.cont01{
-    top: 10px;
-    color: #877373;
-
-}
-
-#contact-title{
-    font-family: Apple ,sans-serif;
-    color: #d7d1d1;
-    font-size: 20px;
-}
-
 
 .circle06{
     position: relative;
@@ -38,75 +16,24 @@
     top: 20px;
 }
 
-.line-contact{
+.line-cont{
     position: relative;
     width: 3px;
-    height: 700px;
+    height: 416px;
     background-color: #ff8800;
     left: 200px;
     top: 30px;
 }
-
-
-.contact > aside {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-.contact > aside > aside:first-child > div {
-    position: relative;
-    margin: 44px 88px 50px;
-    height: 60px;
-}
-
-.contact > aside > aside:first-child {
-    position: relative;
-    display: inline-block;
-    width: 500px;
-    top: -550px;
-    right: 400px;
-}
-
-.contact > aside > aside:first-child > div > h4 {
-    display: inline-block;
+.des-cont{
     position: absolute;
-    top: 0;
-    left: 60px;
-    font-size: 24px;
-    color: #d5c9c9;
-    margin: 0;
+    left: 204px;
+    top: 5px;
 }
 
-.contact > aside > aside:first-child > div > p {
-    display: inline-block;
-    position: absolute;
-    bottom: 0;
-    left: 60px;
-    font-size: 1em;
-    color: #646464;
-    margin: 0;
-}
 
-.contact > aside > aside:first-child > div > i {
-    display: inline-block;
-    position: absolute;
+.cont01{
     top: 10px;
-    color: #3A86FF;
-    font-size: 2em;
+    font-size: 10px;
+    font-family: Apple ,sans-serif;
+    background-color: #ff253a;
 }
-
-.contact > aside > aside:first-child > div:nth-child(2) {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.contact > aside > aside:last-child {
-    display: inline-block;
-    width: 700px;
-}
-
-fieldset {
-    border: none;
-}
-
