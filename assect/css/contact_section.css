@@ -6,38 +6,122 @@
 
 
 }
-/*
-.topic > span{
-    color: #3d230a;
-    font-size: 20px;
+
+
+/* Contact */
+
+.contact {
+    position: relative;
 }
-.topic{
+
+.contact > h1 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 3em;
+    color: #313131;
+}
+
+.contact > h1:first-letter {
+    background: linear-gradient(to bottom, #8338ec, #6e53f6, #5a67fc, #4778ff, #3a86ff);
+    border-radius: 5px 5px 5px 50%;
+    padding-left: 10px;
+    padding-right: 5px;
     color: white;
-    font-size: 45px;
-    padding-right: 900px;
-}
-.contact > div{
-    height: 100vh;
-    width: 100%;
-    flex-shrink: 1;
 }
 
-.contact >div:nth-child(1){
-    background-color: #0a53be;
-
-}
-.contact >div:nth-child(2){
-    background-color: #2bf62b;
-
+.contact > aside {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
-.contact >div:nth-child(3){
-    background-color: #f88708;
-
+.contact > aside > aside:first-child > div {
+    position: relative;
+    margin: 44px 88px 50px;
+    height: 60px;
 }
 
-.contact >div:nth-child(4){
-    background-color: #ff002e;
-
+.contact > aside > aside:first-child {
+    position: relative;
+    display: inline-block;
+    width: 500px;
 }
-*/
+
+.contact > aside > aside:first-child > div > h4 {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    font-size: 24px;
+    color: #282828;
+    margin: 0;
+}
+
+.contact > aside > aside:first-child > div > p {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    font-size: 1em;
+    color: #646464;
+    margin: 0;
+}
+
+.contact > aside > aside:first-child > div > i {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    color: #3A86FF;
+    font-size: 2em;
+}
+
+.contact > aside > aside:first-child > div:nth-child(2) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact > aside > aside:last-child {
+    display: inline-block;
+    width: 700px;
+}
+
+fieldset {
+    border: none;
+}
+
+.contact form {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+.contact form > fieldset > input {
+    width: 650px;
+    height: 60px;
+    border: none;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background: #ECF3FF;
+}
+
+.contact form > fieldset > textarea {
+    padding: 10px;
+    width: 650px;
+    height: 170px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    border: none;
+    background: #ECF3FF;
+}
+
+.contact form > fieldset > button {
+    height: 60px;
+    width: 216px;
+    color: white;
+    border-radius: 8px;
+    background-color: #3A86FF;
+    border: none;
+}
+
