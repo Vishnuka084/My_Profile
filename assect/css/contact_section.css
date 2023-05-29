@@ -1,16 +1,11 @@
-/*
 .contact{
-    background-color: #ff00ff;
+    background-color: #11da0f;
     position: relative;
     height: 100vh;
     width: 100%;
-    display: flex;
 
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
 
-}*/
+}
 /*
 .topic > span{
     color: #3d230a;
