@@ -81,13 +81,13 @@ body {
 .nav-menu a:focus {
     display: flex;
     align-items: center;
-    color: #45505b;
+    color: #ff8700;
     padding: 10px 10px;
     margin-bottom: 8px;
     transition: 0.3s;
     font-size: 15px;
     border-radius: 50px;
-    background: #f2f3f5;
+    background: #01151c;
     height: 56px;
     width: 100%;
     overflow: hidden;
