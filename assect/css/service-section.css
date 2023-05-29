@@ -1,5 +1,5 @@
 .services{
-    background-color: #317e9a;
+    background-color: rgba(9, 20, 26, 0.76);
     position: relative;
     height: 100vh;
     width: 100%;
@@ -13,6 +13,60 @@
     border-radius: 25px;
     margin-top: 50px;
     color: #fff3cd;
+    left: 196px;
+    top: 20px;
+}
+
+.line-servi{
+    position: relative;
+    width: 3px;
+    height: 416px;
+    background-color: #ff8800;
     left: 200px;
-    top: 50px;
+    top: 30px;
+}
+
+.des-servi{
+    position: absolute;
+    left: 204px;
+    top: 5px;
+
+}
+.ser01{
+    top: 10px;
+    color: #877373;
+    
+}
+
+#ser-title{
+    font-family: Apple ,sans-serif;
+    color: #d7d1d1;
+    font-size: 20px;
+}
+
+.des-servi >h4{
+    color: #fff3cd;
+    font-family: Apple ,sans-serif;
+    font-size: 20px;
+}
+
+#ser-one{
+    color: #DCFF03;
+}
+
+#ser-two{
+    color: #BA0AF8;
+}
+#ser-three,#ser-four ,#ser-five{
+    color: #0DFF16;
+}
+
+
+.line-cros{
+    position: absolute;
+    width: 700px;
+    height: 3px;
+    top: 400px;
+    background-color: #ff8b00;
+    left: 200px;
 }
