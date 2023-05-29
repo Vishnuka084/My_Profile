@@ -1,6 +1,6 @@
 /*
 .contact{
-    background-color: #07030c;
+    background-color: #ff00ff;
     position: relative;
     height: 100vh;
     width: 100%;
@@ -8,10 +8,10 @@
 
     align-items: center;
     flex-wrap: nowrap;
-    flex-direction: column;!**!
+    flex-direction: column;
 
-}
-
+}*/
+/*
 .topic > span{
     color: #3d230a;
     font-size: 20px;
