@@ -87,7 +87,7 @@
     height: 30px;
     background-color: #c28534;
     left: 200px;
-    top: 50px;
+    top: 42px;
 }
 
 .se {
@@ -104,8 +104,8 @@
 .se > h4 {
     position: absolute;
     color: #877373;
-    left: 150px;
-    top: 50px;
+    left: 127px;
+    top: 33px;
 }
 
 #space-line2 {
@@ -114,7 +114,7 @@
     height: 30px;
     background-color: #c28534;
     left: 200px;
-    top: 170px;
+    top: 162px;
 }
 
 .se-dgree {
@@ -194,7 +194,7 @@
 
 .line-cros{
     position: absolute;
-    width: 700px;
+    width: 946px;
     height: 3px;
     top: 400px;
     background-color: #ff8b00;

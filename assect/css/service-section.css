@@ -62,11 +62,132 @@
 }
 
 
-.line-cros{
+.line-cros-ser{
     position: absolute;
-    width: 700px;
+    width: 946px;
     height: 3px;
-    top: 400px;
+    top: 453px;
     background-color: #ff8b00;
     left: 200px;
+}
+
+.cros-ser-sf{
+    position: relative;
+    width: 3px;
+    height: 28px;
+    background-color: #ff8b00;
+    left: 336px;
+    top: 56px;
+}
+
+.cros-ser-ec{
+    position: relative;
+    width: 3px;
+    height: 28px;
+    background-color: #ff8b00;
+    left: 700px;
+    top: 27px;
+}
+
+
+.cros-ser-mob{
+    position: relative;
+    width: 3px;
+    height: 28px;
+    background-color: #ff8b00;
+    left: 1074px;
+    top: -1px;
+}
+
+
+
+
+
+
+
+
+/*------------media queries-----------*/
+
+
+@media all and (max-width: 700px) {
+    .circle05{
+        position: relative;
+        background-color: #ff8800;
+        width: 10px;
+        height: 10px;
+        border-radius: 25px;
+        margin-top: 50px;
+        color: #fff3cd;
+        left: 18px;
+        top: 20px;
+    }
+    .line-servi{
+        position: relative;
+        width: 3px;
+        height: 240px;
+        background-color: #ff8800;
+        left: 21px;
+        top: 30px;
+    }
+
+
+    .line-cros-ser{
+        position: absolute;
+        width: 179px;
+        height: 3px;
+        top: 277px;
+        background-color: #ff8b00;
+        left: 24px;
+    }
+
+
+    .cros-ser-sf{
+        position: relative;
+        width: 3px;
+        height: 28px;
+        background-color: #ff8b00;
+        left: 202px;
+        top: 211px;
+    }
+
+    .cros-ser-ec{
+        position: relative;
+        width: 3px;
+        height: 28px;
+        background-color: #ff8b00;
+        left: 202px;
+        top: 16px;
+    }
+
+
+    .cros-ser-mob{
+        position: relative;
+        width: 3px;
+        height: 28px;
+        background-color: #ff8b00;
+        left: 210px;
+        top: 365px;
+    }
+    .des-servi{
+        position: absolute;
+        left: 32px;
+        top: 5px;
+
+    }
+
+    .ser01{
+        top: 10px;
+        color: #877373;
+        font-size: 10px;
+
+    }
+
+    .des-servi >h4{
+        color: #fff3cd;
+        font-family: Apple ,sans-serif;
+        font-size: 10px;
+    }
+
+
+
 }
