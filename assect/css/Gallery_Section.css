@@ -1,6 +1,69 @@
 .Gallery{
-    background-color: #ae0cef;
+    background-color: #071115;
     position: relative;
     height: 100vh;
     width: 100%;
+}
+
+
+.circle03{
+    position: relative;
+    background-color: #ff8800;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    margin-top: 50px;
+    color: #fff3cd;
+    left: 196px;
+    top: 20px;
+}
+
+.line-gallery{
+    position: relative;
+    width: 3px;
+    height: 715px;
+    background-color: #ff8800;
+    left: 200px;
+    top: 30px;
+}
+
+.des-gal{
+    position: absolute;
+    left: 215px;
+    top: 47px;
+}
+
+.gal01{
+    top: 10px;
+    color: #877373;
+
+}
+
+#gallery-title{
+    font-family: Apple ,sans-serif;
+    color: #d7d1d1;
+    font-size: 20px;
+}
+
+.des-gal >h4{
+    color: #fff3cd;
+    font-family: Apple ,sans-serif;
+    font-size: 20px;
+}
+
+#gal-one{
+    color: #DCFF03;
+}
+
+#gal-two{
+    color: #BA0AF8;
+}
+
+.line-cros-gal{
+    position: absolute;
+    width: 957px;
+    height: 3px;
+    top: 802px;
+    background-color: #ff8b00;
+    left: 200px;
 }
