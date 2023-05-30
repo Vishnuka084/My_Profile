@@ -6,7 +6,8 @@
     height: 100vh;
     background-size: cover;
     position: relative;
-    background-color: #071115;
+    background: linear-gradient(to right, #01151c, #05011e);
+
 }
 
 .logo {

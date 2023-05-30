@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background: linear-gradient(to right, #01151c, #05011e);
     margin: 0;
     font-family: "Open Sans", sans-serif;
     position: relative;
@@ -41,8 +41,8 @@ body {
 @media (max-width: 988px) {
     #header {
         width: 200px;
-        background: #ffffff;
-        border-right: 1px solid #ffffff;
+    /*    background: #ffffff;
+        border-right: 1px solid #ffffff;*/
         left: -300px;
 
     }
