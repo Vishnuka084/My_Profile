@@ -13,6 +13,18 @@
 }
 
 
+.circle04{
+    position: relative;
+    background-color: #ff8800;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    margin-top: 50px;
+    color: #fff3cd;
+    left: 196px;
+    top: -14px;
+}
+
 .resume-item > h5{
     color: rgba(93, 88, 88, 0.49);
 }
@@ -49,7 +61,6 @@
 .olevel > h3 {
     color: #FD0606;
     font-size: 20px;
-
 }
 
 .olevel > h4 {
@@ -186,10 +197,10 @@
 .line-edu{
     position: relative;
     width: 3px;
-    height: 370px;
+    height: 348px;
     background-color: #ff8800;
     left: 200px;
-    top: 30px;
+    top: -6px;
 }
 
 .line-cros{

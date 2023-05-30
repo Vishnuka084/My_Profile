@@ -64,9 +64,9 @@
 
 .line-cros-ser{
     position: absolute;
-    width: 946px;
+    width: 990px;
     height: 3px;
-    top: 453px;
+    top: 450px;
     background-color: #ff8b00;
     left: 200px;
 }
@@ -76,7 +76,7 @@
     width: 3px;
     height: 28px;
     background-color: #ff8b00;
-    left: 336px;
+    left: 390px;
     top: 56px;
 }
 
@@ -85,7 +85,7 @@
     width: 3px;
     height: 28px;
     background-color: #ff8b00;
-    left: 700px;
+    left: 762px;
     top: 27px;
 }
 
@@ -95,11 +95,53 @@
     width: 3px;
     height: 28px;
     background-color: #ff8b00;
-    left: 1074px;
+    left: 1151px;
     top: -1px;
 }
 
 
+.ser02:before{
+    content: "01";
+    position: absolute;
+    right: 310px;
+
+}
+.ser03:before{
+    content: "02";
+    position: absolute;
+    right: 310px;
+
+}
+.ser04:before{
+    content: "03";
+    position: absolute;
+    right: 310px;
+
+}
+.ser05:before{
+    content: "04";
+    position: absolute;
+    right: 310px;
+
+}
+.ser06:before{
+    content: "05";
+    position: absolute;
+    right: 310px;
+
+}
+.ser07:before{
+    content: "06";
+    position: absolute;
+    right: 310px;
+
+}
+.ser08:before{
+    content: "07";
+    position: absolute;
+    right: 310px;
+
+}
 
 
 
