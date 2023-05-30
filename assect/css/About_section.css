@@ -1,6 +1,64 @@
 .about{
-    background-color: #e0cf0f;
+    background-color: #071115;
     position: relative;
     height: 100vh;
     width: 100%;
+}
+
+.circle02{
+    position: relative;
+    background-color: #ff8800;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    margin-top: 50px;
+    color: #fff3cd;
+    left: 196px;
+    top: 20px;
+}
+
+
+.line-about{
+    position: relative;
+    width: 3px;
+    height: 920px;
+    background-color: #ff8800;
+    left: 200px;
+    top: 30px;
+}
+
+.des-about{
+    position: absolute;
+    left: 204px;
+    top: 50PX;
+
+}
+
+#abou-one{
+    color: #DCFF03;
+}
+.abou02{
+    color: #BA0AF8;
+}
+.abou01{
+    top: 10px;
+    color: #877373;
+
+}
+
+#abou-title{
+    font-family: Apple ,sans-serif;
+    color: #d7d1d1;
+    font-size: 20px;
+}
+
+.des-about > h4{
+    color: white;
+    font-family: Apple ,sans-serif;
+    font-size: 20px;
+}
+
+
+#abo1 ,#abou2 ,#abou3 ,#abou4{
+    color: #0DFF16;
 }
