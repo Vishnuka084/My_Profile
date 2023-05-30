@@ -6,7 +6,7 @@
     height: 100vh;
     background-size: cover;
     position: relative;
-    background: linear-gradient(to right, #01151c, #05011e);
+    background: #071115;
 
 }
 
@@ -62,7 +62,7 @@
 .line{
     position: relative;
     width: 3px;
-    height: 820px;
+    height: 810px;
     background-color: #ff8800;
     left: 200px;
     top: 50px;
@@ -218,20 +218,20 @@
 
 @media all and (max-width: 700px) {
     .logo {
+        top: 5px;
         position: absolute;
-        color: #ffffff;
+        color: #fff3cd;
         font-family: "Open Sans", sans-serif;
         font-size: 15px;
-        left: 20px;
-        top: -32px;
+        left: 43px;
     }
 
 
     .social-links{
         position: absolute;
         /*    width: 100px;*/
-        right: 1px;
-        top: -23px;
+        right: 5px;
+        top: 17px;
 
     }
 
@@ -257,7 +257,7 @@
         border-radius: 25px;
         margin-top: 50px;
         color: #fff3cd;
-        left: 20px;
+        left: 46px;
         top: 40px;
         font-size: 10px;
     }
@@ -266,7 +266,7 @@
         width: 3px;
         height: 680px;
         background-color: #ff8800;
-        left: 20px;
+        left: 46px;
         top: 30px;
     }
 
@@ -300,7 +300,7 @@
 
 
     .animated-text{
-        font-size: 25px;
+        font-size: 23px;
         font-weight: 600;
         min-width: 280px;
         color: #fff3cd;
