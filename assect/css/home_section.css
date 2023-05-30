@@ -11,7 +11,10 @@
 }
 
 .logo {
-    top: -37px;
+
+    top: 5px;
+
+   /* top: -37px;*/
     position: absolute;
     color: #fff3cd;
     font-family: "Open Sans", sans-serif;
