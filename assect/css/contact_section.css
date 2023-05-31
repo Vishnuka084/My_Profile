@@ -1,18 +1,8 @@
 .contact{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right, #01151c, #05011e);
+    background-color: #071115;
 }
-
-
-
-.des-contact{
-    position: relative;
-    left: 287px;
-    top: -407px;
-
-}
-
 .circle06{
     position: relative;
     background-color: #ff8800;
@@ -24,11 +14,21 @@
     left: 196px;
     top: 20px;
 }
+.cont01{
+    top: 10px;
+    color: #877373;
+}
+
+#cont-title{
+    font-family: Apple ,sans-serif;
+    color: #d7d1d1;
+    font-size: 20px;
+}
 
 .line-cont{
     position: relative;
     width: 3px;
-    height: 416px;
+    height: 830px;
     background-color: #ff8800;
     left: 200px;
     top: 30px;
@@ -36,18 +36,37 @@
 .des-cont{
     position: relative;
     left: 220px;
-    top: -420px;
+    top: -847px;
 }
 
+.email {
+    width: 135px;
+    height: 135px;
+    color: white;
 
-.cont01{
-    top: 10px;
-    color: #877373;
 }
 
+.email > i{
+    width: 100px;
+    height: 50px;
+}
 
-#cont-title{
-    font-family: Apple ,sans-serif;
-    color: #d7d1d1;
-    font-size: 20px;
+.instagram {
+    width: 135px;
+    height: 135px;
+    color: white;
+
+}
+
+.linkedin {
+    width: 135px;
+    height: 135px;
+    color: white;
+
+}
+
+.des-contact{
+    position: relative;
+    top: -700px;
+    left: 310px;
 }
