@@ -150,14 +150,15 @@
     grid-gap: 2rem;
     align-items: center;
     margin-top: 2rem;
+    margin-left: 8em;
 
 }
 
 .col1 {
-    background: #01151c;
+    background: #031c25;
     box-shadow: 18px 0px 87px 0px rgb(10 15 70/7%);
     border-radius: 12px;
-    padding: 30px 30px 30px 30px;
+    padding: 15px 15px 15px 15px;
     transition: ease .45s;
     cursor: pointer;
 }
