@@ -30,7 +30,7 @@
 .des-gal{
     position: absolute;
     left: 215px;
-    top: 47px;
+    top: -7px;
 }
 
 .gal01{
@@ -66,4 +66,26 @@
     top: 802px;
     background-color: #ff8b00;
     left: 200px;
+}
+
+.gal02:before{
+    content: "01";
+    position: absolute;
+    right: 256px;
+}
+.gal03:before{
+    content: "02";
+    position: absolute;
+    right: 256px;
+}
+.gal04:before{
+    content: "03";
+    position: absolute;
+    right: 256px;
+}
+
+.gal05:before{
+    content: "04";
+    position: absolute;
+    right: 256px;
 }
