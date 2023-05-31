@@ -4,6 +4,15 @@
     background: linear-gradient(to right, #01151c, #05011e);
 }
 
+
+
+.des-contact{
+    position: relative;
+    left: 287px;
+    top: -407px;
+
+}
+
 .circle06{
     position: relative;
     background-color: #ff8800;
@@ -26,8 +35,8 @@
 }
 .des-cont{
     position: relative;
-    left: 204px;
-    top: 5px;
+    left: 220px;
+    top: -420px;
 }
 
 
@@ -37,7 +46,7 @@
 }
 
 
-#ser-title{
+#cont-title{
     font-family: Apple ,sans-serif;
     color: #d7d1d1;
     font-size: 20px;

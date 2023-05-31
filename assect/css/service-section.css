@@ -64,7 +64,7 @@
 
 .line-cros-ser{
     position: absolute;
-    width: 990px;
+    width: 1440px;
     height: 3px;
     top: 450px;
     background-color: #ff8b00;
@@ -76,7 +76,7 @@
     width: 3px;
     height: 28px;
     background-color: #ff8b00;
-    left: 390px;
+    left: 550px;
     top: 56px;
 }
 
@@ -85,7 +85,7 @@
     width: 3px;
     height: 28px;
     background-color: #ff8b00;
-    left: 762px;
+    left: 1000px;
     top: 27px;
 }
 
@@ -95,7 +95,7 @@
     width: 3px;
     height: 28px;
     background-color: #ff8b00;
-    left: 1151px;
+    left: 1400px;
     top: -1px;
 }
 
