@@ -158,7 +158,7 @@
 /*------------media queries-----------*/
 
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 767px) {
 
     .circle02 {
         position: relative;
@@ -168,7 +168,7 @@
         border-radius: 25px;
         margin-top: 50px;
         color: #fff3cd;
-        left: 20px;
+        left: 63px;
         top: 24px;
     }
     .line-about {
@@ -176,13 +176,13 @@
         width: 3px;
         height: 768px;
         background-color: #ff8800;
-        left: 23px;
+        left: 67px;
         top: 30px;
     }
     .des-about {
         position: absolute;
-        left: 35px;
-        top: 124PX;
+        left: 75px;
+        top: 49PX;
     }
 
     .abou01{
@@ -201,6 +201,10 @@
         font-family: Apple ,sans-serif;
         font-size: 10px;
     }
+
+
+
+
 
 
 }

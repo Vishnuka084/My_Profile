@@ -216,9 +216,9 @@
 }
 
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 767px) {
     .logo {
-        top: 5px;
+        top: -23px;
         position: absolute;
         color: #fff3cd;
         font-family: "Open Sans", sans-serif;
@@ -230,8 +230,8 @@
     .social-links{
         position: absolute;
         /*    width: 100px;*/
-        right: 5px;
-        top: 17px;
+        right: -21px;
+        top: -12px;
 
     }
 
@@ -257,7 +257,7 @@
         border-radius: 25px;
         margin-top: 50px;
         color: #fff3cd;
-        left: 46px;
+        left: 63px;
         top: 40px;
         font-size: 10px;
     }
@@ -266,7 +266,7 @@
         width: 3px;
         height: 680px;
         background-color: #ff8800;
-        left: 46px;
+        left: 65px;
         top: 30px;
     }
 
@@ -338,6 +338,8 @@
         font-size: 10px;
         transition: 0.5s;
     }
+
+
 
 }
 

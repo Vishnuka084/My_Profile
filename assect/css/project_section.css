@@ -24,3 +24,31 @@
     left: 200px;
     top: 30px;
 }
+
+
+
+
+
+@media all and (max-width: 767px) {
+    .circle01 {
+        position: relative;
+        background-color: #ff8800;
+        width: 10px;
+        height: 10px;
+        border-radius: 25px;
+        margin-top: 50px;
+        color: #fff3cd;
+        left: 64px;
+        top: 20px;
+    }
+
+    .line-project {
+        position: relative;
+        width: 3px;
+        height: 920px;
+        background-color: #ff8800;
+        left: 67px;
+        top: 30px;
+    }
+
+}
