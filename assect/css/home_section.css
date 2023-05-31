@@ -12,7 +12,7 @@
 
 .logo {
 
-    top: -36px;
+    top: -13px;
 
    /* top: -37px;*/
     position: absolute;
@@ -30,7 +30,7 @@
     position: absolute;
     /*    width: 100px;*/
     right: 65px;
-    top: -14px;
+    top: 7px;
 
 }
 
@@ -56,16 +56,16 @@
     border-radius: 25px;
     margin-top: 50px;
     color: #fff3cd;
-    left: 200px;
-    top: 50px;
+    left: 196px;
+    top: 90px;
 }
 .line{
     position: relative;
     width: 3px;
-    height: 810px;
+    height: 820px;
     background-color: #ff8800;
     left: 200px;
-    top: 50px;
+    top: 106px;
 }
 
 .line::after {
