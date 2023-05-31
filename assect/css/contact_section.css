@@ -46,19 +46,28 @@
 
 }
 
-.email > i{
-    width: 100px;
-    height: 50px;
+.bxl-gmail:before {
+    content: "\e906";
+    font-size: 40px;
 }
 
-.instagram {
+.bxs-phone-call:before{
+    content: "\e906";
+    font-size: 40px;
+}
+.bxl-whatsapp:before{
+    content: "\e906";
+    font-size: 40px;
+}
+
+.Phone {
     width: 135px;
     height: 135px;
     color: white;
 
 }
 
-.linkedin {
+.whatsapp {
     width: 135px;
     height: 135px;
     color: white;
