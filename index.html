@@ -133,8 +133,12 @@
                 </div>
             </div>
 
-            <!--<div class="card">
-                <div class="content">
+          <!--  <br>
+            <br>
+
+
+            <div class="cardP">
+                <div class="contentP">
                     <h2>02</h2>
                     <h3>card  two </h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque earum error
@@ -144,8 +148,11 @@
             </div>
 
 
-            <div class="card">
-                <div class="content">
+            <br>
+            <br>
+
+            <div class="cardP">
+                <div class="contentP">
                     <h2>03</h2>
                     <h3>card  three </h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque earum error
@@ -157,8 +164,6 @@
         </div>
 
 
-
-        <!---->
 
     </section>
 
@@ -476,7 +481,12 @@
 <script type="text/javascript" src="assect/vendor/particles.js"></script>
 <script type="text/javascript" src="assect/vendor/app.js"></script>
 <script>
-
+    VanillaTilt.init(document.querySelector(".cardP"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare":1,
+    });
 </script>
 </body>
 </html>
