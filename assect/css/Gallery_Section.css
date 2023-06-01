@@ -89,3 +89,98 @@
     position: absolute;
     right: 256px;
 }
+
+
+/*------------media queries-----------*/
+
+
+@media all and (max-width: 767px) {
+
+
+    .circle03{
+        position: relative;
+        background-color: #ff8800;
+        width: 10px;
+        height: 10px;
+        border-radius: 25px;
+        margin-top: 50px;
+        color: #fff3cd;
+        left: 64px;
+        top: 20px;
+    }
+
+    .line-gallery{
+        position: relative;
+        width: 3px;
+        height: 763px;
+        background-color: #ff8800;
+        left: 67px;
+        top: 30px;
+    }
+
+
+    .des-gal{
+        position: absolute;
+        left: 215px;
+        top: -7px;
+    }
+
+    .gal01{
+        top: 10px;
+        color: #877373;
+
+    }
+
+    #gallery-title{
+        font-family: Apple ,sans-serif;
+        color: #d7d1d1;
+        font-size: 20px;
+    }
+
+    .des-gal >h4{
+        color: #fff3cd;
+        font-family: Apple ,sans-serif;
+        font-size: 20px;
+    }
+
+    #gal-one{
+        color: #DCFF03;
+    }
+
+    #gal-two{
+        color: #BA0AF8;
+    }
+
+    .line-cros-gal{
+        position: absolute;
+        width: 309px;
+        height: 3px;
+        top: 802px;
+        background-color: #ff8b00;
+        left: 67px;
+    }
+
+    .gal02:before{
+        content: "01";
+        position: absolute;
+        right: 168px;
+    }
+    .gal03:before{
+        content: "02";
+        position: absolute;
+        right: 168px;
+    }
+    .gal04:before{
+        content: "03";
+        position: absolute;
+        right: 168px;
+    }
+
+    .gal05:before{
+        content: "04";
+        position: absolute;
+        right: 168px;
+    }
+
+
+}
