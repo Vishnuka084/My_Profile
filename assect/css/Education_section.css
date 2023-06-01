@@ -241,7 +241,7 @@
     .resume-item{
         position: absolute;
         top: 15px;
-        left: 72px;
+        left: 71px;
     }
 
 
@@ -281,7 +281,7 @@
     .edu2:before{
         content: "01";
         position: absolute;
-        right: 325px;
+        right: 312px;
 
     }
 
@@ -289,7 +289,7 @@
     .edu3:before{
         content: "02";
         position: absolute;
-        right: 325px;
+        right: 312px;
 
     }
 
@@ -297,14 +297,14 @@
     .edu4:before{
         content: "03";
         position: absolute;
-        right: 325px;
+        right: 312px;
 
     }
 
     .edu5:before{
         content: "04";
         position: absolute;
-        right: 325px;
+        right: 312px;
 
     }
 
@@ -312,7 +312,7 @@
     .edu6:before{
         content: "05";
         position: absolute;
-        right: 325px;
+        right: 312px;
 
     }
 
@@ -320,7 +320,7 @@
     .edu7:before{
         content: "06";
         position: absolute;
-        right: 325px;
+        right: 312px;
 
     }
 
@@ -328,7 +328,7 @@
     .edu8:before{
          content: "07";
         position: absolute;
-        right: 325px;
+        right: 312px;
 
     }
 
