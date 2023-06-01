@@ -220,17 +220,28 @@
     .line-edu{
         position: relative;
         width: 3px;
-        height: 180px;
+        height: 201px;
         background-color: #ff8800;
-        left: 20px;
-        top: 50px;
+        left: 67px;
+        top: 22px;
     }
 
+    .circle04{
+        position: relative;
+        background-color: #ff8800;
+        width: 10px;
+        height: 10px;
+        border-radius: 25px;
+        margin-top: 50px;
+        color: #fff3cd;
+        left: 64px;
+        top: 6px;
+    }
 
     .resume-item{
         position: absolute;
-        top: 5px;
-        left: 30px;
+        top: 15px;
+        left: 72px;
     }
 
 
@@ -246,11 +257,11 @@
 
     .line-cros{
         position: absolute;
-        width: 250px;
+        width: 302px;
         height: 3px;
         top: 230px;
         background-color: #ff8b00;
-        left: 20px;
+        left: 70px;
     }
 
     #zero{
@@ -325,7 +336,7 @@
 
     .Educate-art{
         position: absolute;
-        left: 50px;
+        left: 75px;
     }
 
     .olevel > h3 {
@@ -406,7 +417,8 @@
 
     .se-dgree {
         position: absolute;
-        top: 400px;
+        top: 359px;
+        left: -11px;
     }
 
     .se-dgree > h3 {

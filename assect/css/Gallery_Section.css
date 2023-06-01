@@ -95,8 +95,6 @@
 
 
 @media all and (max-width: 767px) {
-
-
     .circle03{
         position: relative;
         background-color: #ff8800;
@@ -127,6 +125,7 @@
 
     .gal01{
         top: 10px;
+        font-size: 10px;
         color: #877373;
 
     }
