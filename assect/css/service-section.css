@@ -253,26 +253,10 @@
     color: #ffffff;
     font-size: 20px;
 }
-
-/*.col:nth-child(4):hover {
-    background: #E2C39C;
-    box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
-    transition: .5s;
-}
-
-.col:nth-child(4):hover .s.se-four img {
-    background: white;
-}
-
-.col:nth-child(4):hover #four-p {
-    color: #ffffff;
-    font-size: 20px;
-}*/
-
 /*------------media queries-----------*/
 
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 767px) {
     .circle05{
         position: relative;
         background-color: #ff8800;
@@ -281,7 +265,7 @@
         border-radius: 25px;
         margin-top: 50px;
         color: #fff3cd;
-        left: 18px;
+        left: 63px;
         top: 20px;
     }
     .line-servi{
@@ -289,18 +273,24 @@
         width: 3px;
         height: 240px;
         background-color: #ff8800;
-        left: 21px;
+        left: 67px;
         top: 30px;
     }
 
 
     .line-cros-ser{
         position: absolute;
-        width: 331px;
+        width: 304px;
         height: 3px;
         top: 277px;
         background-color: #ff8b00;
-        left: 24px;
+        left: 69px;
+    }
+
+    #ser-title{
+        font-family: Apple ,sans-serif;
+        color: #d7d1d1;
+        font-size: 12px;
     }
 
 
@@ -318,8 +308,8 @@
         width: 3px;
         height: 28px;
         background-color: #ff8b00;
-        left: 202px;
-        top: 16px;
+        left: 218px;
+        top: 11px;
     }
 
 
@@ -333,7 +323,7 @@
     }
     .des-servi{
         position: absolute;
-        left: 32px;
+        left: 71px;
         top: 5px;
 
     }
@@ -349,6 +339,50 @@
         color: #fff3cd;
         font-family: Apple ,sans-serif;
         font-size: 10px;
+    }
+
+
+    .ser02:before{
+        content: "01";
+        position: absolute;
+        right: 174px;
+
+    }
+    .ser03:before{
+        content: "02";
+        position: absolute;
+        right: 174px;
+
+    }
+    .ser04:before{
+        content: "03";
+        position: absolute;
+        right: 174px;
+
+    }
+    .ser05:before{
+        content: "04";
+        position: absolute;
+        right: 174px;
+
+    }
+    .ser06:before{
+        content: "05";
+        position: absolute;
+        right: 174px;
+
+    }
+    .ser07:before{
+        content: "06";
+        position: absolute;
+        right: 174px;
+
+    }
+    .ser08:before{
+        content: "07";
+        position: absolute;
+        right: 174px;
+
     }
 
 
