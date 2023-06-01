@@ -1,6 +1,6 @@
 
 .education{
-    background-color: #071115;
+    background-color: #0d445b;
     position: relative;
     height: 100vh;
     width: 100%;
@@ -22,7 +22,7 @@
     margin-top: 50px;
     color: #fff3cd;
     left: 196px;
-    top: -14px;
+    top: 4px;
 }
 
 .resume-item > h5{
