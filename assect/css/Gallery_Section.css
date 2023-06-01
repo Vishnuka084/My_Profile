@@ -119,8 +119,8 @@
 
     .des-gal{
         position: absolute;
-        left: 215px;
-        top: -7px;
+        left: 73px;
+        top: 10px;
     }
 
     .gal01{
@@ -133,13 +133,13 @@
     #gallery-title{
         font-family: Apple ,sans-serif;
         color: #d7d1d1;
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .des-gal >h4{
         color: #fff3cd;
         font-family: Apple ,sans-serif;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     #gal-one{
