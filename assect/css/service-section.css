@@ -386,5 +386,115 @@
     }
 
 
+/* -------------   card ------*/
+    .service-content {
+        display: grid;
+        grid-template-columns:repeat(auto-fit, minmax(350px, auto));
+        grid-gap: 2rem;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 8em;
+
+    }
+
+    .col1 {
+        background: #031c25;
+        box-shadow: 18px 0px 87px 0px rgb(10 15 70/7%);
+        border-radius: 12px;
+        padding: 15px 15px 15px 15px;
+        transition: ease .45s;
+        cursor: pointer;
+    }
+
+    .s img {
+        height: 70px;
+        width: 70px;
+        background: #D18582;
+        padding: 15px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    .s.se-one img {
+        background: #92B5B7;
+    }
+
+    .s.se-two img {
+        background: #92B5B7;
+    }
+
+
+    .s.se-four img {
+        background: #92B5B7;
+    }
+
+    .col1 h3 {
+        color: #0DFF16;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 19px;
+    }
+
+    .col1 p {
+        font-size: 15px;
+        color: #615858;
+        line-height: 28px;
+    }
+
+    .col1 span {
+        font-size: 32px;
+    }
+
+    .col1:hover {
+        will-change: transform;
+        transform: perspective(1000px) rotateX(10.23deg) rotateY(4.80deg) scale3d(1.05, 1.05, 1.05);
+    }
+
+    .col1:nth-child(1):hover {
+
+        background: #91A5AE;
+        box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+        transition: .5s;
+    }
+
+    .col1:nth-child(1):hover .s.se-one img {
+        background: white;
+    }
+
+    .col1:nth-child(1):hover #one-p {
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .col1:nth-child(2):hover {
+        background: #D1CFA8;
+        box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+        transition: .5s;
+
+    }
+
+    .col1:nth-child(2):hover .s.se-two img {
+        background: white;
+    }
+
+    .col1:nth-child(2):hover #two-p {
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .col1:nth-child(3):hover {
+        background: #A98FE0;
+        box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+        transition: .5s;
+    }
+
+    .col1:nth-child(3):hover .s.se-tree img {
+        background: white;
+    }
+
+    .col1:nth-child(3):hover #tree-p {
+        color: #ffffff;
+        font-size: 20px;
+    }
 
 }
