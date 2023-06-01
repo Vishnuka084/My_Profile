@@ -25,9 +25,34 @@
     top: 30px;
 }
 
+.des-proj{
+    position: absolute;
+    top: 12px;
+    left: 215px;
+}
+
+.proj1{
+    color: #877373;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+#projrct-title{
+    font-family: Apple ,sans-serif;
+    color: #d7d1d1;
+    font-size: 20px;
+}
+
+.des-proj > h3{
+    color: #0DFF16;
+    left: 80px;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
 
 
-
+/*----<<<<<<<<<   mobile version >>>>>>>>>>-------*/
 
 @media all and (max-width: 767px) {
     .circle01 {
