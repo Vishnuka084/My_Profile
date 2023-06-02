@@ -117,13 +117,15 @@
         <div class="des-proj">
             <h5 class="proj1">My Recent work { <span id="projrct-title">My Project />  </span> } </h5>
             <h3>Web , mobile , Standalone Application </h3>
-             <h2>Standalon</h2>
+            <h2 id="standalone">Standalon</h2>
+            <h2 id="web">Web</h2>
         </div>
 
 
 
-        <!-- card  -->
+        <!--  3D card  -->
         <div class="containerP">
+            <!-------------StandAlone application------------>
             <div class="cardP">
                 <div class="contentP">
                     <h2>01</h2>
@@ -164,8 +166,59 @@
                 </div>
             </div>
 
-        </div>
+            <!-------------Web application------------>
+            <div class="cardP4">
+                <div class="contentP">
+                    <h2>04</h2>
+                    <h3>card  four </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque earum error
+                        illum laborum maiores neque perferendis possimus quia saepe temporibus.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
 
+            <div class="cardP5">
+                <div class="contentP">
+                    <h2>05</h2>
+                    <h3>card  three </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque earum error
+                        illum laborum maiores neque perferendis possimus quia saepe temporibus.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="cardP6">
+                <div class="contentP">
+                    <h2>06</h2>
+                    <h3>card  three </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque earum error
+                        illum laborum maiores neque perferendis possimus quia saepe temporibus.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="cardP7">
+                <div class="contentP">
+                    <h2>03</h2>
+                    <h3>card  three </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque earum error
+                        illum laborum maiores neque perferendis possimus quia saepe temporibus.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="cardP8">
+                <div class="contentP">
+                    <h2>03</h2>
+                    <h3>card  three </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque earum error
+                        illum laborum maiores neque perferendis possimus quia saepe temporibus.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+
+        </div>
 
 
     </section>
@@ -499,6 +552,20 @@
     });
 
     VanillaTilt.init(document.querySelector(".cardP2"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare":1,
+    });
+
+    VanillaTilt.init(document.querySelector(".cardP3"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare":1,
+    });
+
+    VanillaTilt.init(document.querySelector(".cardP4"), {
         max: 25,
         speed: 400,
         glare: true,
