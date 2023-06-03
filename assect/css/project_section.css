@@ -523,7 +523,7 @@
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
     top: -1706px;
-    left: 800px;
+    left: 877px;
 }
 
 
@@ -677,8 +677,8 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -906px;
-    left: 133px;
+    top: -1099px;
+    left: -652px;
 }
 
 
@@ -749,8 +749,8 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -1350px;
-    right: 103px;
+    top: -1149px;
+    left: 465px;
 }
 
 
@@ -820,8 +820,8 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -1750px;
-    left: 1470px;
+    top: -1200px;
+    left: 500px;
 }
 
 
@@ -863,6 +863,76 @@
 }
 
 .containerP .cardP10 .contentP  a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #fff;
+    color: #0000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+/*---------card 11 --------*/
+.containerP .cardP11{
+    position: relative;
+    width: 360px;
+    height: 255px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    top: -1050px;
+    left: 550px;
+}
+
+
+.containerP .cardP11 .contentP {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+
+.containerP .cardP11:hover .contentP {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+.containerP .cardP11 .contentP  h2{
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+}
+
+.containerP .cardP11 .contentP  h3{
+    font-size: 1.8em;
+    color: #fff;
+    z-index: 1;
+}
+
+.containerP .cardP11 .contentP  p{
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+}
+
+.containerP .cardP11 .contentP  a{
     position: relative;
     display: inline-block;
     padding: 8px 20px;
