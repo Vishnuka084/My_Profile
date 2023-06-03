@@ -448,7 +448,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -1380px;
+    top: -1265px;
     left: -242px;
 }
 
@@ -522,7 +522,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -1480px;
+    top: -1706px;
     left: 800px;
 }
 
@@ -650,6 +650,15 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
 }
+
+.des-proj #Assigment{
+    font-family: Apple ,sans-serif;
+    font-size: 120px;
+    color: #424242;
+    margin-top: 400px;
+    margin-left: 100px;
+}
+
 
 /*----<<<<<<<<<   mobile version >>>>>>>>>>-------*/
 
