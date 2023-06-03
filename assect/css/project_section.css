@@ -19,7 +19,7 @@
 .line-project{
     position: relative;
     width: 3px;
-    height: 920px;
+    height: 1850px;
     background-color: #ff8800;
     left: 200px;
     top: 30px;
@@ -94,7 +94,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -760px;
+    top: -1650px;
     left: 75px;
 }
 
@@ -164,7 +164,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -613px;
+    top: -1550px;
     left: 133px;
 }
 
@@ -236,7 +236,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -677px;
+    top: -1600px;
     left: 268px;
 }
 
@@ -307,7 +307,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -764px;
+    top: -1750px;
     left: 1470px;
 }
 
@@ -377,7 +377,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -520px;
+    top: -1480px;
     right: 289px;
 }
 
@@ -448,7 +448,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -341px;
+    top: -1380px;
     left: -242px;
 }
 
@@ -522,7 +522,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -677px;
+    top: -1480px;
     left: 800px;
 }
 
@@ -595,7 +595,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -633px;
+    top: -1530px;
     left: 934px;
 }
 
