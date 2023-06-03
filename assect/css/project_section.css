@@ -237,7 +237,7 @@
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
     top: -677px;
-    left: 240px;
+    left: 268px;
 }
 
 
@@ -308,7 +308,7 @@
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
     top: -764px;
-    left: 1400px;
+    left: 1470px;
 }
 
 
@@ -377,7 +377,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -800px;
+    top: -520px;
     right: 289px;
 }
 
@@ -505,6 +505,8 @@
 }
 
 
+
+
 /*---------card 6 --------*/
 .containerP .cardP6{
     position: relative;
@@ -520,8 +522,8 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -585px;
-    left: 949px;
+    top: -677px;
+    left: 800px;
 }
 
 
@@ -577,8 +579,9 @@
 }
 
 
+
 /*---------card 7 --------*/
-.containerP .cardP4{
+.containerP .cardP7{
     position: relative;
     width: 360px;
     height: 255px;
@@ -592,12 +595,12 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -500px;
-    right: 444px;
+    top: -764px;
+    left: 1470px;
 }
 
 
-.containerP .cardP4 .contentP {
+.containerP .cardP7 .contentP {
     padding: 20px;
     text-align: center;
     transform: translateY(100px);
@@ -607,13 +610,13 @@
 }
 
 
-.containerP .cardP4:hover .contentP {
+.containerP .cardP7:hover .contentP {
     transform: translateY(0px);
     opacity: 1;
 }
 
 
-.containerP .cardP4 .contentP  h2{
+.containerP .cardP7 .contentP  h2{
     position: absolute;
     top: -80px;
     right: 30px;
@@ -622,19 +625,19 @@
     pointer-events: none;
 }
 
-.containerP .cardP4 .contentP  h3{
+.containerP .cardP7 .contentP  h3{
     font-size: 1.8em;
     color: #fff;
     z-index: 1;
 }
 
-.containerP .cardP4 .contentP  p{
+.containerP .cardP7 .contentP  p{
     font-size: 1em;
     color: white;
     font-weight: 300;
 }
 
-.containerP .cardP4 .contentP  a{
+.containerP .cardP7 .contentP  a{
     position: relative;
     display: inline-block;
     padding: 8px 20px;
