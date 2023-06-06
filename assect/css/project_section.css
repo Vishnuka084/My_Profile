@@ -68,6 +68,16 @@
 
 }
 
+.des-proj #more01,#more02,#more03{
+    font-family: sans-serif;
+    font-size: 13px;
+    border: 3px  solid #ab7030;
+    border-radius: 3px;
+    background-color: #01151c;
+    color: #736464;
+
+}
+
 /* -----------card  0---------------------*/
 
 .containerP{
@@ -94,7 +104,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    top: -1650px;
+    top: -1685px;
     left: 75px;
 }
 
@@ -655,7 +665,7 @@
     font-family: Apple ,sans-serif;
     font-size: 120px;
     color: #424242;
-    margin-top: 400px;
+    margin-top: 330px;
     margin-left: 100px;
 }
 
