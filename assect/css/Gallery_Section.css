@@ -372,7 +372,6 @@
     text-transform: uppercase;
 }
 
-
 .imgContent2 h2 span{
     font-weight: 300;
     font-size: 0.75em;
@@ -399,7 +398,7 @@
 }
 
 
-/*-----------------------*/
+/*--------finish add gallery---------------*/
 .line-cros-gal{
     position: absolute;
     width: 1440px;
