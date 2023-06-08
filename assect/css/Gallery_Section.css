@@ -110,6 +110,10 @@
     z-index: 3;
     border-radius: 50%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .imgContent img{
@@ -121,7 +125,26 @@
     object-fit: cover;
     transition: 0.5s;
     pointer-events: none;
+    z-index: 3;
 }
+
+
+.box:hover  .imgContent img{
+    opacity: 0;
+}
+
+
+.imgContent h2 {
+    position: relative;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+
 .line-cros-gal{
     position: absolute;
     width: 1440px;
@@ -131,9 +154,7 @@
     left: 200px;
 }
 
-.box:hover  .imgContent{
-    opacity: 0;
-}
+
 
 .gal02:before{
     content: "01";
