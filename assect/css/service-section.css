@@ -299,8 +299,8 @@
         width: 3px;
         height: 28px;
         background-color: #ff8b00;
-        left: 202px;
-        top: 211px;
+        left: 214px;
+        top: 193px;
     }
 
     .cros-ser-ec{
@@ -318,8 +318,8 @@
         width: 3px;
         height: 28px;
         background-color: #ff8b00;
-        left: 210px;
-        top: 365px;
+        left: 214px;
+        top: 386px;
     }
     .des-servi{
         position: absolute;
@@ -406,7 +406,7 @@
         transition: ease .45s;
         cursor: pointer;
         width: 300px;
-        height: 100px;
+        height: 170px;
     }
 
     .s img {
@@ -415,7 +415,7 @@
         background: #D18582;
         padding: 15px;
         border-radius: 50%;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .s.se-one img {
