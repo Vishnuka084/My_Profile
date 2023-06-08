@@ -145,6 +145,28 @@
 }
 
 
+.imgContent h2 span{
+    font-weight: 300;
+    font-size: 0.75em;
+}
+
+.imgContent a {
+    position: relative;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #070a1c;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+
 .line-cros-gal{
     position: absolute;
     width: 1440px;
