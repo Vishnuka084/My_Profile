@@ -266,7 +266,7 @@
         margin-top: 50px;
         color: #fff3cd;
         left: 63px;
-        top: 20px;
+        top: -63px;
     }
     .line-servi{
         position: relative;
@@ -274,7 +274,7 @@
         height: 240px;
         background-color: #ff8800;
         left: 67px;
-        top: 30px;
+        top: -52px;
     }
 
 
@@ -282,7 +282,7 @@
         position: absolute;
         width: 304px;
         height: 3px;
-        top: 277px;
+        top: 195px;
         background-color: #ff8b00;
         left: 69px;
     }
@@ -309,7 +309,7 @@
         height: 28px;
         background-color: #ff8b00;
         left: 218px;
-        top: 11px;
+        top: -77px;
     }
 
 
@@ -324,7 +324,7 @@
     .des-servi{
         position: absolute;
         left: 71px;
-        top: 5px;
+        top: -79px;
 
     }
 
@@ -332,6 +332,7 @@
         top: 10px;
         color: #877373;
         font-size: 10px;
+        margin-left: 4px;
 
     }
 
@@ -390,10 +391,10 @@
     .service-content {
         display: grid;
         grid-template-columns:repeat(auto-fit, minmax(350px, auto));
-        grid-gap: 2rem;
+        grid-gap: 3rem;
         align-items: center;
-        margin-top: 2rem;
-        margin-left: 8em;
+        margin-top: -100px;
+        margin-left: 50px;
 
     }
 
@@ -404,11 +405,13 @@
         padding: 15px 15px 15px 15px;
         transition: ease .45s;
         cursor: pointer;
+        width: 300px;
+        height: 100px;
     }
 
     .s img {
-        height: 70px;
-        width: 70px;
+        height: 30px;
+        width: 30px;
         background: #D18582;
         padding: 15px;
         border-radius: 50%;
@@ -430,19 +433,19 @@
 
     .col1 h3 {
         color: #0DFF16;
-        font-size: 20px;
+        font-size: 10px;
         font-weight: 500;
         margin-bottom: 19px;
     }
 
     .col1 p {
-        font-size: 15px;
+        font-size: 10px;
         color: #615858;
         line-height: 28px;
     }
 
     .col1 span {
-        font-size: 32px;
+        font-size: 12px;
     }
 
     .col1:hover {
@@ -463,7 +466,7 @@
 
     .col1:nth-child(1):hover #one-p {
         color: #ffffff;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .col1:nth-child(2):hover {
@@ -479,7 +482,7 @@
 
     .col1:nth-child(2):hover #two-p {
         color: #ffffff;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .col1:nth-child(3):hover {
@@ -494,7 +497,7 @@
 
     .col1:nth-child(3):hover #tree-p {
         color: #ffffff;
-        font-size: 20px;
+        font-size: 10px;
     }
 
 }
