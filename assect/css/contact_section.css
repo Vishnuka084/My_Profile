@@ -141,3 +141,140 @@
 }
 
 
+/*
+!*contact*!
+.contact-row{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-left{
+    flex-basis: 50%;
+}
+.contact-right{
+    flex-basis: 50%;
+}
+
+.contact-left p i{
+    color: #AE514A;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.contact-left .contact-a{
+    margin-top: 40px;
+}
+.contact-left a{
+    color: black;
+}
+.contact-left a i{
+    color: #AE514A;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: ease .40s;
+}
+.contact-right form{
+    margin-top: 40px;
+    width: 100%;
+}
+.contact-right form p{
+    margin-bottom: 15px;
+}
+.contact-right form span{
+    color: #AE514A;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #eeeeee;
+    padding: 15px;
+    margin: 15px 0;
+    color: #000000;
+    font-size: 14px;
+    border-radius: 6px;
+}
+form textarea{
+    height: 20vh;
+}
+.contact-btn{
+    display: inline-block;
+    color: white;
+    background: #214471;
+    font-size: 14px;
+    padding: 2px 19px;
+    font-weight: 500;
+    line-height: 27px;
+    border-radius: 30px;
+    transition: ease .40s;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    transform: scale(1.1);
+    color: white;
+    border: 2px solid #214471;
+    box-shadow: #214471 1px 1px 10px 2px;
+}
+.contact-row a:hover i{
+    transition: ease .40s;
+    transform: scale(1.1);
+    font-size: 30px;
+}
+.fab-container {
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    z-index: 999;
+    cursor: pointer;
+    transition: bottom 250ms ease-out;
+}
+.fab-container {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 999;
+    cursor: pointer;
+    transition: bottom 250ms ease-out;
+}
+.fab-btn {
+    width: 60px;
+    height: 60px;
+    background: #127369;
+    box-shadow: 0 0 0 0 #8AA6A3;
+    animation: pulse-red 2s infinite;
+}
+.fab-icon-holder {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 0 6px 20px rgba(0,0,0,.2);
+}
+#optQuestion {
+    display: none;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+}
+.fab-icon-holder i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 25px;
+    color: #fff;
+}
+@keyframes pulse-red {
+    0% {
+        transform: scale(.95);
+        box-shadow: 0 0 0 0 #8AA6A3;
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 30px rgba(255,82,82,0);
+    }
+    100% {
+        transform: scale(.95);
+        box-shadow: 0 0 0 0 rgba(255,82,82,0);
+    }
+}*/
