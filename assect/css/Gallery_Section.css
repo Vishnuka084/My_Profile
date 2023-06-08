@@ -119,6 +119,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: 0.5s;
+    pointer-events: none;
 }
 .line-cros-gal{
     position: absolute;
@@ -127,6 +129,10 @@
     top: 802px;
     background-color: #ff8b00;
     left: 200px;
+}
+
+.box:hover  .imgContent{
+    opacity: 0;
 }
 
 .gal02:before{
