@@ -538,6 +538,38 @@
     }
 
 
+    .imgContent h2 {
+        position: relative;
+        font-size: 10px;
+        text-align: center;
+        color: #fff;
+
+        text-transform: uppercase;
+    }
+
+
+    .imgContent h2 span{
+        font-weight: 10;
+        font-size: 10px;
+    }
+
+    .imgContent a {
+        position: relative;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background: #ffffff;
+        color: #070a1c;
+        border-radius: 25px;
+        font-weight: 500;
+        font-size:10px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        transition: 0.5s;
+
+    }
+
+
     .box::before{
         content: '';
         position: absolute;
@@ -584,6 +616,36 @@
         animation: animate 4s linear infinite;
 
     }
+    .imgContent1 h2 {
+        position: relative;
+        font-size: 10px;
+        text-align: center;
+        color: #fff;
+
+        text-transform: uppercase;
+    }
+
+
+    .imgContent1 h2 span{
+        font-weight: 10;
+        font-size: 10px;
+    }
+
+    .imgContent1 a {
+        position: relative;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background: #ffffff;
+        color: #070a1c;
+        border-radius: 25px;
+        font-weight: 500;
+        font-size:10px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        transition: 0.5s;
+
+    }
 
     .box1:hover::before{
         inset: -20px 0px;
@@ -614,6 +676,37 @@
 
     .box2:hover::before{
         inset: -20px 0px;
+    }
+
+    .imgContent2 h2 {
+        position: relative;
+        font-size: 10px;
+        text-align: center;
+        color: #fff;
+
+        text-transform: uppercase;
+    }
+
+
+    .imgContent2 h2 span{
+        font-weight: 10;
+        font-size: 10px;
+    }
+
+    .imgContent2 a {
+        position: relative;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background: #ffffff;
+        color: #070a1c;
+        border-radius: 25px;
+        font-weight: 500;
+        font-size:10px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        transition: 0.5s;
+
     }
 
 
