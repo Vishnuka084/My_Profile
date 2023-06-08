@@ -123,21 +123,36 @@
 
 }
 
-/*
-.message{
-
-    border: 2px solid #808178;
-    font-size: 20px;
-
-}
-*/
-
-
 #messageBody{
     border-radius: 20px;
     width: 800px;
     height: 200px;
     background-color: #c5c2c2;
+}
+
+
+@media all and (max-width: 767px){
+
+    .circle06{
+        position: relative;
+        background-color: #ff8800;
+        width: 10px;
+        height: 10px;
+        border-radius: 25px;
+        margin-top: 50px;
+        color: #fff3cd;
+        left: 38px;
+        top: 146px;
+    }
+
+    .line-cont {
+        position: relative;
+        width: 3px;
+        height: 830px;
+        background-color: #ff8800;
+        left: 41px;
+        top: 158px;
+    }
 }
 
 
