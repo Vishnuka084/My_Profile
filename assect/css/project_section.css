@@ -1,3 +1,4 @@
+/*
 .projects{
     background-color: #071115;
     position: relative;
@@ -78,7 +79,7 @@
 
 }
 
-/* -----------card  0---------------------*/
+!* -----------card  0---------------------*!
 
 .containerP{
     position: relative;
@@ -161,7 +162,7 @@
 
 }
 
-/*---------card 1 --------*/
+!*---------card 1 --------*!
 .containerP .cardP1{
     position: relative;
     width: 360px;
@@ -233,7 +234,7 @@
 }
 
 
-/*---------card 2 --------*/
+!*---------card 2 --------*!
 .containerP .cardP2{
     position: relative;
     width: 360px;
@@ -304,7 +305,7 @@
 
 }
 
-/*---------card 3 --------*/
+!*---------card 3 --------*!
 .containerP .cardP3{
     position: relative;
     width: 360px;
@@ -374,7 +375,7 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
 }
-/*---------card 4 --------*/
+!*---------card 4 --------*!
 .containerP .cardP4{
     position: relative;
     width: 360px;
@@ -445,7 +446,7 @@
 
 }
 
-/*---------card 5 --------*/
+!*---------card 5 --------*!
 .containerP .cardP5{
     position: relative;
     width: 360px;
@@ -519,7 +520,7 @@
 
 
 
-/*---------card 6 --------*/
+!*---------card 6 --------*!
 .containerP .cardP6{
     position: relative;
     width: 360px;
@@ -592,7 +593,7 @@
 
 
 
-/*---------card 7 --------*/
+!*---------card 7 --------*!
 .containerP .cardP7{
     position: relative;
     width: 360px;
@@ -672,9 +673,9 @@
 }
 
 
-/*-----Mu Assigmnet --------*/
+!*-----Mu Assigmnet --------*!
 
-/*---------card 8 --------*/
+!*---------card 8 --------*!
 .containerP .cardP8{
     position: relative;
     width: 360px;
@@ -746,7 +747,7 @@
 }
 
 
-/*---------card 9 --------*/
+!*---------card 9 --------*!
 .containerP .cardP9{
     position: relative;
     width: 360px;
@@ -817,7 +818,7 @@
 
 }
 
-/*---------card 10 --------*/
+!*---------card 10 --------*!
 .containerP .cardP10{
     position: relative;
     width: 360px;
@@ -887,7 +888,7 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
 }
-/*---------card 11 --------*/
+!*---------card 11 --------*!
 .containerP .cardP11{
     position: relative;
     width: 360px;
@@ -957,7 +958,7 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
 }
-/*----<<<<<<<<<   mobile version >>>>>>>>>>-------*/
+!*----<<<<<<<<<   mobile version >>>>>>>>>>-------*!
 
 @media all and (max-width: 767px) {
     .circle01 {
@@ -982,3 +983,4 @@
     }
 
 }
+*/

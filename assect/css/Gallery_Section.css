@@ -494,7 +494,7 @@
 
     .line-cros-gal{
         position: absolute;
-        width: 309px;
+        width: 310px;
         height: 3px;
         top: 802px;
         background-color: #ff8b00;
@@ -506,11 +506,13 @@
         position: absolute;
         right: 165px;
     }
+
     .gal03:before{
         content: "02";
         position: absolute;
         right: 165px;
     }
+
     .gal04:before{
         content: "03";
         position: absolute;
@@ -522,6 +524,98 @@
         position: absolute;
         right: 165px;
     }
+
+    /* -image Box 01 --*/
+    .box{
+        top: -618px;
+        left: 109px;
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+
+    .box::before{
+        content: '';
+        position: absolute;
+        inset: -10px 50px;
+        background: linear-gradient(315deg, #ff4d00, #f8ff00);
+        transition: 0.5s;
+        animation: animate 4s linear infinite;
+
+    }
+
+    .box:hover::before{
+        inset: -20px 0px;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: rotate(0deg);
+        }
+        0% {
+            transform: rotate(360deg);
+        }
+    }
+
+
+    /* -image Box 02 --*/
+    .box1{
+        top: -610px;
+        left: 109px;
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+
+    .box1::before{
+        content: '';
+        position: absolute;
+        inset: -10px 50px;
+        background: linear-gradient(315deg, #ff4d00, #f8ff00);
+        transition: 0.5s;
+        animation: animate 4s linear infinite;
+
+    }
+
+    .box1:hover::before{
+        inset: -20px 0px;
+    }
+
+    /* -image Box 03 --*/
+    .box2{
+        top: -610px;
+        left: 109px;
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+
+    .box2::before{
+        content: '';
+        position: absolute;
+        inset: -10px 50px;
+        background: linear-gradient(315deg, #ff4d00, #f8ff00);
+        transition: 0.5s;
+        animation: animate 4s linear infinite;
+
+    }
+
+    .box2:hover::before{
+        inset: -20px 0px;
+    }
+
 
 
 }
