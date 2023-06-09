@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .container {
+            width: 98vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
+
+        .box {
+            width: 70px;
+            height: 20px;
+            margin: 10px;
+            border: 1px solid red;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<section class="container">
+    <div>
+        <button class="start">start</button>
+        <button class="end">end</button>
+    </div>
+    <audio id="audio" src="assets/audio/Knight Rider Sms ! Knight Rider ! Theme.mp3"></audio>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</section>
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script>
+    var lightNumber = 0;
+    var ligts = $('.box');
+    var direction = 'RIGHT';
+    var intervalId;
+    console.log(ligts);
+    function updateLights() {
+        $('.box').css({background: 'white'});
+        ligts[lightNumber].style.background = 'red';
+        if (lightNumber > 0) {
+            ligts[lightNumber - 1].style.background = 'pink';
+        }
+        if (lightNumber < 6) {
+            ligts[lightNumber + 1].style.background = 'pink';
+        }
+        if (lightNumber === 6) {
+            direction = 'LEFT'
+        }
+        if (lightNumber === 0) {
+            direction = 'RIGHT'
+        }
+        if (direction === 'RIGHT') {
+            lightNumber++;
+        } else {
+            lightNumber--;
+        }
+    }
+    $('.start').click(function () {
+        intervalId = setInterval(updateLights, 50);
+        $('#audio')[0].play();
+    });
+
+    $('.end').click(function () {
+        clearInterval(intervalId);
+        $('#audio')[0].pause();
+    })
+
+</script>
+</body>
+</html>
+
+React
+
+Reply
+
+
+
+
+
+
+
