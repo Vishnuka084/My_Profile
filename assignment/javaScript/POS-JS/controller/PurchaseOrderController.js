@@ -191,8 +191,8 @@ function purchaseOrder() {
     saveAlert();
     for (let cartItem of cartDB) {
         let searchItem1 = searchItem(cartItem.code);
-        var qtyOnHand = parseInt(searchItem1.qty) - parseInt(cartItem.qty);
-        updateItem(searchItem1.itemCode, searchItem1.itemName, searchItem1.unitPrice, qtyOnHand);
+            var qtyOnHand = parseInt(searchItem1.qty) - parseInt(cartItem.qty);
+            updateItem(searchItem1.itemCode, searchItem1.itemName, searchItem1.unitPrice, qtyOnHand);
     }
     cartDB = [];
     loadAllItems();
