@@ -35,8 +35,8 @@
 }
 .des-cont{
     position: relative;
-    left: 220px;
-    top: -847px;
+    left: 41px;
+    top: -743px;
 }
 
 .email {
@@ -76,7 +76,7 @@
 
 .des-contact{
     position: relative;
-    top: -700px;
+    top: -778px;
     left: 310px;
 }
 
@@ -157,5 +157,115 @@
         left: 41px;
         top: 158px;
     }
+
+    .cont01{
+        top: 10px;
+        color: #877373;
+    }
+
+    #cont-title{
+        font-family: Apple ,sans-serif;
+        color: #d7d1d1;
+        font-size: 10px;
+    }
+
+
+    .des-contact {
+        position: relative;
+        top: -761px;
+        left: 60px;
+    }
+
+    .email {
+        width: 80px;
+        height: 80px;
+        color: white;
+
+    }
+
+    .bxl-gmail:before {
+        content: "\e906";
+        font-size: 25px;
+    }
+
+    .bxs-phone-call:before{
+        content: "\e906";
+        font-size: 25px;
+    }
+    .bxl-whatsapp:before{
+        content: "\e906";
+        font-size: 25px;
+    }
+
+    .Phone {
+        width: 80px;
+        height: 80px;
+        color: white;
+
+    }
+
+    .whatsapp {
+        width: 90px;
+        height: 90px;
+        color: white;
+
+    }
+    .contact-form{
+        position: absolute;
+        top: 3px;
+        left: 200px;
+        height: 400px;
+    }
+
+    .first_row{
+        position: absolute;
+        top: 322px;
+        left: -201px;
+    }
+
+
+    .name {
+        border-radius: 20px;
+        border: 2px solid #575755;
+        font-size: 12px;
+        background-color: #4b4b47;
+        width: 300px;
+        height: 26px;
+
+    }
+
+    .mail{
+        border-radius: 20px;
+        border: 2px solid #575755;
+        font-size: 12px;
+        background-color: #4b4b47;
+        width: 300px;
+        height: 26px;
+    }
+
+
+    .subject {
+        border-radius: 20px;
+        border: 2px solid #575755;
+        font-size: 12px;
+        background-color: #4b4b47;
+        width: 300px;
+        height: 26px;
+
+    }
+
+    #messageBody{
+        border-radius: 20px;
+        width: 300px;
+        height: 154px;
+        background-color: #c5c2c2;
+    }
+
+    .des-contact  i{
+        color: #ff8800;
+        font-size: 10px;
+    }
 }
+
+
 

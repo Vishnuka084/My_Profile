@@ -112,11 +112,8 @@
 @media all and (max-width: 767px) {
 
     .slideshow {
-        margin: 0 auto;
-        padding-top: 170px;
-        height: 200px;
-        width: 50%;
-        background-color: #071115;
-        box-sizing: border-box;
+        display: flex;
+        top: 500px;
+
     }
 }
