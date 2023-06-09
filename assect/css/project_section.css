@@ -2,7 +2,7 @@
     background-color: #071115;
     position: relative;
     width: 100%;
-    height: 200vh;
+    height: 300vh;
 }
 
 .circle01{
@@ -975,7 +975,7 @@
     .line-project {
         position: relative;
         width: 3px;
-        height: 1570px;
+        height: 1763px;
         background-color: #ff8800;
         left: 67px;
         top: -38px;
@@ -1029,7 +1029,7 @@
         font-size: 69px;
         color: #424242;
         margin-top: 330px;
-        margin-left: -33px;
+        margin-left: -42px;
     }
 
     .des-proj #more01,#more02,#more03{
@@ -1144,7 +1144,7 @@
         left: 82px;
     }
 
-        .containerP .cardP5{
+    .containerP .cardP5{
         position: relative;
         width: 240px;
         height: 200px;
@@ -1159,6 +1159,112 @@
         border-left: 1px solid rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(5px);
         top: -1477px;
+        left: 82px;
+    }
+    .containerP .cardP6{
+        position: relative;
+        width: 240px;
+        height: 200px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -1470px;
+        left: 82px;
+    }
+    .containerP .cardP7{
+        position: relative;
+        width: 240px;
+        height: 200px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -1470px;
+        left: 82px;
+    }
+
+    .containerP .cardP8{
+        position: relative;
+        width: 240px;
+        height: 200px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -1470px;
+        left: 82px;
+    }
+
+    .containerP .cardP9{
+        position: relative;
+        width: 240px;
+        height: 200px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -1470px;
+        left: 82px;
+    }
+
+    .containerP .cardP10{
+        position: relative;
+        width: 240px;
+        height: 200px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -1470px;
+        left: 82px;
+    }
+
+    .containerP .cardP11{
+        position: relative;
+        width: 240px;
+        height: 200px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -1470px;
         left: 82px;
     }
 
