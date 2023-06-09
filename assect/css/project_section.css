@@ -1007,4 +1007,102 @@
         margin-top: 5px;
         margin-left: 20px;
     }
+    .des-proj #standalone{
+        font-family: Apple ,sans-serif;
+        font-size: 23px;
+        color: #424242;
+        margin-left: 1150px;
+    }
+
+    .des-proj #web{
+        font-family: Apple ,sans-serif;
+        font-size: 23px;
+        color: #424242;
+        margin-top: 226px;
+        margin-right: 20px;
+
+    }
+
+    .des-proj #more01,#more02,#more03{
+        font-family: sans-serif;
+        font-size: 6px;
+        border: 3px  solid #ab7030;
+        border-radius: 3px;
+        background-color: #01151c;
+        color: #736464;
+
+    }
+
+    .containerP .cardP{
+        position: relative;
+        width: 250px;
+        height: 150px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -927px;
+        left: 75px;
+    }
+
+    .containerP .cardP1{
+        position: relative;
+        width: 250px;
+        height: 150px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -898px;
+        left: 78px;
+    }
+
+    .containerP .cardP2{
+        position: relative;
+        width: 250px;
+        height: 150px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -875px;
+        left: 78px;
+    }
+    .containerP .cardP3{
+        position: relative;
+        width: 250px;
+        height: 150px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -875px;
+        left: 78px;
+    }
+
 }
+
