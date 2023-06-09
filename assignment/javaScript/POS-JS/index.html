@@ -126,7 +126,29 @@
 
         <!-- Customers -->
         <aside id="customer" class="d-flex flex-column align-items-center justify-content-evenly w-100 h-100">
-
+            <!-- Search bar -->
+            <div class="row">
+                <nav class="navbar">
+                    <div class="container-fluid d-flex flex-column flex-lg-row">
+                        <form class="d-flex flex-column flex-lg-row" role="search">
+                            <input class="form-control me-2 mb-2 mb-lg-0" type="search" placeholder="Search"
+                                   aria-label="Search" id="txtCustomerSearch">
+                            <select class="btn btn-warning dropdown-toggle me-2 mb-2 mb-lg-0" type="button"
+                                    id="cusSearch"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <option><a class="dropdown-item" href="#">Customer Id</a></option>
+                                <option><a class="dropdown-item" href="#">Name</a></option>
+                            </select>
+                            <button class="btn btn-outline-success me-2" type="submit">Search</button>
+                        </form>
+                        <!-- Add Customers Button -->
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop" id="btnAddNewCustomer">
+                            Add New Customer
+                        </button>
+                    </div>
+                </nav>
+            </div>
 
 
 
