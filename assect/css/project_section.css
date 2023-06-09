@@ -1018,7 +1018,7 @@
         font-family: Apple ,sans-serif;
         font-size: 80px;
         color: #424242;
-        margin-top: 638px;
+        margin-top: 588px;
         margin-right: 20px;
 
     }
@@ -1042,6 +1042,7 @@
 
     }
 
+    /*Stand alone application*/
     .containerP{
         position: relative;
         display: flex;
@@ -1067,7 +1068,7 @@
         border-left: 1px solid rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(5px);
         top: -1580px;
-        left: 55px;
+        left: 82px;
     }
 
     .containerP .cardP1{
@@ -1084,8 +1085,8 @@
         border-top: 1px solid rgba(255, 255, 255, 0.5);
         border-left: 1px solid rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(5px);
-        top: -1537px;
-        left: 55px;
+        top: -1572px;
+        left: 82px;
     }
 
 
@@ -1103,8 +1104,8 @@
         border-top: 1px solid rgba(255, 255, 255, 0.5);
         border-left: 1px solid rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(5px);
-        top: -1523px;
-        left: 55px;
+        top: -1562px;
+        left: 82px;
     }
     .containerP .cardP3{
         position: relative;
@@ -1120,9 +1121,47 @@
         border-top: 1px solid rgba(255, 255, 255, 0.5);
         border-left: 1px solid rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(5px);
-        top: -1508px;
-        left: 55px;
+        top: -1545px;
+        left: 82px;
     }
+
+    /*Web Development */
+    .containerP .cardP4{
+        position: relative;
+        width: 240px;
+        height: 200px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -1487px;
+        left: 82px;
+    }
+
+        .containerP .cardP5{
+        position: relative;
+        width: 240px;
+        height: 200px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -1477px;
+        left: 82px;
+    }
+
 
 
 }
