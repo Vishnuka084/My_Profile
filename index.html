@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assect/css/normalize.css">
 
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -139,7 +141,7 @@
         <!--  3D card  -->
         <div class="containerP">
             <!-------------StandAlone application------------>
-            <div class="cardP">
+            <div data-aos="fade-right"  class="cardP">
                 <div class="contentP">
                     <h2>01</h2>
                     <h3>Hospital Management System</h3>
@@ -148,7 +150,7 @@
                 </div>
             </div>
 
-            <div class="cardP1">
+            <div data-aos="fade-right" class="cardP1">
                 <div class="contentP">
                     <h2>02</h2>
                     <h3>TransEx Delivery System </h3>
@@ -157,7 +159,7 @@
                 </div>
             </div>
 
-            <div class="cardP2">
+            <div data-aos="fade-right" class="cardP2">
                 <div class="contentP">
                     <h2>03</h2>
                     <h3>Hostel Management System</h3>
@@ -166,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="cardP3">
+            <div data-aos="fade-right" class="cardP3">
                 <div class="contentP">
                     <h2>03</h2>
                     <h3>SupperMarket Management System </h3>
@@ -176,7 +178,7 @@
             </div>
 
             <!-------------Web application------------>
-            <div class="cardP4">
+            <div data-aos="fade-right" class="cardP4">
                 <div class="contentP">
                     <h2>04</h2>
                     <h3>card  four </h3>
@@ -186,7 +188,7 @@
                 </div>
             </div>
 
-            <div class="cardP5">
+            <div data-aos="fade-right" class="cardP5">
                 <div class="contentP">
                     <h2>05</h2>
                     <h3>card  five </h3>
@@ -196,7 +198,7 @@
                 </div>
             </div>
 
-          <div class="cardP6">
+          <div data-aos="fade-right" class="cardP6">
                 <div class="contentP">
                     <h2>06</h2>
                     <h3>card  six </h3>
@@ -206,7 +208,7 @@
                 </div>
             </div>
 
-            <div class="cardP7">
+            <div data-aos="fade-right" class="cardP7">
                 <div class="contentP">
                     <h2>03</h2>
                     <h3>card  seven </h3>
@@ -218,7 +220,7 @@
 
 
             <!--------------------  Assigment ------------------------->
-            <div class="cardP8">
+            <div data-aos="fade-right" class="cardP8">
                 <div class="contentP">
                     <h2>08</h2>
                     <h3>POS </h3>
@@ -606,6 +608,10 @@
 <script type="text/javascript" src="assect/vendor/vanilla-tilt.js"></script>
 <script type="text/javascript" src="assect/vendor/particles.js"></script>
 <script type="text/javascript" src="assect/vendor/app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script>
     VanillaTilt.init(document.querySelector(".cardP"), {
         max: 25,
