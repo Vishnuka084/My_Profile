@@ -102,6 +102,9 @@
 
 }
 
+.content > h4 {
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+}
 
 .animated-text{
     font-size: 80px;
