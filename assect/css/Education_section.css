@@ -32,7 +32,7 @@
 
 .resume-item >h4{
     color: #fff3cd;
-    font-family: Apple ,sans-serif;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     font-size: 20px;
 }
 #zero{
@@ -247,7 +247,7 @@
 
     .resume-item >h4{
         color: #fff3cd;
-        font-family: Apple ,sans-serif;
+        font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
         font-size: 10px;
     }
     .resume-item > h5{
