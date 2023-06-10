@@ -40,14 +40,14 @@
 }
 
 #gallery-title{
-    font-family: Apple ,sans-serif;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     color: #d7d1d1;
     font-size: 20px;
 }
 
 .des-gal >h4{
     color: #fff3cd;
-    font-family: Apple ,sans-serif;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     font-size: 20px;
 }
 
