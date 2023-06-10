@@ -48,14 +48,14 @@
 }
 
 #abou-title{
-    font-family: Apple ,sans-serif;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     color: #d7d1d1;
     font-size: 20px;
 }
 
 .des-about > h4{
     color: white;
-    font-family: Apple ,sans-serif;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     font-size: 20px;
 }
 
@@ -192,14 +192,14 @@
     }
 
     #abou-title {
-        font-family: Apple ,sans-serif;
+        font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
         color: #d7d1d1;
         font-size: 12px;
     }
 
     .des-about > h4 {
         color: white;
-        font-family: Apple ,sans-serif;
+        font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
         font-size: 10px;
     }
 
