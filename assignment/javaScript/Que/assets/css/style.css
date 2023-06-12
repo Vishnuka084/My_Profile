@@ -2,3 +2,43 @@ body{
     background-color: #5d3a11;
 }
 
+
+#mainSec{
+    border: 1px solid #533554;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 1400px;
+    height: 686px;
+    background-color: white;
+    box-shadow: rgba(38, 57, 77) 0px 20px 30px -10px , rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+#container {
+    height: 80px;
+    width: 90vw;
+    border-bottom: 2px dashed red;
+    display: flex;
+    justify-content: flex-end;
+    top: 74px;
+    position: relative;
+}
+
+#container > div {
+    width: 116px;
+    height: 70px;
+    background-color: red;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+    margin-right: -101px;
+    right: 236px;
+}
+
+#container > img
+{
+    width: 130px;
+}
