@@ -42,10 +42,13 @@
     color: #BA0AF8;
 }
 .abou01{
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
     top: 10px;
     color: #877373;
 
 }
+
 
 #abou-title{
     font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
