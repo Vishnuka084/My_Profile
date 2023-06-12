@@ -201,7 +201,7 @@
 .btn:hover{
     background: #f3a556;
     color: #fff3cd;
-    box-shadow: 0 0 50px #3c00ff;
+    box-shadow: 0 0 50px #ff8800;
     transition-delay: 0.5s;
 }
 
