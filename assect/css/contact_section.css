@@ -11,16 +11,17 @@
     border-radius: 25px;
     margin-top: 50px;
     color: #fff3cd;
-    left: 196px;
+    left: 172px;
     top: 20px;
 }
 .cont01{
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     top: 10px;
     color: #877373;
 }
 
 #cont-title{
-    font-family: Apple ,sans-serif;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     color: #d7d1d1;
     font-size: 20px;
 }
@@ -30,7 +31,7 @@
     width: 3px;
     height: 830px;
     background-color: #ff8800;
-    left: 200px;
+    left: 175px;
     top: 30px;
 }
 .des-cont{
