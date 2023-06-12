@@ -33,6 +33,7 @@
 
 }
 .ser01{
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     top: 10px;
     color: #877373;
 
@@ -103,43 +104,43 @@
 .ser02:before{
     content: "01";
     position: absolute;
-    right: 318px;
+    right: 395px;
 
 }
 .ser03:before{
     content: "02";
     position: absolute;
-    right: 318px;
+    right: 395px;
 
 }
 .ser04:before{
     content: "03";
     position: absolute;
-    right: 318px;
+    right: 395px;
 
 }
 .ser05:before{
     content: "04";
     position: absolute;
-    right: 318px;
+    right: 395px;
 
 }
 .ser06:before{
     content: "05";
     position: absolute;
-    right: 318px;
+    right: 395px;
 
 }
 .ser07:before{
     content: "06";
     position: absolute;
-    right: 318px;
+    right: 395px;
 
 }
 .ser08:before{
     content: "07";
     position: absolute;
-    right: 318px;
+    right: 395px;
 
 }
 
@@ -186,13 +187,15 @@
 }
 
 .col1 h3 {
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     color: #0DFF16;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
     margin-bottom: 19px;
 }
 
 .col1 p {
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     font-size: 15px;
     color: #615858;
     line-height: 28px;
