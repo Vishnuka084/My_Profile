@@ -17,7 +17,8 @@
    /* top: -37px;*/
     position: absolute;
     color: #fff3cd;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
     font-size: 30px;
     left: 50px;
 }
@@ -84,21 +85,24 @@
 
 .content >h1 {
     color: #fff3cd;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
     font-size: 35px;
 }
 
 .content > h3 {
     color: #fff3cd;
-    font-family: "Open Sans", sans-serif;
-    font-size: 22px;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
+    font-size: 25px;
     padding-left: 125px;
 
 }
 .content > h3 > span{
     color: #ff8600;
-    font-family:  sans-serif;
-    font-size: 40px;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
+    font-size: 50px;
 
 }
 
@@ -107,7 +111,7 @@
 }
 
 .animated-text{
-    font-size: 80px;
+    font-size: 82px;
     font-weight: 600;
     min-width: 280px;
     color: #fff3cd;

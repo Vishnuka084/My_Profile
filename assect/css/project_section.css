@@ -32,18 +32,23 @@
 }
 
 .proj1{
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
     color: #877373;
     font-size: 13px;
     margin-top: 5px;
 }
 
 #projrct-title{
-    font-family: Apple ,sans-serif;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
     color: #d7d1d1;
     font-size: 20px;
 }
 
 .des-proj > h3{
+    font-family: 'SF Mono',monospace;
+
     color: #0DFF16;
     left: 80px;
     font-size: 40px;
