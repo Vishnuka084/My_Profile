@@ -8,36 +8,71 @@
 </head>
 <body>
 
-<main id="mainSec">
+<main >
 
-    <section class="container-fluid">
-        <section class="row mt-3">
-            <section class="col-4">
-
-                <div class="mb-3">
-                    <label class="form-label">Name</label>
-                    <input  class="form-control" id="txtColor" type="text">
-                </div>
-
-                <div>
-                    <button class="btn btn-danger">Add to Que</button>
-                </div>
-
-            </section>
-        </section>
+    <section>
+        <div>
+            <img src="assets/img/man.gif" alt="man">
+            <h4>F</h4>
+        </div>
+        <div>
+            <img src="assets/img/man.gif" alt="man">
+            <h4>E</h4>
+        </div>
+        <div>
+            <img src="assets/img/man.gif" alt="man">
+            <h4>D</h4>
+        </div>
+        <div>
+            <img src="assets/img/man.gif" alt="man">
+            <h4>C</h4>
+        </div>
+        <div>
+            <img src="assets/img/man.gif" alt="man">
+            <h4>B</h4>
+        </div>
+        <div>
+            <img src="assets/img/man.gif" alt="man">
+            <h4>A</h4>
+        </div>
     </section>
 
-
-    <main>
-        <section class="mt-5" id="container"></section>
-        <section id="img"></section>
-
-    </main>
+    <section>
+        <img src="assets/img/img.png" alt="fuel">
+    </section>
 
 </main>
 <script src="assets/js/jquery-3.6.1.min.js"></script>
 
 <script>
+    let imgSrc = "assets/img/man.gif";
+    let queData = {
+        men: [
+            {letter: "A", img: imgSrc},
+            {letter: "B", img: imgSrc},
+            {letter: "C", img: imgSrc},
+            {letter: "D", img: imgSrc},
+            {letter: "E", img: imgSrc},
+            {letter: "F", img: imgSrc}
+        ],
+        nextMan: function () {
+            let lastMan = this.men.pop();
+            this.men.unshift(lastMan);
+        }
+    }
+
+    renderQue();
+
+    function renderQue() {
+        $("main> section:first-child").empty();
+        for (let i = 0; i < queData.men.length; i++) {
+            $("main> section:first-child").append(`<div><img src="${queData.men[i].img}" alt="man"><h4>${queData.men[i].letter}</h4></div>`);
+        }
+        queData.nextMan();
+    }
+
+    setInterval(renderQue, 3000);
+
 
 
 </script>
