@@ -66,7 +66,8 @@
     position: relative;
     width: 400px;
     height: 400px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #071115;
+   /* background-color: rgba(0, 0, 0, 0.5);*/
     border-radius: 50%;
     overflow: hidden;
 }
@@ -179,7 +180,7 @@
     position: relative;
     width: 400px;
     height: 400px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #071115;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -294,7 +295,7 @@
     position: relative;
     width: 400px;
     height: 400px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #071115;
     border-radius: 50%;
     overflow: hidden;
 }
