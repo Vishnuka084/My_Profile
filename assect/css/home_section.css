@@ -93,7 +93,6 @@
 .content > h3 {
     color: #fff3cd;
     font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
-
     font-size: 25px;
     padding-left: 125px;
 
@@ -101,7 +100,6 @@
 .content > h3 > span{
     color: #ff8600;
     font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
-
     font-size: 50px;
 
 }
@@ -174,7 +172,7 @@
 
 
 .content > h4{
-    font-size: 20px;
+    font-size: 22px;
     color: #fff3cd;
 }
 
