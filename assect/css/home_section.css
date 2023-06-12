@@ -209,13 +209,16 @@
 .btnTalk:hover{
     background: #f3a556;
     color: #fff3cd;
-    box-shadow: 0 0 50px #3c00ff;
+    box-shadow: 0 0 50px #ff8b00;
     transition-delay: 0.5s;
 }
 
 .social-links :hover{
     box-shadow: 0 0 50px rgba(191, 191, 222, 0.76);
     transition-delay: 0.5s;
+}
+.buttons{
+    font-size: 100px;
 }
 
 
