@@ -1044,7 +1044,7 @@
 
 
     #projrct-title{
-        font-family: Apple ,sans-serif;
+        font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
         color: #d7d1d1;
         font-size: 14px;
     }
