@@ -1321,8 +1321,9 @@
 
 }
 
+/*
 
-/*----<<<<<<<<<   Tab version >>>>>>>>>>-------*/
+!*----<<<<<<<<<   Tab version >>>>>>>>>>-------*!
 
 @media  (max-width: 768px) {
     .projects{
@@ -1413,7 +1414,7 @@
 
     }
 
-    /*Stand alone application*/
+    !*Stand alone application*!
     .containerP{
         position: relative;
         display: flex;
@@ -1496,7 +1497,7 @@
            left: 300px;
        }
 
-     /*  Web Development*/
+     !*  Web Development*!
      .containerP .cardP4{
          position: relative;
          width: 220px;
@@ -1644,3 +1645,4 @@
 
 }
 
+*/

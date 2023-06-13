@@ -717,8 +717,9 @@
 
 }
 
+/*
 
-/* ---<<Tab versions >>-------------*/
+!* ---<<Tab versions >>-------------*!
 
 @media (max-width: 768px) {
     .circle03{
@@ -810,7 +811,7 @@
         right: 193px;
     }
 
-    /* -image Box 01 --*/
+    !* -image Box 01 --*!
     .box{
         top: -618px;
         left: 109px;
@@ -879,7 +880,7 @@
     }
 
 
-    /* -image Box 02 --*/
+    !* -image Box 02 --*!
     .box1{
         top: -610px;
         left: 109px;
@@ -936,7 +937,7 @@
         inset: -20px 0px;
     }
 
-    /* -image Box 03 --*/
+    !* -image Box 03 --*!
     .box2{
         top: -610px;
         left: 109px;
@@ -996,4 +997,4 @@
 
 
 
-}
+}*/

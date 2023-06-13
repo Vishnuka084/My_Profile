@@ -425,10 +425,11 @@
 
 
 }
+/*
 
 
 
-/*---Tab Version----*/
+!*---Tab Version----*!
 @media  (max-width: 768px) {
     .logo {
         top: -29px;
@@ -442,7 +443,7 @@
 
     .social-links{
         position: absolute;
-        /*    width: 100px;*/
+        !*    width: 100px;*!
         right: 170px;
         top: -20px;
 
@@ -554,4 +555,4 @@
 
 
 
-}
+}*/
