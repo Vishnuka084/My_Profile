@@ -160,7 +160,7 @@
 
 /*------------media queries-----------*/
 
-
+/*---Mobile version --------*/
 @media (max-width: 375px){
 
     .circle02 {
@@ -296,8 +296,143 @@
         right: 318px;
     }
 
+}
+
+
+/*---Tab version --------*/
+@media (max-width: 768px){
+
+    .circle02 {
+        position: relative;
+        background-color: #ff8800;
+        width: 10px;
+        height: 10px;
+        border-radius: 25px;
+        margin-top: 50px;
+        color: #fff3cd;
+        left: 63px;
+        top: 24px;
+    }
+    .line-about {
+        position: relative;
+        width: 3px;
+        height: 700px;
+        background-color: #ff8800;
+        left: 67px;
+        top: 30px;
+    }
+    .des-about {
+        position: absolute;
+        left: 75px;
+        top: 8PX;
+    }
+
+    .abou01{
+        top: 15px;
+        font-size: 10px;
+        color: #877373;
+    }
+
+    #abou-title {
+        font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+        color: #d7d1d1;
+        font-size: 20px;
+    }
+
+    .des-about > h4 {
+        color: white;
+        font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+        font-size: 12px;
+    }
 
 
 
+
+    .abou02:before{
+        content: "01";
+        position: absolute;
+        right: 701px;
+    }
+    .abou03:before{
+        content: "02";
+        position: absolute;
+        right: 701px;
+    }
+    .abou04:before{
+        content: "03";
+        position: absolute;
+        right: 701px;
+    }
+    .abou05:before{
+        content: "04";
+        position: absolute;
+        right: 701px;
+    }
+    .abou06:before{
+        content: "05";
+        position: absolute;
+        right: 701px;
+    }
+    .abou07:before{
+        content: "06";
+        position: absolute;
+        right: 701px;
+    }
+    .abou08:before{
+        content: "07";
+        position: absolute;
+        right: 701px;
+    }
+    .abou09:before{
+        content: "08";
+        position: absolute;
+        right: 318px;
+    }
+    .abou10:before{
+        content: "09";
+        position: absolute;
+        right: 701px;
+    }
+    .abou11:before{
+        content: "10";
+        position: absolute;
+        right: 701px;
+    }
+
+    .abou12:before{
+        content: "11";
+        position: absolute;
+        right: 701px;
+    }
+
+    .abou13:before{
+        content: "12";
+        position: absolute;
+        right: 701px;
+    }
+    .abou14:before{
+        content: "13";
+        position: absolute;
+        right: 701px;
+    }
+
+    .abou15:before{
+        content: "14";
+        position: absolute;
+        right: 701px;
+    }
+
+    .abou16:before{
+
+        content: "15";
+        position: absolute;
+        right: 701px;
+    }
+
+    .abou17:before{
+        content: "16";
+        position: absolute;
+        right: 701px;
+    }
 
 }
