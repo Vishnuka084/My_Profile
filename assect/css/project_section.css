@@ -1329,7 +1329,7 @@
         background-color: #071115;
         position: relative;
         width: 100%;
-        height: 300vh;
+        height: 200vh;
     }
     .circle01 {
         position: relative;
@@ -1346,7 +1346,7 @@
     .line-project {
         position: relative;
         width: 3px;
-        height: 2600px;
+        height: 1500px;
         background-color: #ff8800;
         left: 67px;
         top: -38px;
@@ -1438,7 +1438,7 @@
         border-top: 1px solid rgba(255, 255, 255, 0.5);
         border-left: 1px solid rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(5px);
-        top: -2600px;
+        top: -1500px;
         left: 80px;
     }
 
@@ -1456,7 +1456,7 @@
         border-top: 1px solid rgba(255, 255, 255, 0.5);
         border-left: 1px solid rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(5px);
-        top: -2600px;
+        top: -1500px;
         left: 100px;
     }
 
@@ -1475,7 +1475,7 @@
         border-top: 1px solid rgba(255, 255, 255, 0.5);
         border-left: 1px solid rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(5px);
-        top: -2360px;
+        top: -1250px;
         left: -400px;
     }
     .containerP .cardP3{
@@ -1492,7 +1492,7 @@
            border-top: 1px solid rgba(255, 255, 255, 0.5);
            border-left: 1px solid rgba(255, 255, 255, 0.5);
            backdrop-filter: blur(5px);
-           top: -2580px;
+           top: -1450px;
            left: 300px;
        }
 
