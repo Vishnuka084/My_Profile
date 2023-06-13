@@ -1321,3 +1321,326 @@
 
 }
 
+
+/*----<<<<<<<<<   Tab version >>>>>>>>>>-------*/
+
+@media  (max-width: 768px) {
+    .projects{
+        background-color: #071115;
+        position: relative;
+        width: 100%;
+        height: 300vh;
+    }
+    .circle01 {
+        position: relative;
+        background-color: #ff8800;
+        width: 10px;
+        height: 10px;
+        border-radius: 25px;
+        margin-top: 50px;
+        color: #fff3cd;
+        left: 64px;
+        top: -67px;
+    }
+
+    .line-project {
+        position: relative;
+        width: 3px;
+        height: 2600px;
+        background-color: #ff8800;
+        left: 67px;
+        top: -38px;
+    }
+
+    .des-proj{
+        position: absolute;
+        top: -79px;
+        left: 79px;
+    }
+
+    .proj1{
+        color: #877373;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+
+    #projrct-title{
+        font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+        color: #d7d1d1;
+        font-size: 18px;
+    }
+
+    .des-proj > h3{
+        color: #0DFF16;
+        left: 80px;
+        font-size: 19px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .des-proj #standalone{
+        font-family: Apple ,sans-serif;
+        font-size: 75px;
+        color: #424242;
+        margin-left: -51px;
+    }
+
+    .des-proj #web{
+        font-family: Apple ,sans-serif;
+        font-size: 80px;
+        color: #424242;
+        margin-top: 210px;
+        margin-right: 20px;
+
+    }
+
+
+    .des-proj #Assigment{
+        font-family: Apple ,sans-serif;
+        font-size: 69px;
+        color: #424242;
+        margin-top: 330px;
+        margin-left: -42px;
+    }
+
+    .des-proj #more01,#more02,#more03{
+        font-family: sans-serif;
+        font-size: 6px;
+        border: 3px  solid #ab7030;
+        border-radius: 3px;
+        background-color: #01151c;
+        color: #736464;
+
+    }
+
+    /*Stand alone application*/
+    .containerP{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        flex-wrap: wrap;
+        z-index: 1;
+    }
+
+    .containerP .cardP{
+        position: relative;
+        width: 220px;
+        height: 200px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -2600px;
+        left: 80px;
+    }
+
+    .containerP .cardP1{
+        position: relative;
+        width: 220px;
+        height: 200px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -2600px;
+        left: 100px;
+    }
+
+
+   .containerP .cardP2{
+        position: relative;
+        width: 220px;
+        height: 200px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        top: -2360px;
+        left: -400px;
+    }
+    .containerP .cardP3{
+           position: relative;
+           width: 220px;
+           height: 200px;
+           box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+           border-radius: 15px;
+           background: rgba(255, 255, 255, 0.1);
+           overflow: hidden;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-top: 1px solid rgba(255, 255, 255, 0.5);
+           border-left: 1px solid rgba(255, 255, 255, 0.5);
+           backdrop-filter: blur(5px);
+           top: -2580px;
+           left: 300px;
+       }
+
+     /*  Web Development*/
+     .containerP .cardP4{
+         position: relative;
+         width: 220px;
+         height: 200px;
+         box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+         border-radius: 15px;
+         background: rgba(255, 255, 255, 0.1);
+         overflow: hidden;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-top: 1px solid rgba(255, 255, 255, 0.5);
+         border-left: 1px solid rgba(255, 255, 255, 0.5);
+         backdrop-filter: blur(5px);
+         top: -2300px;
+         left: -140px;
+     }
+
+     .containerP .cardP5{
+         position: relative;
+         width: 220px;
+         height: 200px;
+         box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+         border-radius: 15px;
+         background: rgba(255, 255, 255, 0.1);
+         overflow: hidden;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-top: 1px solid rgba(255, 255, 255, 0.5);
+         border-left: 1px solid rgba(255, 255, 255, 0.5);
+         backdrop-filter: blur(5px);
+         top: -2300px;
+         left: -120px;
+     }
+    /*
+   .containerP .cardP6{
+       position: relative;
+       width: 220px;
+       height: 200px;
+       box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+       border-radius: 15px;
+       background: rgba(255, 255, 255, 0.1);
+       overflow: hidden;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-top: 1px solid rgba(255, 255, 255, 0.5);
+       border-left: 1px solid rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(5px);
+       top: -2560px;
+       left: 20px;
+   }
+   .containerP .cardP7{
+       position: relative;
+       width: 220px;
+       height: 200px;
+       box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+       border-radius: 15px;
+       background: rgba(255, 255, 255, 0.1);
+       overflow: hidden;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-top: 1px solid rgba(255, 255, 255, 0.5);
+       border-left: 1px solid rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(5px);
+       top: -2540px;
+       left: 20px;
+   }
+
+   .containerP .cardP8{
+       position: relative;
+       width: 220px;
+       height: 200px;
+       box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+       border-radius: 15px;
+       background: rgba(255, 255, 255, 0.1);
+       overflow: hidden;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-top: 1px solid rgba(255, 255, 255, 0.5);
+       border-left: 1px solid rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(5px);
+       top: -2520px;
+       left: 20px;
+   }
+
+   .containerP .cardP9{
+       position: relative;
+       width: 220px;
+       height: 200px;
+       box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+       border-radius: 15px;
+       background: rgba(255, 255, 255, 0.1);
+       overflow: hidden;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-top: 1px solid rgba(255, 255, 255, 0.5);
+       border-left: 1px solid rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(5px);
+       top: -2510px;
+       left: 20px;
+   }
+
+   .containerP .cardP10{
+       position: relative;
+       width: 220px;
+       height: 200px;
+       box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+       border-radius: 15px;
+       background: rgba(255, 255, 255, 0.1);
+       overflow: hidden;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-top: 1px solid rgba(255, 255, 255, 0.5);
+       border-left: 1px solid rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(5px);
+       top: -2500px;
+       left: 20px;
+   }
+
+   .containerP .cardP11{
+       position: relative;
+       width: 220px;
+       height: 200px;
+       box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+       border-radius: 15px;
+       background: rgba(255, 255, 255, 0.1);
+       overflow: hidden;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-top: 1px solid rgba(255, 255, 255, 0.5);
+       border-left: 1px solid rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(5px);
+       top: -2200px;
+       left: 20px;
+   }*/
+
+
+
+}
+
