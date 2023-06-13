@@ -226,11 +226,11 @@
 /*---Mobile  Version----*/
 @media  (max-width: 375px) {
     .logo {
-        top: -23px;
+        top: -37px;
         position: absolute;
         color: #fff3cd;
         font-family: "Open Sans", sans-serif;
-        font-size: 19px;
+        font-size: 16px;
         left: 43px;
     }
 
@@ -238,8 +238,8 @@
     .social-links{
         position: absolute;
         /*    width: 100px;*/
-        right: -86px;
-        top: -12px;
+        right: -32px;
+        top: -26px;
 
     }
 
