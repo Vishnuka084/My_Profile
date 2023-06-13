@@ -438,7 +438,7 @@
 /*------------media queries-----------*/
 
 
-@media all and (max-width: 767px) {
+@media (max-width: 375px) {
     .circle03{
         position: relative;
         background-color: #ff8800;

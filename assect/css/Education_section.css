@@ -224,7 +224,7 @@
 /*------------media queries-----------*/
 
 
-@media all and (max-width: 700px) {
+@media (max-width: 375px) {
     .line-edu{
         position: relative;
         width: 3px;
@@ -248,7 +248,7 @@
 
     .resume-item{
         position: absolute;
-        top: 15px;
+        top: -10px;
         left: 71px;
     }
 
@@ -256,7 +256,7 @@
     .resume-item >h4{
         color: #fff3cd;
         font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
-        font-size: 10px;
+        font-size: 9px;
     }
     .resume-item > h5{
         color: #423839;

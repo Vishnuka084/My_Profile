@@ -161,7 +161,7 @@
 /*------------media queries-----------*/
 
 
-@media all and (max-width: 767px) {
+@media (max-width: 375px){
 
     .circle02 {
         position: relative;
@@ -197,13 +197,13 @@
     #abou-title {
         font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
         color: #d7d1d1;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .des-about > h4 {
         color: white;
         font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
-        font-size: 10px;
+        font-size: 11px;
     }
 
 
@@ -212,58 +212,58 @@
     .abou02:before{
         content: "01";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
     .abou03:before{
         content: "02";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
     .abou04:before{
         content: "03";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
     .abou05:before{
         content: "04";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
     .abou06:before{
         content: "05";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
     .abou07:before{
         content: "06";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
     .abou08:before{
         content: "07";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
     .abou09:before{
         content: "08";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
     .abou10:before{
         content: "09";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
     .abou11:before{
         content: "10";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
 
     .abou12:before{
         content: "11";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
 
     .abou13:before{
@@ -274,26 +274,26 @@
     .abou14:before{
         content: "13";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
 
     .abou15:before{
         content: "14";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
 
     .abou16:before{
 
         content: "15";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
 
     .abou17:before{
         content: "16";
         position: absolute;
-        right: 312px;
+        right: 318px;
     }
 
 
