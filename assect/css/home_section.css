@@ -112,11 +112,11 @@
     font-size: 82px;
     font-weight: 600;
     min-width: 280px;
-    color: #fff3cd;
+    color: #ffffff;
+    text-shadow: -3px -2px #beabab;
 }
 
 
-/*
 .animated-text span{
     position: relative;
 }
@@ -169,16 +169,8 @@
     5%,20%,25%,40%,45%,60%,65%,80%,85%{
         width: calc(100% + 8px);
     }
-}*/
-
-#text{
-    text-transform: capitalize;
-    font-size: 70px;
-    -webkit-text-stroke: 1px #ff6200;
-    color:transparent;
-    text-shadow: -3px -2px #f88708;
-
 }
+
 
 .content > h4{
     font-size: 22px;
