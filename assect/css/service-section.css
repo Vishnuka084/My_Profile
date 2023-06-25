@@ -259,7 +259,7 @@
 /*------------media queries-----------*/
 
 
-@media all and (max-width: 767px) {
+@media (max-width: 375px){
     .circle05{
         position: relative;
         background-color: #ff8800;
@@ -408,7 +408,7 @@
         padding: 15px 15px 15px 15px;
         transition: ease .45s;
         cursor: pointer;
-        width: 300px;
+        width: 291px;
         height: 170px;
     }
 

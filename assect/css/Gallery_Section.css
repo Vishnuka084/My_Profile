@@ -440,6 +440,14 @@
 /* ---<<Mobile versions >>-------------*/
 
 @media (max-width: 375px) {
+    .fab-container {
+        position: fixed;
+        bottom: 50px;
+        right: 120px;
+        z-index: 999;
+        cursor: pointer;
+        transition: bottom 250ms ease-out;
+    }
     .circle03{
         position: relative;
         background-color: #ff8800;

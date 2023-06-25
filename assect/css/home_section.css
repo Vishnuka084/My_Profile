@@ -298,8 +298,20 @@
 
 
 
+
 /*---Mobile  Version----*/
 @media  (max-width: 375px) {
+
+    .fab-container {
+        position: fixed;
+        bottom: 50px;
+        right: 100px;
+        z-index: 999;
+        cursor: pointer;
+        transition: bottom 250ms ease-out;
+    }
+
+
     .logo {
         top: -37px;
         position: absolute;
