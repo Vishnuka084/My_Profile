@@ -82,6 +82,7 @@ form .bx{
 
 form input {
     width: 100%;
+    height: 100%;
     background: transparent;
     color: #ffffff;
     border: 0;
