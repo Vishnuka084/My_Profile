@@ -45,6 +45,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1">
     <meta name="theme-color" content="dark black">
 
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
 
 </head>
 <body>
@@ -96,15 +97,15 @@
                <br>
             <div class="line">
             <div class="content">
-                <h1>Hello_{</h1>
-               <h3>my name is <span>Vishnuka Yahan </span>;</h3>
+                <h1 class="anima01">Hello_{</h1>
+               <h3>my name is <span class="anima02">Vishnuka Yahan </span>;</h3>
                 <h1>}</h1>
                 <div class="animated-text">
-                   I'm a <span id="text">  </span>
+                   I'm a <span>  </span>
                </div>
 
 
-               <h4>I am passionate to work with new technologies, and I'm try to always update </h4>
+               <h4 class="anima03">I am passionate to work with new technologies, and I'm try to always update </h4>
                <!--<button class="btn" type="button"><a href="assect/pdf/Brown and White Professional Newsletter Document.pdf">Download Resume /></a> </button>
                <button  class="btnTalk"  type="button"><a href="#contact"> Let's Talk /> </a></button>-->
 
@@ -721,6 +722,19 @@
         glare: true,
         "max-glare":1,
     });
+
+</script>
+<script type="text/javascript">
+
+    const text = baffle(".logo, .anima01 , .anima02 , .anima03");
+    text.set({
+        characters: '█▓█ ▒░/▒░ █░▒▓/ █▒▒ ▓▒▓/█ ░█▒/ ▒▓░ █<░▒ ▓/░>',
+        speed: 135
+    });
+    text.start();
+    text.reveal(2000);
+
+
 
 </script>
 </body>
