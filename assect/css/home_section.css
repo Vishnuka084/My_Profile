@@ -305,7 +305,7 @@
         position: absolute;
         color: #fff3cd;
         font-family: "Open Sans", sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         left: 43px;
     }
 
@@ -313,7 +313,7 @@
     .social-links{
         position: absolute;
         /*    width: 100px;*/
-        right: -32px;
+        right: 2px;
         top: -30px;
 
     }
@@ -383,7 +383,7 @@
 
 
     .animated-text{
-        font-size: 26px;
+        font-size: 23px;
         font-weight: 600;
         min-width: 280px;
         color: #fff3cd;
@@ -398,7 +398,7 @@
 
     .content > .btn{
         top: 71px;
-        left: -10px;
+        left: -15px;
         position: relative;
         padding: 5px 15px;
         margin: 0 10px;
@@ -410,8 +410,8 @@
     }
 
     .content > .btnTalk{
-        top: 68px;
-        left: 4px;
+        top: 70px;
+        left: -17px;
         position: relative;
         padding: 5px 10px;
         margin: 0 15px;
