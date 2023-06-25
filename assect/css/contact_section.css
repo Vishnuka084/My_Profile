@@ -95,45 +95,66 @@
 
 
 .name {
-    border-radius: 20px;
+    border-radius: 10px;
     border: 2px solid #575755;
     font-size: 20px;
     background-color: #4b4b47;
     width: 700px;
     height: 55px;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
+
 
 }
 
 .mail{
-    border-radius: 20px;
+    border-radius: 10px;
     border: 2px solid #575755;
     font-size: 20px;
     background-color: #4b4b47;
     width: 700px;
     height: 55px;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
 }
 
 
 .subject {
-    border-radius: 20px;
+    border-radius: 10px;
     border: 2px solid #575755;
     font-size: 20px;
     background-color: #4b4b47;
     width: 700px;
     height: 55px;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
 
 }
 
 #messageBody{
-    border-radius: 20px;
+    border-radius: 10px;
     width: 800px;
+    font-size: 20px;
     height: 200px;
-    background-color: #c5c2c2;
+    background-color: #595957;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+
 }
 
 .des-contact  i{
     color: #ff8800;
     font-size: 20px;
+}
+
+.btn-contact{
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+    background-color: #f88708;
+    width: 180px;
+    height: 30px;
+    box-shadow: -4px -3px #ffffff;
+}
+.btn-contact:hover{
+    background-color: #00ff00;
 }
 
 @media (max-width: 375px){
