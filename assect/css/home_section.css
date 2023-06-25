@@ -391,9 +391,9 @@
 
 
     .content > h4{
-        font-size: 12px;
+        font-size: 11px;
         color: #fff3cd;
-
+        padding-right: 50px;
     }
 
     .content > .btn{
