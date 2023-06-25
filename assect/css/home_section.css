@@ -22,13 +22,10 @@
     font-size: 30px;
     left: 50px;
 }
-/*.logo > span {
+.logo > span {
     color: #ff8800;
-}*/
-#logoIcon1 ,#logoIcon2 {
-    color: #ff8800;
-
 }
+
 
 .social-links{
     position: absolute;
