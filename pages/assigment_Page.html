@@ -18,7 +18,7 @@
         font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
         color: white;
         padding-left: 800px;
-        padding-top: 50px;
+        padding-top: 20px;
 
     }
 
@@ -30,6 +30,126 @@
         padding-left: 700px;
 
     }
+    .projectContainer{
+        margin: 3vw 10vw;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projectContainer h3{
+        position: relative;
+        font-family: 'Montserrat', Arial, sans-serif;
+        color: rgba(255, 255, 255, 0.6);
+        /*-webkit-background-clip: text;*/
+        /*-webkit-text-fill-color: rgba(255,255,255,.5);*/
+
+    }
+
+    .cardP{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+
+        text-align: center;
+        width: 250px;
+        height: 350px;
+
+        border: 1px solid #ff8800;
+
+        margin: 20px;
+
+        background-color: #1f1f1f;
+        transition: all 0.3s ease;
+
+    }
+
+    .cardTitle>h3{
+        transition: color 0.5s ease;
+    }
+
+    .cardP:hover .cardTitle>h3{
+        color: #f88708 !important;
+    }
+    /*.cardP:hover {*/
+    /*    transform: scale(1.1)!important;*/
+    /*}*/
+
+    .lanList{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .lanList li{
+        width: max-content;
+        height: max-content;
+        font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+        font-size: 14px;
+        color: #25e707;
+        background-color: rgba(185, 82, 104, 0.35);
+        padding: 0 7px;
+        border-radius: 10px;
+        border: 1px solid #39dc14;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .cardP i{
+        color: rgba(255, 255, 255, 0.47);
+        font-size: 25px;
+        margin: 5px;
+        position: relative;
+    }
+
+    .cardP a{
+        position: relative;
+    }
+
+
+    .iconContainer{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .cardTitle{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardP i:before {
+
+        animation: iconAniem 0.3s ;
+
+    }
+
+    .imgWrapper{
+        width: 100%;
+        height: 150px;
+        margin-top: auto;
+        margin-bottom: auto;
+        transition: all 1s ease-in-out;
+    }
+
+    .imgWrapper img{
+        width: 100%;
+        height: 100%;
+        background-size:cover;
+        background-position:center;
+    }
+
 </style>
 
 <body>
@@ -39,7 +159,8 @@
         <h3>Vishnuka Yahan De Silva -IJSE 63  </h3>
     </div>
 
-<!--  css  assigment work -->
+<!--
+  css  assigment work
     <section class="css-As">
 
 
@@ -47,11 +168,355 @@
 
 
 
-<!--  Javascript   assigment work -->
+&lt;!&ndash;  Javascript   assigment work &ndash;&gt;
     <section class="js-As">
 
 
     </section>
+-->
+
+    <section id="projects" class="projects">
+
+        <div class="title">
+            <h1>...... <br>
+                <br></h1>
+
+        </div>
+
+        <div class="projectContainer">
+
+            <!---------------Card 03----------------->
+
+            <div class="cardP" data-aos="zoom-in" data-aos-delay="900">
+
+                <div class="iconContainer">
+                    <a title="Demo" href="https://drive.google.com/drive/folders/1v8TK5sGn1hUrpwZIEEZf5BPjZQsj8_wM?usp=sharing"
+                       target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                    </a>
+                    <a title="Github" href="https://github.com/DhanushkaTA/Assigment01-IT.git" target="_blank">
+                       <button > </button>
+                    </a>
+                </div>
+
+                <div class="cardTitle">
+                    <h3>
+                        Assigment 01 -IT
+                    </h3>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="assets/img/assigmentImg/hostel.png" title="image" alt="image">
+                </div>
+
+                <ul class="lanList">
+                    <li>HTML</li>
+                </ul>
+            </div>
+
+            <!---------------Card 04----------------->
+
+            <div class="cardP" data-aos="zoom-in" data-aos-delay="500">
+
+                <div class="iconContainer">
+                    <a title="Demo" href="https://dhanushkata.github.io/My_Web-Assigment2-/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                    </a>
+                    <a title="Github" href="https://github.com/DhanushkaTA/My_Web-Assigment2-.git" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                </div>
+
+                <div class="cardTitle">
+                    <h3>
+                        Assigment 02 -IT
+                    </h3>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="pages/assets/img/Assigment-4.png" title="image" alt="image">
+                </div>
+
+                <ul class="lanList">
+                    <li>HTML</li>
+                </ul>
+            </div>
+
+            <!---------------Card 05----------------->
+
+            <div class="cardP" data-aos="zoom-in" data-aos-delay="700">
+
+                <div class="iconContainer">
+                    <a title="Demo" href="https://dhanushkata.github.io/Assigment03-IT/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
+                    <a title="Github" href="https://github.com/DhanushkaTA/Assigment03-IT.git" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                </div>
+
+                <div class="cardTitle">
+                    <h3 class="glitchText" data-text="Assigment 03 -IT">
+                        Assigment 03 -IT
+                    </h3>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="assets/img/assigmentImg/Assigment-3.png" title="image" alt="image">
+                </div>
+
+                <ul class="lanList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+
+            <!---------------Card 06----------------->
+
+            <div class="cardP" data-aos="zoom-in" data-aos-delay="900">
+
+                <div class="iconContainer">
+                    <a title="Demo" href="https://dhanushkata.github.io/Assignment04-IT/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                    </a>
+                    <a title="Github" href="https://github.com/DhanushkaTA/Assignment04-IT.git" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                </div>
+
+                <div class="cardTitle">
+                    <h3>
+                        Assigment 04 -IT
+                    </h3>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="assets/img/assigmentImg/Assigment-4.png" title="image" alt="image">
+                </div>
+
+                <ul class="lanList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+
+
+            <!---------------Card 07----------------->
+
+            <div class="cardP" data-aos="zoom-in" data-aos-delay="500">
+
+                <div class="iconContainer">
+                    <a title="Demo" href="https://dhanushkata.github.io/Assignment05-IT/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                    </a>
+                    <a title="Github" href="https://github.com/DhanushkaTA/Assignment05-IT.git" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                </div>
+
+                <div class="cardTitle">
+                    <h3>
+                        Assigment 05 -IT
+                    </h3>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="assets/img/assigmentImg/Assigment-5.png" title="image" alt="image">
+                </div>
+
+                <ul class="lanList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+
+            <!---------------Card 08----------------->
+
+            <div class="cardP" data-aos="zoom-in" data-aos-delay="700">
+
+                <div class="iconContainer">
+                    <a title="Demo" href="https://dhanushkata.github.io/POS-System-Assigment_06-/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                    </a>
+                    <a title="Github" href="https://github.com/DhanushkaTA/POS-System-Assigment_06-.git" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                </div>
+
+                <div class="cardTitle">
+                    <h3>
+                        Assigment 06 -IT (POS)
+                    </h3>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="assets/img/assigmentImg/Assigment-11.png" title="image" alt="image">
+                </div>
+
+                <ul class="lanList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Boostrap</li>
+                </ul>
+            </div>
+
+            <!---------------Card 09----------------->
+
+            <div class="cardP" data-aos="zoom-in" data-aos-delay="900">
+
+                <div class="iconContainer">
+                    <a title="Demo" href="https://dhanushkata.github.io/Assignment07-IT/#" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                    </a>
+                    <a title="Github" href="https://github.com/DhanushkaTA/Assignment07-IT.git" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                </div>
+
+                <div class="cardTitle">
+                    <h3>
+                        Assigment 07 -IT (POS -Single Page)
+                    </h3>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="assets/img/assigmentImg/Assigment-11.png" title="image" alt="image">
+                </div>
+
+                <ul class="lanList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Boostrap</li>
+                </ul>
+            </div>
+
+
+            <!---------------Card 09----------------->
+
+            <div class="cardP" data-aos="zoom-in" data-aos-delay="900">
+
+                <div class="iconContainer">
+                    <a title="Demo" href="https://dhanushkata.github.io/Assigment08-IT/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                    </a>
+                    <a title="Github" href="https://github.com/DhanushkaTA/Assigment08-IT.git" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                </div>
+
+                <div class="cardTitle">
+                    <h3>
+                        Assigment 08 -IT (Animation Js)
+                    </h3>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="assets/img/assigmentImg/Assigment-8.png" title="image" alt="image">
+                </div>
+
+                <ul class="lanList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+
+            <!---------------Card 09----------------->
+
+            <div class="cardP" data-aos="zoom-in" data-aos-delay="900">
+
+                <div class="iconContainer">
+                    <a title="Demo" href="https://dhanushkata.github.io/Assigment09_IT/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                    </a>
+                    <a title="Github" href="https://github.com/DhanushkaTA/Assigment09_IT.git" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                </div>
+
+                <div class="cardTitle">
+                    <h3>
+                        Assigment 09 -IT (Animation Js)
+                    </h3>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="assets/img/assigmentImg/Assigment-9.png" title="image" alt="image">
+                </div>
+
+                <ul class="lanList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+
+            <!---------------Card 10----------------->
+
+            <div class="cardP" data-aos="zoom-in" data-aos-delay="500">
+
+                <div class="iconContainer">
+                    <a title="Demo" href="https://dhanushkata.github.io/Assignment10-IT/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                    </a>
+                    <a title="Github" href="https://github.com/DhanushkaTA/Assignment10-IT.git" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                </div>
+
+                <div class="cardTitle">
+                    <h3>
+                        Assigment 10 -IT (Calculator)
+                    </h3>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="assets/img/assigmentImg/Assigment-10.png" title="image" alt="image">
+                </div>
+
+                <ul class="lanList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+
+            <!---------------Card 11----------------->
+
+            <div class="cardP" data-aos="zoom-in" data-aos-delay="700">
+
+                <div class="iconContainer">
+                    <a title="Demo" href="assets/Assigments/POS/Assigment_11/index.html" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                    </a>
+                    <a title="Github" href="https://github.com/DhanushkaTA/Assignment10-IT.git" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                </div>
+
+                <div class="cardTitle">
+                    <h3>
+                        Assigment 11 -IT (POS System)
+                    </h3>
+                </div>
+
+                <div class="imgWrapper">
+                    <img src="assets/img/assigmentImg/Assigment-11.png" title="image" alt="image">
+                </div>
+
+                <ul class="lanList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Boostrap</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+    </section>
+
 
 
 </body>
