@@ -46,7 +46,6 @@
 
 .des-proj > h3{
     font-family: 'SF Mono',monospace;
-
     color: #0DFF16;
     left: 80px;
     font-size: 40px;
@@ -78,6 +77,7 @@
     border-radius: 3px;
     background-color: #01151c;
     color: #736464;
+    cursor: pointer;
 
 }
 
@@ -696,7 +696,7 @@
     font-size: 120px;
     color: #424242;
     margin-top: 330px;
-    margin-left: 100px;
+    margin-left: 120px;
 }
 
 
