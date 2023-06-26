@@ -6,6 +6,7 @@ function saveAlert() {
         showConfirmButton: false,
         timer: 1500
     });
+
 }
 
 function updateAlert() {
@@ -26,4 +27,6 @@ function deleteAlert() {
         showConfirmButton: false,
         timer: 1500
     });
+
+
 }
