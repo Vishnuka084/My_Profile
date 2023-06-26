@@ -83,9 +83,7 @@
 
 /*----card ---background images -*/
 #crd1{
-    width: 350px;
-    height: 250px;
-    border-radius: 10px;
+
     background-image: url("https://cse.final-year-projects.in/wp-content/uploads/2016/04/pg-00102-hospital-managemen.jpg");
 }
 
@@ -94,22 +92,20 @@
     background-image: url("https://i.ibb.co/37LqFLK/Screenshot-35.png");
 }
 #crd3 {
-    width: 350px;
-    height: 250px;
-    border-radius: 10px;
+
     background-image: url("https://i.ibb.co/4VJpvmJ/Screenshot-64.png");
 }
 #crd4{
     background-image: url("https://i.ibb.co/3WcSWkJ/supermarket.jpg");
 }
 #crd5{
-    background-image: url("https://i.ibb.co/wQBqFJY/Pr-01.png");
+    background-image: url("https://i.ibb.co/vYMnrsZ/Whats-App-Image-2023-06-02-at-01-08-25.jpg");
 }
 #crd6{
-    background-image: url("https://cse.final-year-projects.in/wp-content/uploads/2016/04/pg-00102-hospital-managemen.jpg");
+    background-image: url("https://user-images.githubusercontent.com/122769900/246914983-63ffb54a-8c45-46fd-9dce-e83270d9b48c.png");
 }
 #crd7{
-    background-image: url("https://cse.final-year-projects.in/wp-content/uploads/2016/04/pg-00102-hospital-managemen.jpg");
+    background-image: url("https://i.ibb.co/vYMnrsZ/Whats-App-Image-2023-06-02-at-01-08-25.jpg");
 }
 #crd8{
     background-image: url("https://cse.final-year-projects.in/wp-content/uploads/2016/04/pg-00102-hospital-managemen.jpg");
