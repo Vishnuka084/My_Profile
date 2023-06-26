@@ -172,11 +172,13 @@
 }
 
 
-.containerP .cardP .contentP  p{
-    font-size: 1em;
-    color: #575b8a;
-    font-weight: 300;
+.containerP .cardP .contentP  h3{
+    font-size: 1.8em;
+    color: #000000;
+    z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
+
 
 .containerP .cardP .contentP  a{
     position: relative;
@@ -228,34 +230,21 @@
 }
 
 
-.containerP .cardP1 .contentP  h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-}
-
 .containerP .cardP1 .contentP  h3{
     font-size: 1.8em;
-    color: #060606;
+    color: #000000;
     z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
 
-.containerP .cardP1 .contentP  p{
-    font-size: 1em;
-    color: #171212;
-    font-weight: 300;
-}
 
 .containerP .cardP1 .contentP  a{
     position: relative;
     display: inline-block;
     padding: 8px 20px;
     margin-top: 15px;
-    background: #fff;
-    color: #060606;
+    background: #070506;
+    color: #ff8100;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
@@ -300,34 +289,22 @@
 }
 
 
-.containerP .cardP2 .contentP  h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-}
 
 .containerP .cardP2 .contentP  h3{
     font-size: 1.8em;
-    color: #fff;
+    color: #000000;
     z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
 
-.containerP .cardP2 .contentP  p{
-    font-size: 1em;
-    color: white;
-    font-weight: 300;
-}
 
 .containerP .cardP2 .contentP  a{
     position: relative;
     display: inline-block;
     padding: 8px 20px;
     margin-top: 15px;
-    background: #fff;
-    color: #060606;
+    background: #060606;
+    color: #ff8800;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
@@ -371,19 +348,12 @@
 }
 
 
-.containerP .cardP3 .contentP  h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-}
 
 .containerP .cardP3 .contentP  h3{
     font-size: 1.8em;
-    color: #fff;
+    color: #000000;
     z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
 
 .containerP .cardP3 .contentP  p{
@@ -441,19 +411,11 @@
 }
 
 
-.containerP .cardP4 .contentP  h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-}
-
 .containerP .cardP4 .contentP  h3{
     font-size: 1.8em;
-    color: #fff;
+    color: #000000;
     z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
 
 .containerP .cardP4 .contentP  p{
@@ -512,19 +474,13 @@
 }
 
 
-.containerP .cardP5 .contentP  h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-}
+
 
 .containerP .cardP5 .contentP  h3{
     font-size: 1.8em;
-    color: #fff;
+    color: #000000;
     z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
 
 .containerP .cardP1 .contentP  p{
@@ -586,19 +542,12 @@
 }
 
 
-.containerP .cardP6 .contentP  h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-}
 
 .containerP .cardP6 .contentP  h3{
     font-size: 1.8em;
-    color: #fff;
+    color: #000000;
     z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
 
 .containerP .cardP6 .contentP  p{
@@ -659,19 +608,13 @@
 }
 
 
-.containerP .cardP7 .contentP  h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-}
+
 
 .containerP .cardP7 .contentP  h3{
     font-size: 1.8em;
-    color: #fff;
+    color: #000000;
     z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
 
 .containerP .cardP7 .contentP  p{
@@ -741,19 +684,11 @@
 }
 
 
-.containerP .cardP8 .contentP  h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-}
-
 .containerP .cardP8 .contentP  h3{
     font-size: 1.8em;
-    color: #fff;
+    color: #000000;
     z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
 
 .containerP .cardP8 .contentP  p{
@@ -813,19 +748,12 @@
 }
 
 
-.containerP .cardP9 .contentP  h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-}
 
 .containerP .cardP9 .contentP  h3{
     font-size: 1.8em;
-    color: #fff;
+    color: #000000;
     z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
 
 .containerP .cardP9 .contentP  p{
@@ -884,19 +812,13 @@
 }
 
 
-.containerP .cardP10 .contentP  h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-}
+
 
 .containerP .cardP10 .contentP  h3{
     font-size: 1.8em;
-    color: #fff;
+    color: #000000;
     z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
 
 .containerP .cardP10 .contentP  p{
@@ -954,19 +876,12 @@
 }
 
 
-.containerP .cardP11 .contentP  h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-}
 
 .containerP .cardP11 .contentP  h3{
     font-size: 1.8em;
-    color: #fff;
+    color: #000000;
     z-index: 1;
+    text-shadow: -2px -3px #00ff26;
 }
 
 .containerP .cardP11 .contentP  p{
