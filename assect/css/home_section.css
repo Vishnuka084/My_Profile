@@ -26,6 +26,19 @@
     color: #ff8800;
 }
 
+.toggle_btn .bx{
+    width: 40px;
+    height:40px;
+    position: absolute;
+    left: 800px;
+    color: white;
+    top: 10px;
+    /*
+    display:none;
+    */
+
+}
+
 
 .social-links{
     position: absolute;
@@ -312,6 +325,19 @@
     }
 
 
+    .toggle_btn .bx{
+
+        position: absolute;
+        left: 302px;
+        color: white;
+        top: 10px;
+        /*
+        display:none;
+        */
+
+    }
+
+
     .logo {
         top: -37px;
         position: absolute;
@@ -325,7 +351,7 @@
     .social-links{
         position: absolute;
         /*    width: 100px;*/
-        right: 2px;
+        right: -30px;
         top: -30px;
 
     }
