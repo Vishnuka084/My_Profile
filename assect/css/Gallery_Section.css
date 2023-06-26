@@ -516,25 +516,25 @@
     .gal02:before{
         content: "01";
         position: absolute;
-        right: 193px;
+        right: 196px;
     }
 
     .gal03:before{
         content: "02";
         position: absolute;
-        right: 193px;
+        right: 196px;
     }
 
     .gal04:before{
         content: "03";
         position: absolute;
-        right: 193px;
+        right: 196px;
     }
 
     .gal05:before{
         content: "04";
         position: absolute;
-        right: 193px;
+        right: 196px;
     }
 
     /* -image Box 01 --*/
@@ -720,10 +720,10 @@
         transition: 0.5s;
 
     }
-
-
-
 }
+
+
+
 
 /*
 
