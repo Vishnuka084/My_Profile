@@ -343,7 +343,7 @@
 
     .toggle_btn .bx{
         display: block;
-        left: 318px;
+        left: 350px;
         top: 10px;
 
     }
@@ -362,7 +362,7 @@
     .social-links{
         position: absolute;
         /*    width: 100px;*/
-        right: 8px;
+        right: -18px;
         top: -30px;
 
     }
