@@ -83,20 +83,29 @@
 
 /*----card ---background images -*/
 #crd1{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
     background-image: url("https://cse.final-year-projects.in/wp-content/uploads/2016/04/pg-00102-hospital-managemen.jpg");
 }
 
 #crd2{
-    background-image: url("https://cse.final-year-projects.in/wp-content/uploads/2016/04/pg-00102-hospital-managemen.jpg");
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url("https://pumpsforlabs.com/wp-content/uploads/2019/03/logistics-3125131_960_720-768x512.jpg");
 }
 #crd3{
-    background-image: url("https://cse.final-year-projects.in/wp-content/uploads/2016/04/pg-00102-hospital-managemen.jpg");
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url("https://thumbs.dreamstime.com/b/hostel-vector-illustration-hotel-travel-tourism-accommodation-vacation-service-booking-building-isolated-white-background-179297649.jpg");
 }
 #crd4{
-    background-image: url("https://cse.final-year-projects.in/wp-content/uploads/2016/04/pg-00102-hospital-managemen.jpg");
+    background-image: url("https://i.ytimg.com/vi/sjO2m_uU4R8/maxresdefault.jpg");
 }
 #crd5{
-    background-image: url("https://cse.final-year-projects.in/wp-content/uploads/2016/04/pg-00102-hospital-managemen.jpg");
+    background-image: url("https://pumpsforlabs.com/wp-content/uploads/2019/03/logistics-3125131_960_720-768x512.jpg");
 }
 #crd6{
     background-image: url("https://cse.final-year-projects.in/wp-content/uploads/2016/04/pg-00102-hospital-managemen.jpg");
