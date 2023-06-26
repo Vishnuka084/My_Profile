@@ -256,7 +256,7 @@
     .resume-item >h4{
         color: #fff3cd;
         font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
-        font-size: 9px;
+        font-size: 10px;
     }
     .resume-item > h5{
         color: #423839;
@@ -265,7 +265,7 @@
 
     .line-cros{
         position: absolute;
-        width: 250px;
+        width: 300px;
         height: 3px;
         top: 230px;
         background-color: #ff8b00;
