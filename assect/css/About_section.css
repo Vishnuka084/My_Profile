@@ -207,8 +207,6 @@
     }
 
 
-
-
     .abou02:before{
         content: "01";
         position: absolute;
@@ -297,6 +295,98 @@
     }
 
 }
+
+@media (min-width: 1014px) {
+    .abou02:before{
+        content: "01";
+        position: absolute;
+        left: -50px;
+    }
+    .abou03:before{
+        content: "02";
+        position: absolute;
+        left: -50px;
+    }
+    .abou04:before{
+        content: "03";
+        position: absolute;
+        left: -50px;
+    }
+    .abou05:before{
+        content: "04";
+        position: absolute;
+        left: -50px;
+    }
+    .abou06:before{
+        content: "05";
+        position: absolute;
+        left: -50px;
+    }
+    .abou07:before{
+        content: "06";
+        position: absolute;
+        left: -50px;
+    }
+    .abou08:before{
+        content: "07";
+        position: absolute;
+        left: -50px;
+    }
+    .abou09:before{
+        content: "08";
+        position: absolute;
+        left: -50px;
+    }
+    .abou10:before{
+        content: "09";
+        position: absolute;
+        left: -50px;
+    }
+    .abou11:before{
+        content: "10";
+        position: absolute;
+        left: -50px;
+    }
+
+    .abou12:before{
+        content: "11";
+        position: absolute;
+        left: -50px;;
+    }
+
+    .abou13:before{
+        content: "12";
+        position: absolute;
+        left: -50px;
+    }
+    .abou14:before{
+        content: "13";
+        position: absolute;
+        left: -50px;
+    }
+
+    .abou15:before{
+        content: "14";
+        position: absolute;
+        left: -50px;
+    }
+
+    .abou16:before{
+
+        content: "15";
+        position: absolute;
+        left: -50px;
+    }
+
+    .abou17:before{
+        content: "16";
+        position: absolute;
+        left: -50px;
+    }
+}
+
+
+
 /*
 
 
