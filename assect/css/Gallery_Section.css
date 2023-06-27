@@ -722,7 +722,32 @@
     }
 }
 
+@media (min-width: 1014px) {
 
+    .gal02:before{
+        content: "01";
+        position: absolute;
+       left: -50px;
+    }
+
+    .gal03:before{
+        content: "02";
+        position: absolute;
+        left: -50px;
+    }
+
+    .gal04:before{
+        content: "03";
+        position: absolute;
+        left: -50px;
+    }
+
+    .gal05:before{
+        content: "04";
+        position: absolute;
+        left: -50px;
+    }
+}
 
 
 /*

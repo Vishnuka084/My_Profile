@@ -223,6 +223,60 @@
 
 /*------------media queries-----------*/
 
+@media (min-width: 1014px) {
+    .edu2:before{
+        content: "01";
+        position: absolute;
+        left: -50px;
+
+    }
+
+
+    .edu3:before{
+        content: "02";
+        position: absolute;
+        left: -50px;
+
+    }
+
+
+    .edu4:before{
+        content: "03";
+        position: absolute;
+        left: -50px;
+    }
+
+    .edu5:before{
+        content: "04";
+        position: absolute;
+        left: -50px;
+
+    }
+
+
+    .edu6:before{
+        content: "05";
+        position: absolute;
+        left: -50px;
+
+    }
+
+
+    .edu7:before{
+        content: "06";
+        position: absolute;
+        left: -50px;
+    }
+
+
+    .edu8:before{
+        content: "07";
+        position: absolute;
+        left: -50px;
+
+    }
+}
+
 
 @media (max-width: 375px) {
     .line-edu{
