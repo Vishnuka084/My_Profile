@@ -8,7 +8,7 @@
 - ⚜ Site Map  ---->: [Click Here](https://www.gloomaps.com/3hgZYphaN3)
 
 
-<H3> * * Technology Stack * *</H3>
+<H3> * Technology Stack *</H3>
 <ul>
 <li> HTML</li>
 <li> CSS</li>
